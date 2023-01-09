@@ -70,6 +70,7 @@ export function ToyFilter({ onSetFilter }) {
 
             <label htmlFor="inStock">Is in Stock</label>
             <input type="checkbox"
+                checked={filterByToEdit.inStock}
                 id="inStock"
                 name="inStock"
                 onChange={handleChange}
