@@ -54,8 +54,6 @@ function save(toy) {
 }
 
 function getDefaultFilter() {
-    // return { txt: '', maxPrice: 0 }
-    // return { name: '', label: '' }
     return { name: '', inStock: false, label: '' }
 }
 
