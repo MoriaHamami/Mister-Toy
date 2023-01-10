@@ -4,7 +4,8 @@ import { appReducer } from './app.reducer.js'
 import { toyReducer } from './toy.reducer.js'
 
 // const { createStore, combineReducers } = Redux
-const middleware = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__() : () => {} 
+const middleware = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__||compose
+// const middleware = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__() : () => {} 
 
 const rootReducer = combineReducers({
     appModule: appReducer,
@@ -12,7 +13,8 @@ const rootReducer = combineReducers({
     // userModule: userReducer
 })
 
-export const store = createStore(rootReducer, middleware)
+// export const store = createStore(rootReducer, middleware)
+export const store = createStore(rootReducer, middleware())
 
 // For debug 
 store.subscribe(() => {
