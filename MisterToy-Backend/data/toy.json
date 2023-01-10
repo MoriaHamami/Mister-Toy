@@ -1,16 +1,61 @@
 [
   {
+    "name": "",
+    "price": 0,
+    "labels": [
+      "art",
+      "puzzle",
+      "battery-powered"
+    ],
+    "createdAt": 1673381808676,
+    "inStock": true,
+    "_id": "gTEgi"
+  },
+  {
+    "name": "",
+    "price": 0,
+    "labels": [
+      "art",
+      "puzzle",
+      "battery-powered"
+    ],
+    "createdAt": 1673381811476,
+    "inStock": true,
+    "_id": "tvRma"
+  },
+  {
     "name": "girl",
     "price": 0,
-    "labels": ["art"],
+    "labels": [
+      "art",
+      "puzzle"
+    ],
     "createdAt": 1673305952697,
     "inStock": false,
     "_id": "stZMa"
   },
   {
+    "name": "gogogo",
+    "price": 0,
+    "labels": [],
+    "createdAt": 1673381199659,
+    "inStock": true,
+    "_id": "z8IQj"
+  },
+  {
+    "name": "gogogo",
+    "price": 0,
+    "labels": [],
+    "createdAt": 1673381220313,
+    "inStock": true,
+    "_id": "7Wc3E"
+  },
+  {
     "name": "mori",
     "price": 200,
-    "labels": ["box-game"],
+    "labels": [
+      "box-game"
+    ],
     "createdAt": 1673303726285,
     "inStock": true,
     "_id": "6z5Wh"
@@ -38,5 +83,16 @@
     "createdAt": 1673303727858,
     "inStock": true,
     "_id": "yR0sR"
+  },
+  {
+    "name": "puzzle battery",
+    "price": 0,
+    "labels": [
+      "puzzle",
+      "battery-powered"
+    ],
+    "createdAt": 1673382343951,
+    "inStock": true,
+    "_id": "i4V2g"
   }
 ]

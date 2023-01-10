@@ -6,6 +6,8 @@ import { Link, useNavigate, useParams } from "react-router-dom"
 import { toyService } from "../services/toy.service.js"
 import { showErrorMsg, showSuccessMsg } from "../services/event-bus.service.js"
 import { saveToy } from "../store/toy.action.js"
+import React from 'react'
+import Select from 'react-select'
 
 export function ToyEdit() {
     const [toyToEdit, setToyToEdit] = useState(toyService.getEmptyToy())
@@ -41,6 +43,7 @@ export function ToyEdit() {
     function onSaveToy(ev) {
         ev.preventDefault()
         saveToy(toyToEdit)
+        navigate('/toy')
         // toyService.save(toyToEdit)
         //     .then((toy) => {
         //         console.log('toy saved', toy);
@@ -52,6 +55,29 @@ export function ToyEdit() {
         //         showErrorMsg('Cannot save toy')
         //     })
     }
+
+    function handleSelectChange( target ) {
+        console.log('target:', target)
+        const labels = target.map(label => label.value)
+        // const {value, name: field} = target
+        console.log('labels:', labels)
+        // let { d, type, checked } = target
+        setToyToEdit((prevToy) => {
+            console.log('prevToy:', prevToy)
+            return { ...prevToy, labels }
+        })
+    }
+
+    const options = [
+        { value: 'on-wheels', label: 'On Wheels' },
+        { value: 'box-game', label: 'Box Game' },
+        { value: 'art', label: 'Art' },
+        { value: 'baby', label: 'Baby' },
+        { value: 'doll', label: 'Doll' },
+        { value: 'puzzle', label: 'Puzzle' },
+        { value: 'outdoor', label: 'Outdoor' },
+        { value: 'battery-powered', label: 'Battery Powered' }
+      ]
 
     return <section className="toy-edit">
         <h2>{toyToEdit.id ? 'Edit this toy' : 'Add a new toy'}</h2>
@@ -66,7 +92,7 @@ export function ToyEdit() {
                 onChange={handleChange}
             />
 
-            <select
+            {/* <select
                 name="labels"
                 onChange={handleChange}
             >
@@ -79,8 +105,14 @@ export function ToyEdit() {
                 <option value="puzzle">Puzzle</option>
                 <option value="outdoor">Outdoor</option>
                 <option value="battery-powered">Battery Powered</option>
-            </select>
+            </select> */}
 
+            <Select 
+            isMulti
+            name="labels"
+            options={options}
+            onChange={handleSelectChange}
+             />
 
             <label htmlFor="inStock">Is in Stock</label>
             <input type="checkbox"

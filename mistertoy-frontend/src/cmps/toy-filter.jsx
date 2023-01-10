@@ -5,6 +5,8 @@ import { toyService } from "../services/toy.service.js"
 import { utilService } from "../services/util.service.js"
 
 
+
+
 export function ToyFilter({ onSetFilter }) {
 
     const [filterByToEdit, setFilterByToEdit] = useState(toyService.getDefaultFilter())
@@ -31,6 +33,9 @@ export function ToyFilter({ onSetFilter }) {
             return { ...prevFilter, [field]: value }
         })
     }
+
+   
+      
 
     // function onSubmitFilter(ev) {
     //     // update father cmp that filters change on submit
@@ -67,6 +72,7 @@ export function ToyFilter({ onSetFilter }) {
                 <option value="battery-powered">Battery Powered</option>
             </select>
 
+         
 
             <label htmlFor="inStock">Is in Stock</label>
             <input type="checkbox"
