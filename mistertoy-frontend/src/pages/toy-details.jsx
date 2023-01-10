@@ -29,6 +29,7 @@ export function ToyDetails() {
     if (!toy) return <div>Loading...</div>
     return <section className="toy-details">
         <h1>Toy : {toy.name}</h1>
+        <h1>Messages: {toy.msg}</h1>
         <h5>Price: ${toy.price.toLocaleString()}</h5>
         <p>⛐</p>
         <p>Created: {utilService.getFormattedDate(toy.createdAt)}</p>

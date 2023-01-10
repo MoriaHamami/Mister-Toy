@@ -1,0 +1,42 @@
+[
+  {
+    "name": "girl",
+    "price": 0,
+    "labels": ["art"],
+    "createdAt": 1673305952697,
+    "inStock": false,
+    "_id": "stZMa"
+  },
+  {
+    "name": "mori",
+    "price": 200,
+    "labels": ["box-game"],
+    "createdAt": 1673303726285,
+    "inStock": true,
+    "_id": "6z5Wh"
+  },
+  {
+    "name": "Toy-713",
+    "price": 0,
+    "labels": [
+      "doll",
+      "battery-powered",
+      "baby"
+    ],
+    "createdAt": 1673303728721,
+    "inStock": true,
+    "_id": "4CWzP"
+  },
+  {
+    "name": "Toy-847",
+    "price": 82,
+    "labels": [
+      "doll",
+      "battery-powered",
+      "baby"
+    ],
+    "createdAt": 1673303727858,
+    "inStock": true,
+    "_id": "yR0sR"
+  }
+]

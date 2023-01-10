@@ -15,7 +15,8 @@ export const toyService = {
     getEmptyToy,
     getRandomToy,
     getDefaultFilter,
-    getDefaultSort
+    getDefaultSort,
+    getToysCountPerLabel
 }
 
 
@@ -26,7 +27,7 @@ function query(filterBy = getDefaultFilter(), sortBy = getDefaultSort()) {
 
 function getById(toyId) {
     return httpService.get(BASE_URL + toyId)
-    .then(toy => ({...toy, msg: 'TRY ME'}))
+        .then(toy => ({ ...toy, msg: 'TRY ME' }))
     return storageService.get(STORAGE_KEY, toyId)
 }
 
@@ -45,12 +46,95 @@ function save(toy) {
     //     return storageService.post(STORAGE_KEY, toy)
     // }
     if (toy._id) {
-                return httpService.put(BASE_URL, toy)
-            } else {
-                // when switching to backend - remove the next line
-                // toy.owner = userService.getLoggedinUser()
-                return httpService.post(BASE_URL, toy)
-            }
+        return httpService.put(BASE_URL, toy)
+    } else {
+        // when switching to backend - remove the next line
+        // toy.owner = userService.getLoggedinUser()
+        return httpService.post(BASE_URL, toy)
+    }
+}
+// getToysCountPerLabel()
+function getToysCountPerLabel() {
+    return _getToysInStock()
+    .then(_getToysByLabel)
+    .then((toysByLabel) =>{
+        const counters = []
+        console.log('toysByLabel:', toysByLabel)
+        for(const [label, toys] of Object.entries(toysByLabel) ){
+            console.log('label:', toys)
+            counters.push(toys.length)
+        }
+        console.log('counters:', counters)
+        // return Promise.resolve(counters)
+        return counters
+    })
+}
+// function getPriceAvgPerLabel() {
+//     getToysInStock()
+//     .then(getToysByLabel)
+//     .then((toysByLabel) =>{
+//         const counters = []
+//         for(labels in toysByLabel){
+//             counters.push(labels.length)
+//         }
+//         console.log('counters:', counters)
+//         return counters
+//     })
+// }
+
+// getToysInStock()
+// function getToysByLabel(toys) {
+//     const toysByLabel = [
+//         { name: 'on-wheels', count: 0},
+//         { name: 'box-game', count: 0},
+//         { name: 'art', count: 0},
+//         { name: 'baby', count: 0},
+//         { name: 'doll', count: 0},
+//         { name: 'puzzle', count: 0},
+//         { name: 'outdoor', count: 0},
+//         { name: 'battery-powered', count: 0}
+//     ]
+
+//     toys.map(toy => {
+//         if(toy.labels) {
+//             // console.log('toy.labels:', toy.labels)
+//             if(toy.labels.includes(toysByLabel.name)) label.count++
+//             // toy.labels.map(label => toysByLabel[label].push(toy))
+//         }
+//     })
+
+//     const counter = []
+//     toysByLabel.map(label => counter.push(label.count))
+//     // console.log('toysByLabel:', toysByLabel)
+//     console.log('counter:', counter)
+//     return counter
+// }
+
+function _getToysByLabel(toys) {
+    const toysByLabel = {
+        'on-wheels': [],
+        'box-game': [],
+        'art': [],
+        'baby': [],
+        'doll': [],
+        'puzzle': [],
+        'outdoor': [],
+        'battery-powered': []
+    }
+    toys.map(toy => {
+        if(toy.labels) {
+            // console.log('toy.labels:', toy.labels)
+            toy.labels.map(label => toysByLabel[label].push(toy))
+        }
+    })
+    // console.log('toysByLabel:', toysByLabel)
+    return toysByLabel
+}
+
+function _getToysInStock() {
+    const filterBy = getDefaultFilter()
+    filterBy.inStock= true
+    return query(filterBy)
 }
 
 function getDefaultFilter() {

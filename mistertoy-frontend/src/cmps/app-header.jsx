@@ -40,6 +40,7 @@ export function AppHeader() {
             <nav>
                 <NavLink to="/">Home</NavLink> |
                 <NavLink to="/toy">Toys</NavLink> |
+                <NavLink to="/dashboard">Dashboard</NavLink> |
                 <NavLink to="/about">About</NavLink> |
                 <a href="#" onClick={onToggleCart}>
                     🛒 Cart

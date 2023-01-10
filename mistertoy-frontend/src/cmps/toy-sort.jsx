@@ -9,18 +9,14 @@ export function ToySort({ onSetSort }) {
 
     const [currSort, setCurrSort] = useState(toyService.getDefaultSort())
 
-    // onSetSort = useRef(utilService.debounce(onSetSort))
-
-    // const elInputRef = useRef(null)
-
     // useEffect(() => {
     //     elInputRef.current.focus()
     // }, [])
 
-    // useEffect(() => {
-    //     // update father cmp that sorts change very type
-    //     onSetSort.current(sortByToEdit)
-    // }, [sortByToEdit])
+    useEffect(() => {
+        // update father cmp that sorts change very type
+        onSetSort(currSort)
+    }, [currSort])
 
     // function handleChange({ target }) {
     //     let { value, name: field, type } = target
@@ -63,13 +59,13 @@ export function ToySort({ onSetSort }) {
     // const [selectedOpt, setSelectedOpt] = useState('all')
 
     function setSort(newSort) {
-        // const change = newSort === currSort ?
-        // const sortBy = {
-        //     value: newSort
-        //     change
-        // }
+        const change = newSort === currSort.value ? -currSort.change : 1
+        const sortBy = {
+            value: newSort,
+            change
+        }
         // onSetSort(sortBy)
-        // setSort(sort)
+        setCurrSort(sortBy)
     }
 
     return <section className="mail-sort">

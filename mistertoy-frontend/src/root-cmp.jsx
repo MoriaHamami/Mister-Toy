@@ -14,6 +14,7 @@ import { ToyDetails } from './pages/toy-details'
 import { ToyEdit } from './pages/toy-edit'
 
 import { store } from './store/store'
+import { ToyDashboard } from './pages/toy-dashboard'
 
 export default function App() {
 
@@ -25,6 +26,7 @@ export default function App() {
               <Routes>
                   <Route element={<HomePage />} path="/" />
                   <Route element={<AboutUs />} path="/about" />
+                  <Route element={<ToyDashboard />} path="/dashboard" />
                   <Route element={<ToyIndex />} path="/toy" />
                   <Route element={<ToyEdit />} path="/toy/edit" />
                   <Route element={<ToyEdit />} path="/toy/edit/:toyId" />

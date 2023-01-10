@@ -20,7 +20,7 @@ export function ToyFilter({ onSetFilter }) {
     useEffect(() => {
         // update father cmp that filters change very type
         onSetFilter.current(filterByToEdit)
-        console.log('filterByToEdit:', filterByToEdit)
+        // console.log('filterByToEdit:', filterByToEdit)
     }, [filterByToEdit])
 
     function handleChange({ target }) {
