@@ -10,7 +10,7 @@ import { TOGGLE_CART_SHOWN } from '../store/toy.reducer.js'
 // import { logout } from '../store/user.action.js'
 
 // import { LoginSignup } from './login-signup.jsx'
-
+import logoImg from "../assets/img/logo.png"
 export function AppHeader() {
 
     // TODO: get from storeState
@@ -30,24 +30,39 @@ export function AppHeader() {
     //         })
     // }
 
-    function onToggleCart(ev) {
-        ev.preventDefault()
-        dispatch({ type: TOGGLE_CART_SHOWN })
+    // function onToggleCart(ev) {
+    //     ev.preventDefault()
+    //     dispatch({ type: TOGGLE_CART_SHOWN })
+    // }
+
+    function toggleMenu() {
+        document.body.classList.toggle('menu-open')
     }
 
     return (
-        <header className="app-header">
+        <header className="app-header full main-layout">
+
+            {/* <h1>MISTER TOY</h1> */}
+            <NavLink to="/toy">
+                <img src={logoImg} />
+            </NavLink> 
+
+
             <nav>
-                <NavLink to="/">Home</NavLink> |
-                <NavLink to="/toy">Toys</NavLink> |
-                <NavLink to="/dashboard">Dashboard</NavLink> |
-                <NavLink to="/about">About</NavLink> |
+                <NavLink to="/" className="button" onClick={toggleMenu}>Home</NavLink> 
+                <span className="dash">|</span>
+                <NavLink to="/toy" className="button" onClick={toggleMenu}>Toys</NavLink> 
+                <span className="dash">|</span>
+                <NavLink to="/dashboard" className="button" onClick={toggleMenu}>Dashboard</NavLink> 
+                <span className="dash">|</span>
+                <NavLink to="/about" className="button" onClick={toggleMenu}>About</NavLink>
+                {/* |
                 <a href="#" onClick={onToggleCart}>
                     🛒 Cart
-                </a>
+                </a> */}
             </nav>
+            {<button className="menu-toggle-btn" onClick={toggleMenu}>☰</button>}
 
-            <h1>My App</h1>
 
             {/* {user && <section className="user-info">
                 <p>{user.fullname} <span>${user.score.toLocaleString()}</span></p>

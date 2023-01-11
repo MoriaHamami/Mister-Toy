@@ -1,0 +1,16 @@
+.index {
+    position: absolute;
+    top: 70px;
+}
+
+.add-btn {
+    
+    // width: max-content;
+    background-color: $gray1;
+    .button {
+        display: flex;
+        justify-content: center;
+    }
+    padding-block: 10px;
+    border-bottom: 1px solid lightgray;
+}

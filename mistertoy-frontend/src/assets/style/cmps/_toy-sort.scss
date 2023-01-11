@@ -1,0 +1,15 @@
+.toy-sort {
+    background-color: $gray1;
+    // padding: 1em;
+    padding-block: 10px;
+    border-bottom: 1px solid lightgray;
+
+    .btns-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    button.active {
+        background-color: $clr2;
+    }
+}

@@ -34,8 +34,8 @@ export function ToyFilter({ onSetFilter }) {
         })
     }
 
-   
-      
+
+
 
     // function onSubmitFilter(ev) {
     //     // update father cmp that filters change on submit
@@ -47,42 +47,46 @@ export function ToyFilter({ onSetFilter }) {
     return <section className="toy-filter full main-layout">
         <h2>Toys Filter</h2>
         <form>
-            <label htmlFor="name">Name:</label>
-            <input type="text"
-                id="name"
-                name="name"
-                placeholder="By name"
-                value={filterByToEdit.name}
-                onChange={handleChange}
-                ref={elInputRef}
-            />
+            <label>Name
+                <input type="text"
+                    id="name"
+                    name="name"
+                    placeholder="By name"
+                    value={filterByToEdit.name}
+                    onChange={handleChange}
+                    ref={elInputRef}
+                />
+            </label>
 
-            <select
-                name="label"
-                onChange={handleChange}
-            >
-                <option value="">All</option>
-                <option value="on-wheels">On wheels</option>
-                <option value="box-game">Box game</option>
-                <option value="art">Art</option>
-                <option value="baby">Baby</option>
-                <option value="doll">Doll</option>
-                <option value="puzzle">Puzzle</option>
-                <option value="outdoor">Outdoor</option>
-                <option value="battery-powered">Battery Powered</option>
-            </select>
+            <label>Label
+                <select
+                    name="label"
+                    onChange={handleChange}
+                >
+                    <option value="">All</option>
+                    <option value="on-wheels">On wheels</option>
+                    <option value="box-game">Box game</option>
+                    <option value="art">Art</option>
+                    <option value="baby">Baby</option>
+                    <option value="doll">Doll</option>
+                    <option value="puzzle">Puzzle</option>
+                    <option value="outdoor">Outdoor</option>
+                    <option value="battery-powered">Battery Powered</option>
+                </select>
+            </label>
 
-         
 
-            <label htmlFor="inStock">Is in Stock</label>
-            <input type="checkbox"
-                checked={filterByToEdit.inStock}
-                id="inStock"
-                name="inStock"
-                onChange={handleChange}
-            />
+            <label>Is in Stock
+                <input className="checkbox"
+                    type="checkbox"
+                    checked={filterByToEdit.inStock}
+                    id="inStock"
+                    name="inStock"
+                    onChange={handleChange}
+                />
+            </label>
 
-            <button hidden>Filter</button>
+            {/* <button hidden>Filter</button> */}
         </form>
 
     </section>

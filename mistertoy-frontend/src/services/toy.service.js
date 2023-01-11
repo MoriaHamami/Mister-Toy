@@ -16,15 +16,18 @@ export const toyService = {
     getRandomToy,
     getDefaultFilter,
     getDefaultSort,
-    getToysCountPerLabel,
-    getPriceAvgPerLabel,
+    // getToysCountPerLabel,
+    // getPriceAvgPerLabel,
     getLabels
 }
 
 
 function query(filterBy = getDefaultFilter(), sortBy = getDefaultSort()) {
-    const queryParams = `?name=${filterBy.name}&inStock=${filterBy.inStock}&label=${filterBy.label}&sortByVal=${sortBy.value}&sortByChange=${sortBy.change}`
-    return httpService.get(BASE_URL + queryParams)
+    // const queryParams = `?name=${filterBy.name}&inStock=${filterBy.inStock}&label=${filterBy.label}&sortByVal=${sortBy.value}&sortByChange=${sortBy.change}`
+    // return httpService.get(BASE_URL + queryParams)
+    // return httpService.get(BASE_URL +  JSON.stringify({ filterBy, sortBy }))
+    return httpService.get('toy', { params: { filterBy, sortBy } })
+
 }
 
 function getById(toyId) {
@@ -55,57 +58,57 @@ function save(toy) {
         return httpService.post(BASE_URL, toy)
     }
 }
-// getToysCountPerLabel()
-function getToysCountPerLabel() {
-    return _getToysInStock()
-        .then(_getToysByLabel)
-        .then((toysByLabel) => {
-            const counters = []
-            // console.log('toysByLabel:', toysByLabel)
-            for (const [label, toys] of Object.entries(toysByLabel)) {
-                // console.log('label:', toys)
-                counters.push(toys.length)
-            }
-            // console.log('counters:', counters)
-            // return Promise.resolve(counters)
-            return counters
-        })
-}
+// // getToysCountPerLabel()
+// function getToysCountPerLabel() {
+//     return _getToysInStock()
+//         .then(_getToysByLabel)
+//         .then((toysByLabel) => {
+//             const counters = []
+//             // console.log('toysByLabel:', toysByLabel)
+//             for (const [label, toys] of Object.entries(toysByLabel)) {
+//                 // console.log('label:', toys)
+//                 counters.push(toys.length)
+//             }
+//             // console.log('counters:', counters)
+//             // return Promise.resolve(counters)
+//             return counters
+//         })
+// }
 
-function getPriceAvgPerLabel() {
-    return query()
-        .then(_getToysByLabel)
-        .then((toysByLabel) => {
-            const counters = []
+// function getPriceAvgPerLabel() {
+//     return query()
+//         .then(_getToysByLabel)
+//         .then((toysByLabel) => {
+//             const counters = []
 
-            for (const label in toysByLabel) {
-                // Keep the prices from each toy from each label in prices array
-                const prices = []
-                if(toysByLabel[label].length) {
-                    toysByLabel[label].map(toy => {
-                        if (toy.price) prices.push(toy.price)
-                        else prices.push(0)
-                    })
-                } else {
-                    prices.push(0)
-                }
-                console.log('prices:', prices)
-                // Sum the prices for each label using reduce
-                const pricesSum = prices.reduce((acc, price) => {
-                    acc += price
-                    return acc
-                }, 0)
-                console.log('pricesSum:', pricesSum)
-                // Get the average of all toy prices in current label
-                const avgPrice = pricesSum / prices.length
-                // Save average in counters array
-                counters.push(avgPrice)
-            }
+//             for (const label in toysByLabel) {
+//                 // Keep the prices from each toy from each label in prices array
+//                 const prices = []
+//                 if(toysByLabel[label].length) {
+//                     toysByLabel[label].map(toy => {
+//                         if (toy.price) prices.push(toy.price)
+//                         else prices.push(0)
+//                     })
+//                 } else {
+//                     prices.push(0)
+//                 }
+//                 console.log('prices:', prices)
+//                 // Sum the prices for each label using reduce
+//                 const pricesSum = prices.reduce((acc, price) => {
+//                     acc += price
+//                     return acc
+//                 }, 0)
+//                 console.log('pricesSum:', pricesSum)
+//                 // Get the average of all toy prices in current label
+//                 const avgPrice = pricesSum / prices.length
+//                 // Save average in counters array
+//                 counters.push(avgPrice)
+//             }
 
-            console.log('counters:', counters)
-            return counters
-        })
-}
+//             console.log('counters:', counters)
+//             return counters
+//         })
+// }
 
 function getLabels() {
     return [
@@ -181,7 +184,7 @@ function getDefaultFilter() {
 }
 
 function getDefaultSort() {
-    return { value: 'created', change: 1 }
+    return { value: 'createdAt', change: 1 }
 }
 
 function getEmptyToy() {

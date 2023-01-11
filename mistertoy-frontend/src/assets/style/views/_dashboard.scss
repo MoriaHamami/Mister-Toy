@@ -1,0 +1,49 @@
+.dashboard {
+    display: flex;
+
+    position: relative;
+    top: 70px;
+
+    h2 {
+        text-align: center;
+        margin: 10px;
+        color: $clr1;
+    }
+
+}
+
+.chart {
+    width: 50%;
+    // max-width: 100%;
+    padding: 10px;
+    background-color: $gray1;
+    margin: 30px;
+    border-radius: rem(20px);
+    height: calc(100vh - 70px - 60px);
+    // max-height: min-content;
+}
+
+.chart-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 70px - 150px);
+}
+
+// NARROW
+@include for-mobile-layout {
+    .dashboard {
+        flex-direction: column;
+    }
+
+    .chart {
+        width: auto;
+        height: auto;
+
+    }
+
+    .chart-container{
+        height: auto;
+
+    }
+}

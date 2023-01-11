@@ -10,10 +10,12 @@ module.exports = {
     save
 }
 
-function query(filterBy) {
+function query(filterBy, sortBy) {
+    if (!filterBy) return Promise.resolve(toys)
+// function query(filterBy) {
     let filteredToys = toys
-    console.log('filterBy:', filterBy)
-    // console.log('sortBy:', sortBy)
+    // console.log('filterBy from back service:', filterBy)
+    // console.log('sort from back service:', sortBy)
     if (filterBy.name) {
         const regex = new RegExp(filterBy.name, 'i')
         filteredToys = filteredToys.filter(toy => regex.test(toy.name))
@@ -24,24 +26,60 @@ function query(filterBy) {
     if (filterBy.label) {
         filteredToys = filteredToys.filter(toy => toy.labels.includes(filterBy.label))
     }
-    if (filterBy.sortByVal === 'name') {
+    // if (filterBy.sortByVal === 'name') {
+    //     filteredToys = filteredToys.sort(function (toy1, toys2) {
+    //         const a = toy1.name.toLowerCase()
+    //         const b = toys2.name.toLowerCase()
+    //         return a.localeCompare(b) * filterBy.sortByChange
+    //     })
+    // }
+    // if (filterBy.sortByVal === 'price') {
+    //     filteredToys = filteredToys.sort(function (toy1, toys2) {
+    //         // console.log('toy1.price:', toy1.price)
+    //         return (toy1.price - toys2.price) * filterBy.sortByChange
+    //     })
+    // }
+    // if (filterBy.sortByVal === 'createdAt') {
+    //     filteredToys = filteredToys.sort(function (toy1, toys2) {
+    //         return (toy1.createdAt - toys2.createdAt) * filterBy.sortByChange
+    //     })
+    // }
+    if (sortBy.value === 'name') {
         filteredToys = filteredToys.sort(function (toy1, toys2) {
             const a = toy1.name.toLowerCase()
             const b = toys2.name.toLowerCase()
-            return a.localeCompare(b) * filterBy.sortByChange
+            return a.localeCompare(b) * sortBy.change
         })
     }
-    if (filterBy.sortByVal === 'price') {
+    if (sortBy.value === 'price') {
         filteredToys = filteredToys.sort(function (toy1, toys2) {
             // console.log('toy1.price:', toy1.price)
-            return (toy1.price - toys2.price) * filterBy.sortByChange
+            return (toy1.price - toys2.price) * sortBy.change
         })
     }
-    if (filterBy.sortByVal === 'createdAt') {
+    if (sortBy.value === 'createdAt') {
         filteredToys = filteredToys.sort(function (toy1, toys2) {
-            return (toy1.createdAt - toys2.createdAt) * filterBy.sortByChange
+            return (toy1.createdAt - toys2.createdAt) * sortBy.change
         })
     }
+    //  // TODO: ADD filter by tags.
+    //  const filteredToys = toys.filter((toy) => {
+    //     return toy.name.toLowerCase().includes(filterBy.search.toLowerCase()) &&
+    //         (filterBy.type === 'All' || toy.type === filterBy.type) &&
+    //         (toy.price <= filterBy.maxPrice && toy.price >= filterBy.minPrice) &&
+    //         (filterBy.inStock === toy.inStock || !filterBy.inStock)
+    // })
+
+    // // sort either by price or by name - when sorting by string we need more 
+    // // complex conditions, thats for you to figure out ;)
+    // // we use the asc key in the sort to determin which way to sort
+    // // ascending or descending. so when we change the number to pos \ neg 
+    // // it will change the direction of the sort
+    // filteredToys.sort((toy1, toy2) => {
+    //     const dir = sort.asc ? 1 : -1
+    //     if (sort.by === 'price') return (toy1.price - toy2.price) * dir
+    //     if (sort.by === 'name') return toy1.name.localeCompare(toy2.name) * dir
+    // })
     // return toys
     return Promise.resolve(filteredToys)
 }

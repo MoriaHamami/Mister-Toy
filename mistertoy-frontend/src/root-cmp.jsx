@@ -1,4 +1,4 @@
-import './assets/style/main.css'
+import './assets/style/main.scss'
 
 import { Provider } from 'react-redux'
 import { HashRouter as Router, Route, Routes } from 'react-router-dom'
@@ -18,23 +18,27 @@ import { ToyDashboard } from './pages/toy-dashboard'
 
 export default function App() {
 
-  return <Provider store={store}>
-  <Router>
-      <section className="main-layout app">
-          <AppHeader />
-          <main>
-              <Routes>
-                  <Route element={<HomePage />} path="/" />
-                  <Route element={<AboutUs />} path="/about" />
-                  <Route element={<ToyDashboard />} path="/dashboard" />
-                  <Route element={<ToyIndex />} path="/toy" />
-                  <Route element={<ToyEdit />} path="/toy/edit" />
-                  <Route element={<ToyEdit />} path="/toy/edit/:toyId" />
-                  <Route element={<ToyDetails />} path="/toy/:toyId" />
-              </Routes>
-          </main>
-          <AppFooter />
-      </section>
-  </Router>
-</Provider>
+    function toggleMenu() {
+        document.body.classList.toggle('menu-open')
+    }
+    
+    return <Provider store={store}>
+        <Router>
+            <div className="main-screen" onClick={toggleMenu}></div>
+
+            <AppHeader />
+            <main>
+                <Routes>
+                    <Route element={<HomePage />} path="/" />
+                    <Route element={<AboutUs />} path="/about" />
+                    <Route element={<ToyDashboard />} path="/dashboard" />
+                    <Route element={<ToyIndex />} path="/toy" />
+                    <Route element={<ToyEdit />} path="/toy/edit" />
+                    <Route element={<ToyEdit />} path="/toy/edit/:toyId" />
+                    <Route element={<ToyDetails />} path="/toy/:toyId" />
+                </Routes>
+            </main>
+            {/* <AppFooter /> */}
+        </Router>
+    </Provider >
 }

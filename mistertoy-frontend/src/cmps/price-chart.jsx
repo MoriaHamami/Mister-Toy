@@ -1,32 +1,40 @@
 import React from 'react'
 import { Chart as ChartJS, ArcElement, Tooltip, Legend, RadialLinearScale } from 'chart.js'
-import {  PolarArea } from 'react-chartjs-2'
+import { PolarArea } from 'react-chartjs-2'
 // import { toyService } from '../services/toy.service'
 import { useEffect } from 'react'
 import { useState } from 'react'
 import { toyService } from '../services/toy.service'
+import { utilService } from '../services/util.service'
 
-export function PriceChart() {
-    
-    ChartJS.register(RadialLinearScale,ArcElement, Tooltip, Legend);
+export function PriceChart({ dataMap }) {
+    // export function PriceChart() {
 
-    const [counters, setCounters] = useState(null)
+    ChartJS.register(RadialLinearScale, ArcElement, Tooltip, Legend);
 
-    useEffect(() => {
-        // toyService.getToysInStock().then(toys => setCounter(toyService.getFilteredToysByLabel(toys)))
-        toyService.getPriceAvgPerLabel().then((h) => {
-            console.log('h:', h)
-            setCounters(h)
-        })
-    }, [])
+    // const [counters, setCounters] = useState(null)
+
+    // useEffect(() => {
+    //     // toyService.getToysInStock().then(toys => setCounter(toyService.getFilteredToysByLabel(toys)))
+    //     toyService.getPriceAvgPerLabel().then((h) => {
+    //         console.log('h:', h)
+    //         setCounters(h)
+    //     })
+    // }, [])
     // console.log('counter:', counters)
     // console.log('toysByLabelMap:', toysByLabelMap)
     const data = {
-        labels: ["On wheels", "Box game", "Art", "Baby", "Doll", "Puzzle", "Outdoor", "Battery Powered"],
+        // labels: ["On wheels", "Box game", "Art", "Baby", "Doll", "Puzzle", "Outdoor", "Battery Powered"],
+        labels: Object.keys(dataMap).map(label => {
+            // if(label.includes('-'))
+            label = label.replace('-', ' ').toUpperCase()
+            return utilService.titleCase(label)
+        } ),
         datasets: [
             {
                 label: 'Number of Toys',
-                data: counters,
+                // data: counters,
+                data: Object.values(dataMap),
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
                     'rgba(54, 162, 235, 0.2)',
@@ -55,8 +63,11 @@ export function PriceChart() {
     }
 
     return (
-        <div style={{width:'70%', margin:'auto'}}>
-            <PolarArea data={data} />
+        <div className='chart'>
+            <h2>Toys Price Average by Label</h2>
+            <div className='chart-container'>
+                <PolarArea data={data} />
+            </div>
         </div>
     )
 

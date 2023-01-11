@@ -38,9 +38,11 @@ export function GoogleMap() {
                     text={<span style={{ color: 'red', fontWeight: '900' }} className="material-symbols-outlined">location_on</span>}
                 />
             </GoogleMapReact>
-            <button onClick={() => handleClick({lat: 31.8, lng:35})}>Jerusalem</button>
-            <button onClick={() => handleClick({lat: 31.5, lng:34.6})}>Sderot</button>
-            <button onClick={() => handleClick({lat: 32.5, lng:35})}>Pardes Hanna</button>
+            <div className="btns-container">
+                <button onClick={() => handleClick({ lat: 31.8, lng: 35 })}>Jerusalem</button>
+                <button onClick={() => handleClick({ lat: 31.5, lng: 34.6 })}>Sderot</button>
+                <button onClick={() => handleClick({ lat: 32.5, lng: 35 })}>Pardes Hanna</button>
+            </div>
         </div>
     );
 }

@@ -7,6 +7,7 @@ import { utilService } from "../services/util.service.js"
 
 export function ToySort({ onSetSort }) {
 
+    // const [isActive, setisActive] = useState('name')
     const [currSort, setCurrSort] = useState(toyService.getDefaultSort())
 
     // useEffect(() => {
@@ -16,6 +17,7 @@ export function ToySort({ onSetSort }) {
     useEffect(() => {
         // update father cmp that sorts change very type
         onSetSort(currSort)
+        // setisActive(currSort)
     }, [currSort])
 
     // function handleChange({ target }) {
@@ -68,19 +70,31 @@ export function ToySort({ onSetSort }) {
         setCurrSort(sortBy)
     }
 
-    return <section className="mail-sort">
-        <button onClick={() => {setSort('name')}}>
-            {/* <img className="sort-icon icon" src={`./assets/img/icons/icons-mail/${dateIcon}-icon.png`} /> */}
-            Name
-        </button>
-        <button onClick={() => {setSort('price')}}>
-            {/* <img className="sort-icon icon" src={`./assets/img/icons/icons-mail/${subjectIcon}-icon.png`} /> */}
-            Price
-        </button>
-        <button onClick={() => {setSort('createdAt')}}>
-            {/* <img className="sort-icon icon" src={`./assets/img/icons/icons-mail/${subjectIcon}-icon.png`} /> */}
-            Created
-        </button>
+    return <section className="toy-sort full main-layout">
+        <h2>Toys Sort</h2>
+        <div className="btns-container">
+            <button
+                className={currSort.value === 'name' ? 'active' : ''}
+                onClick={() => { setSort('name') }}
+            >
+                {/* <img className="sort-icon icon" src={`./assets/img/icons/icons-mail/${dateIcon}-icon.png`} /> */}
+                Name
+            </button>
+            <button
+                className={currSort.value === 'price' ? 'active' : ''}
+                onClick={() => { setSort('price') }}
+            >
+                {/* <img className="sort-icon icon" src={`./assets/img/icons/icons-mail/${subjectIcon}-icon.png`} /> */}
+                Price
+            </button>
+            <button
+                className={currSort.value === 'createdAt' ? 'active' : ''}
+                onClick={() => { setSort('createdAt') }}
+            >
+                {/* <img className="sort-icon icon" src={`./assets/img/icons/icons-mail/${subjectIcon}-icon.png`} /> */}
+                Created
+            </button>
+        </div>
 
         {/* <div className="dropdown">
             <button className="dropbtn" style={{ textTransform: 'capitalize' }}>

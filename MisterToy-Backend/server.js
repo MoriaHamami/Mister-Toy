@@ -33,8 +33,15 @@ app.use(express.json())
 // Real routing express
 // List
 app.get('/api/toy', (req, res) => {
-    const filterBy = req.query
-    toyService.query(filterBy)
+    // const {filterBy, sortBy} = JSON.parse(req.query.params)
+    // console.log('hereeeeeeeeeeeeeeee', req.query..params)
+    const {filterBy, sortBy} = req.query.params
+    // const {filterBy, sortBy} = JSON.parse(req.query)
+    // console.log('filterBy from server:', filterBy)
+    // console.log('sortBy from server:', sortBy)
+    toyService.query(filterBy, sortBy)
+    // const filterBy = req.query
+    // toyService.query(filterBy)
         .then((toys) => {
             res.send(toys)
         })

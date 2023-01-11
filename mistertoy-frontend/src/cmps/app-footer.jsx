@@ -25,7 +25,7 @@ export function AppFooter() {
     }
 
     return (
-        <footer>
+        <footer className="main-layout full">
             <h5>
                 Currently {toysCount} toys in the shop
             </h5>

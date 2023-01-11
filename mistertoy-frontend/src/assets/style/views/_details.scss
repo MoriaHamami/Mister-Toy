@@ -1,0 +1,22 @@
+.toy-details {
+    position: relative;
+    top: 70px;
+    
+    background-color: $gray1;
+    height: calc(100vh - 70px);
+    padding-inline: $layoutPadding;
+
+    > * {
+        padding-block: 5px;
+    }
+
+    :nth-last-child(3) {
+        padding-block-end: 10px;
+    }
+
+    .button {
+        margin-inline-start: 0;
+        margin-inline-end: 10px;
+    }
+
+}

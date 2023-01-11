@@ -83,33 +83,37 @@ export function ToyIndex() {
     function setFilter(filterBy) {
         // console.log('setFilter', filterBy)
         onLoadToys(filterBy)
-        dispatch({ type: SET_FILTER, filterBy })   
+        dispatch({ type: SET_FILTER, filterBy })
     }
 
     function setSort(sortBy) {
         // console.log('setFilter', sortBy)
         onLoadToys(sortBy)
-        dispatch({ type: SET_SORT, sortBy })   
+        dispatch({ type: SET_SORT, sortBy })
     }
 
-    return <section>
-        <h3>Toys App</h3>
-        <main>
-            <Link to={`/toy/edit`}>Add Toy</Link>
-            <button onClick={onAddToy}>Add random Toy ⛐</button>
-            
-            <ToyFilter onSetFilter={setFilter} />
-            <ToySort onSetSort={setSort} />
-            {isLoading && <p>Loading...</p>}
-            <ToyList
-                toys={toys}
-                onRemoveToy={onRemoveToy}
-                onEditToy={onEditToy}
-                addToCart={addToCart}
-            />
-            <hr />
-            <pre>{JSON.stringify(shoppingCart, null, 2)}</pre>
-        </main>
+    return <section className=" index main-layout full">
+
+        <ToyFilter onSetFilter={setFilter} />
+
+        <ToySort onSetSort={setSort} />
+
+        <section className="add-btn full main-layout">
+            <h2>Add Toy</h2>
+            <Link to={`/toy/edit`} className="button">Add Toy</Link>
+            <button onClick={onAddToy} >Add random Toy ⛐</button>
+        </section>
+
+        {isLoading && <p>Loading...</p>}
+        <ToyList
+            toys={toys}
+            onRemoveToy={onRemoveToy}
+            onEditToy={onEditToy}
+            addToCart={addToCart}
+        />
+        <hr />
+        {/* <pre>{JSON.stringify(shoppingCart, null, 2)}</pre> */}
+
     </section>
 
 

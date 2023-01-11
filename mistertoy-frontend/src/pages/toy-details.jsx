@@ -29,11 +29,15 @@ export function ToyDetails() {
     if (!toy) return <div>Loading...</div>
     return <section className="toy-details">
         <h1>Toy : {toy.name}</h1>
-        <h1>Messages: {toy.msg}</h1>
-        <h5>Price: ${toy.price.toLocaleString()}</h5>
         <p>⛐</p>
         <p>Created: {utilService.getFormattedDate(toy.createdAt)}</p>
-        {toy.instock ? <p style={{color: 'green'}}>In stock</p> : <p style={{color: 'red'}}>Not in stock</p>}
-        <Link to={`/toy/edit/${toy._id}`}>Edit</Link>
+        <p>Price: ${toy.price.toLocaleString()}</p>
+        <p>Messages: {toy.msg}</p>
+        {toy.instock ? <p style={{ color: 'green' }}>In stock</p> : <p style={{ color: 'red' }}>Not in stock</p>}
+        {/* <div className="detail-btns"> */}
+            <Link to={`/toy/edit/${toy._id}`} className="button">Edit</Link>
+            <Link to="/toy" className="button">Back</Link>
+        {/* </div> */}
+
     </section>
 }

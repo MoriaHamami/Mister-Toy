@@ -4,25 +4,33 @@ import { Pie } from 'react-chartjs-2'
 import { toyService } from '../services/toy.service'
 import { useEffect } from 'react'
 import { useState } from 'react'
+import { utilService } from '../services/util.service'
 
-export function InstockChart() {
+export function InstockChart({ dataMap }) {
+    // export function InstockChart() {
 
     ChartJS.register(ArcElement, Tooltip, Legend)
 
-    const [counters, setCounters] = useState(null)
+    // const [counters, setCounters] = useState(null)
 
-    useEffect(() => {
-        // toyService.getToysInStock().then(toys => setCounter(toyService.getFilteredToysByLabel(toys)))
-        toyService.getToysCountPerLabel().then(setCounters)
-    }, [])
+    // useEffect(() => {
+    //     // toyService.getToysInStock().then(toys => setCounter(toyService.getFilteredToysByLabel(toys)))
+    //     toyService.getToysCountPerLabel().then(setCounters)
+    // }, [])
     // console.log('counter:', counters)
     // console.log('toysByLabelMap:', toysByLabelMap)
     const data = {
-        labels: ["On wheels", "Box game", "Art", "Baby", "Doll", "Puzzle", "Outdoor", "Battery Powered"],
+        // labels: ["On wheels", "Box game", "Art", "Baby", "Doll", "Puzzle", "Outdoor", "Battery Powered"],
+        labels:  Object.keys(dataMap).map(label => {
+            // if(label.includes('-'))
+            label = label.replace('-', ' ').toUpperCase()
+            return utilService.titleCase(label)
+        } ),
         datasets: [
             {
                 label: 'Number of Toys',
-                data: counters,
+                // data: counters,
+                data: Object.values(dataMap),
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
                     'rgba(54, 162, 235, 0.2)',
@@ -50,8 +58,11 @@ export function InstockChart() {
         ],
     }
 
-    return <div style={{ width: '60%', margin: 'auto' }}>
-        <Pie data={data} />
+    return <div className='chart'>
+        <h2>Toys by Label in Stock</h2>
+        <div className='chart-container'>
+            <Pie data={data} />
+        </div>
     </div>
 
 

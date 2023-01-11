@@ -1,0 +1,14 @@
+.about > * {
+    padding-block-start: 10px;
+
+    position: relative;
+    top: 70px;
+    
+    .btns-container {
+        display: flex;
+
+        // button {
+        //     flex-basis: max-content;
+        // }
+    }
+}

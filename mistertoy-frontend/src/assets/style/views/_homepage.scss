@@ -1,0 +1,16 @@
+.home-page{
+    position: relative;
+    top: 70px;
+    // background-color: rgb(51, 51, 78);
+    // background-color: rgb(64, 56, 86);
+    background-color: $gray1;
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-height: calc(100vh - 70px);
+}

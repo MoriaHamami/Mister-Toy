@@ -29,10 +29,10 @@ export function ToyEdit() {
     }
 
     function handleChange({ target }) {
-        
+
         let { value, name: field, type, checked } = target
         value = type === 'number' ? +value : value
-        
+
         // setToyToEdit((prevToy) => ({ ...prevToy, [field]: value }))
         setToyToEdit((prevToy) => {
             if (type === 'checkbox') return { ...prevToy, [field]: checked }
@@ -56,7 +56,7 @@ export function ToyEdit() {
         //     })
     }
 
-    function handleSelectChange( target ) {
+    function handleSelectChange(target) {
         console.log('target:', target)
         const labels = target.map(label => label.value)
         // const {value, name: field} = target
@@ -77,20 +77,21 @@ export function ToyEdit() {
         { value: 'puzzle', label: 'Puzzle' },
         { value: 'outdoor', label: 'Outdoor' },
         { value: 'battery-powered', label: 'Battery Powered' }
-      ]
+    ]
 
     return <section className="toy-edit">
         <h2>{toyToEdit.id ? 'Edit this toy' : 'Add a new toy'}</h2>
 
         <form onSubmit={onSaveToy}>
-            <label htmlFor="name">Name : </label>
-            <input type="text"
-                name="name"
-                id="name"
-                placeholder="Enter name..."
-                value={toyToEdit.name}
-                onChange={handleChange}
-            />
+            <label>Name
+                <input type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Enter name..."
+                    value={toyToEdit.name}
+                    onChange={handleChange}
+                />
+            </label>
 
             {/* <select
                 name="labels"
@@ -107,34 +108,40 @@ export function ToyEdit() {
                 <option value="battery-powered">Battery Powered</option>
             </select> */}
 
-            <Select 
-            isMulti
-            name="labels"
-            options={options}
-            onChange={handleSelectChange}
-             />
+           
 
-            <label htmlFor="inStock">Is in Stock</label>
-            <input type="checkbox"
-                checked={toyToEdit.inStock}
-                id="inStock"
-                name="inStock"
-                onChange={handleChange}
+            <label>Is in Stock
+                <input type="checkbox"
+                    checked={toyToEdit.inStock}
+                    id="inStock"
+                    name="inStock"
+                    onChange={handleChange}
+                />
+            </label>
+            
+            <label>Price
+                <input type="number"
+                    name="price"
+                    id="price"
+                    placeholder="Enter price"
+                    value={toyToEdit.price}
+                    onChange={handleChange}
+                />
+            </label>
+
+            <Select
+                isMulti
+                name="labels"
+                options={options}
+                onChange={handleSelectChange}
             />
-
-            <label htmlFor="price">Price : </label>
-            <input type="number"
-                name="price"
-                id="price"
-                placeholder="Enter price"
-                value={toyToEdit.price}
-                onChange={handleChange}
-            />
-
+            
             <div>
                 <button>{toyToEdit._id ? 'Save' : 'Add'}</button>
-                <Link to="/toy">Cancel</Link>
+                <Link to="/toy" className="button">Cancel</Link>
             </div>
+
+
         </form>
     </section>
 }
