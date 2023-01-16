@@ -19,13 +19,21 @@ export function ToyEdit() {
         loadToy()
     }, [])
 
-    function loadToy() {
-        toyService.getById(toyId)
-            .then((toy) => setToyToEdit(toy))
-            .catch((err) => {
-                console.log('Had issues in toy details', err)
-                navigate('/toy')
-            })
+    async function loadToy() {
+        try {
+            const toy = await toyService.getById(toyId)
+            setToyToEdit(toy)
+        }catch(err) {
+            console.log('Had issues in toy details', err)
+            showErrorMsg('Cannot load toy')
+            navigate('/toy')
+        }
+        // toyService.getById(toyId)
+        //     .then((toy) => setToyToEdit(toy))
+        //     .catch((err) => {
+        //         console.log('Had issues in toy details', err)
+        //         navigate('/toy')
+        //     })
     }
 
     function handleChange({ target }) {
@@ -138,7 +146,7 @@ export function ToyEdit() {
             
             <div>
                 <button>{toyToEdit._id ? 'Save' : 'Add'}</button>
-                <Link to="/toy" className="button">Cancel</Link>
+                <Link to="/toy" className="button">Back</Link>
             </div>
 
 

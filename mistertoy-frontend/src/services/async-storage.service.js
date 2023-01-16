@@ -6,27 +6,48 @@ export const storageService = {
     remove,
 }
 
-function query(entityType, delay = 1500) {
+async function query(entityType, delay = 1500) {
     var entities = JSON.parse(localStorage.getItem(entityType)) || []
-    return new Promise(resolve => setTimeout(() => resolve(entities), delay))
+    return (resolve => setTimeout(() => resolve(entities), delay))
 }
 
-function get(entityType, entityId) {
-    return query(entityType).then(entities => {
+async function get(entityType, entityId) {
+    // MIGHT BE WRONG
+    try {
+        const entities = await query(entityType)
         const entity = entities.find(entity => entity._id === entityId)
         if (!entity) throw new Error(`Get failed, cannot find entity with id: ${entityId} in: ${entityType}`)
         return entity
-    })
+    } catch {
+        throw new Error(`Get failed, cannot find entity with id: ${entityId} in: ${entityType}`)
+
+    }
+
+    // return query(entityType).then(entities => {
+    //     const entity = entities.find(entity => entity._id === entityId)
+    //     if (!entity) throw new Error(`Get failed, cannot find entity with id: ${entityId} in: ${entityType}`)
+    //     return entity
+    // })
 }
 
-function post(entityType, newEntity) {
-    newEntity = {...newEntity}
+async function post(entityType, newEntity) {
+    newEntity = { ...newEntity }
     newEntity._id = _makeId()
-    return query(entityType).then(entities => {
+    // return .then(entities => {
+    // })
+    try {
+        const entities = await query(entityType)
         entities.unshift(newEntity)
         _save(entityType, entities)
         return newEntity
-    })
+    } catch (error) {
+        console.dir(error)
+    }
+    // return query(entityType).then(entities => {
+    //     entities.unshift(newEntity)
+    //     _save(entityType, entities)
+    //     return newEntity
+    // })
 }
 
 function put(entityType, updatedEntity) {

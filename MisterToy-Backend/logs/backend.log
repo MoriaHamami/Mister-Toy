@@ -1,0 +1,2697 @@
+12.1.2023, 18:11:49 - INFO - Server is running on port: 3030 
+12.1.2023, 18:12:21 - INFO - Req was made 
+12.1.2023, 18:12:21 - DEBUG - Getting Toys 
+12.1.2023, 18:12:21 - INFO - Req was made 
+12.1.2023, 18:12:21 - DEBUG - Getting Toys 
+12.1.2023, 18:12:21 - ERROR - Failed to get toys | TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle 
+12.1.2023, 18:12:22 - ERROR - Failed to get toys | TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle 
+12.1.2023, 18:12:22 - INFO - Req was made 
+12.1.2023, 18:12:22 - DEBUG - Getting Toys 
+12.1.2023, 18:12:22 - ERROR - Failed to get toys | TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle 
+12.1.2023, 18:12:22 - INFO - Req was made 
+12.1.2023, 18:12:22 - DEBUG - Getting Toys 
+12.1.2023, 18:12:22 - ERROR - Failed to get toys | TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle 
+12.1.2023, 18:12:22 - DEBUG - Getting Toys 
+12.1.2023, 18:12:22 - INFO - Req was made 
+12.1.2023, 18:12:22 - ERROR - Failed to get toys | TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle 
+12.1.2023, 18:14:01 - INFO - Req was made 
+12.1.2023, 18:14:01 - DEBUG - Getting Toys 
+12.1.2023, 18:14:01 - ERROR - Failed to get toys | TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle 
+12.1.2023, 18:17:09 - INFO - Server is running on port: 3030 
+12.1.2023, 18:17:23 - INFO - Server is running on port: 3030 
+12.1.2023, 18:17:25 - INFO - Server is running on port: 3030 
+12.1.2023, 18:17:30 - INFO - Server is running on port: 3030 
+12.1.2023, 18:23:14 - INFO - Req was made 
+12.1.2023, 18:23:14 - DEBUG - Getting Toys 
+12.1.2023, 18:26:04 - INFO - Server is running on port: 3030 
+12.1.2023, 18:26:05 - INFO - Server is running on port: 3030 
+12.1.2023, 18:26:10 - INFO - Server is running on port: 3030 
+12.1.2023, 18:26:13 - INFO - Server is running on port: 3030 
+12.1.2023, 18:26:19 - INFO - Server is running on port: 3030 
+12.1.2023, 18:26:21 - INFO - Server is running on port: 3030 
+12.1.2023, 18:26:39 - INFO - Req was made 
+12.1.2023, 18:26:39 - DEBUG - Getting Toys 
+12.1.2023, 18:26:39 - INFO - Req was made 
+12.1.2023, 18:26:39 - DEBUG - Getting Toys 
+12.1.2023, 18:26:39 - INFO - Req was made 
+12.1.2023, 18:26:39 - DEBUG - Getting Toys 
+12.1.2023, 18:26:39 - INFO - Req was made 
+12.1.2023, 18:26:39 - DEBUG - Getting Toys 
+12.1.2023, 18:26:39 - INFO - Req was made 
+12.1.2023, 18:26:39 - DEBUG - Getting Toys 
+12.1.2023, 18:26:47 - INFO - Req was made 
+12.1.2023, 18:26:47 - DEBUG - Getting Toys 
+12.1.2023, 18:26:47 - DEBUG - Getting Toys 
+12.1.2023, 18:26:47 - INFO - Req was made 
+12.1.2023, 18:26:47 - INFO - Req was made 
+12.1.2023, 18:26:47 - DEBUG - Getting Toys 
+12.1.2023, 18:26:47 - INFO - Req was made 
+12.1.2023, 18:26:47 - DEBUG - Getting Toys 
+12.1.2023, 18:26:47 - INFO - Req was made 
+12.1.2023, 18:26:47 - DEBUG - Getting Toys 
+12.1.2023, 18:28:24 - INFO - Req was made 
+12.1.2023, 18:28:24 - DEBUG - Getting Toys 
+12.1.2023, 18:43:25 - INFO - Server is running on port: 3030 
+12.1.2023, 18:43:32 - INFO - Server is running on port: 3030 
+12.1.2023, 18:43:41 - INFO - Server is running on port: 3030 
+12.1.2023, 18:51:25 - INFO - Server is running on port: 3030 
+12.1.2023, 18:51:28 - INFO - Server is running on port: 3030 
+12.1.2023, 18:51:30 - INFO - Server is running on port: 3030 
+12.1.2023, 18:51:32 - INFO - Server is running on port: 3030 
+12.1.2023, 18:51:34 - INFO - Server is running on port: 3030 
+12.1.2023, 18:51:40 - INFO - Server is running on port: 3030 
+12.1.2023, 18:52:04 - INFO - Server is running on port: 3030 
+12.1.2023, 18:52:16 - INFO - Server is running on port: 3030 
+12.1.2023, 18:53:55 - INFO - Req was made 
+12.1.2023, 18:53:55 - DEBUG - Getting Toys 
+12.1.2023, 18:53:55 - DEBUG - Getting Toys 
+12.1.2023, 18:53:55 - INFO - Req was made 
+12.1.2023, 18:53:55 - INFO - Req was made 
+12.1.2023, 18:53:55 - DEBUG - Getting Toys 
+12.1.2023, 18:53:55 - INFO - Req was made 
+12.1.2023, 18:53:55 - DEBUG - Getting Toys 
+12.1.2023, 18:53:55 - INFO - Req was made 
+12.1.2023, 18:53:55 - DEBUG - Getting Toys 
+12.1.2023, 18:54:22 - INFO - Req was made 
+12.1.2023, 18:54:22 - DEBUG - Getting Toys 
+12.1.2023, 18:54:22 - INFO - Req was made 
+12.1.2023, 18:54:22 - DEBUG - Getting Toys 
+12.1.2023, 18:54:22 - INFO - Req was made 
+12.1.2023, 18:54:22 - DEBUG - Getting Toys 
+12.1.2023, 18:54:23 - INFO - Req was made 
+12.1.2023, 18:54:23 - DEBUG - Getting Toys 
+12.1.2023, 18:54:23 - DEBUG - Getting Toys 
+12.1.2023, 18:54:23 - INFO - Req was made 
+12.1.2023, 18:55:21 - INFO - Server is running on port: 3030 
+12.1.2023, 18:57:03 - INFO - Server is running on port: 3030 
+12.1.2023, 18:57:27 - INFO - Req was made 
+12.1.2023, 18:57:27 - DEBUG - Getting Toys 
+12.1.2023, 18:57:27 - INFO - Req was made 
+12.1.2023, 18:57:27 - DEBUG - Getting Toys 
+12.1.2023, 18:57:27 - INFO - Req was made 
+12.1.2023, 18:57:27 - DEBUG - Getting Toys 
+12.1.2023, 18:57:28 - INFO - Req was made 
+12.1.2023, 18:57:28 - DEBUG - Getting Toys 
+12.1.2023, 18:57:28 - INFO - Req was made 
+12.1.2023, 18:57:28 - DEBUG - Getting Toys 
+12.1.2023, 18:57:34 - INFO - Req was made 
+12.1.2023, 18:57:34 - DEBUG - Getting Toys 
+12.1.2023, 18:57:34 - DEBUG - Getting Toys 
+12.1.2023, 18:57:34 - INFO - Req was made 
+12.1.2023, 18:57:34 - INFO - Req was made 
+12.1.2023, 18:57:34 - DEBUG - Getting Toys 
+12.1.2023, 18:57:35 - INFO - Req was made 
+12.1.2023, 18:57:35 - DEBUG - Getting Toys 
+12.1.2023, 18:57:35 - DEBUG - Getting Toys 
+12.1.2023, 18:57:35 - INFO - Req was made 
+12.1.2023, 18:59:55 - INFO - Server is running on port: 3030 
+12.1.2023, 19:03:48 - INFO - Server is running on port: 3030 
+12.1.2023, 19:13:59 - INFO - Req was made 
+12.1.2023, 19:13:59 - DEBUG - Getting Toys 
+12.1.2023, 19:13:59 - DEBUG - Getting Toys 
+12.1.2023, 19:13:59 - INFO - Req was made 
+12.1.2023, 19:13:59 - INFO - Req was made 
+12.1.2023, 19:13:59 - DEBUG - Getting Toys 
+12.1.2023, 19:13:59 - INFO - Req was made 
+12.1.2023, 19:13:59 - DEBUG - Getting Toys 
+12.1.2023, 19:13:59 - INFO - Req was made 
+12.1.2023, 19:13:59 - DEBUG - Getting Toys 
+12.1.2023, 19:14:03 - INFO - Req was made 
+12.1.2023, 19:14:03 - DEBUG - Getting Toys 
+12.1.2023, 19:14:03 - INFO - Req was made 
+12.1.2023, 19:14:03 - DEBUG - Getting Toys 
+12.1.2023, 19:14:03 - DEBUG - Getting Toys 
+12.1.2023, 19:14:03 - INFO - Req was made 
+12.1.2023, 19:14:04 - INFO - Req was made 
+12.1.2023, 19:14:04 - DEBUG - Getting Toys 
+12.1.2023, 19:14:04 - INFO - Req was made 
+12.1.2023, 19:14:04 - DEBUG - Getting Toys 
+12.1.2023, 19:14:10 - INFO - Req was made 
+12.1.2023, 19:14:10 - DEBUG - Getting Toys 
+12.1.2023, 19:14:10 - INFO - Req was made 
+12.1.2023, 19:14:10 - DEBUG - Getting Toys 
+12.1.2023, 19:14:10 - INFO - Req was made 
+12.1.2023, 19:14:10 - DEBUG - Getting Toys 
+12.1.2023, 19:14:11 - INFO - Req was made 
+12.1.2023, 19:14:11 - DEBUG - Getting Toys 
+12.1.2023, 19:14:11 - INFO - Req was made 
+12.1.2023, 19:14:11 - DEBUG - Getting Toys 
+12.1.2023, 19:14:17 - INFO - Req was made 
+12.1.2023, 19:14:17 - DEBUG - Getting Toys 
+12.1.2023, 19:14:17 - INFO - Req was made 
+12.1.2023, 19:14:17 - DEBUG - Getting Toys 
+12.1.2023, 19:14:17 - DEBUG - Getting Toys 
+12.1.2023, 19:14:17 - INFO - Req was made 
+12.1.2023, 19:14:17 - INFO - Req was made 
+12.1.2023, 19:14:17 - DEBUG - Getting Toys 
+12.1.2023, 19:14:17 - INFO - Req was made 
+12.1.2023, 19:14:17 - DEBUG - Getting Toys 
+12.1.2023, 19:14:23 - INFO - Req was made 
+12.1.2023, 19:14:23 - DEBUG - Getting Toys 
+12.1.2023, 19:14:23 - INFO - Req was made 
+12.1.2023, 19:14:23 - DEBUG - Getting Toys 
+12.1.2023, 19:14:23 - INFO - Req was made 
+12.1.2023, 19:14:23 - DEBUG - Getting Toys 
+12.1.2023, 19:14:23 - INFO - Req was made 
+12.1.2023, 19:14:23 - DEBUG - Getting Toys 
+12.1.2023, 19:14:23 - INFO - Req was made 
+12.1.2023, 19:14:23 - DEBUG - Getting Toys 
+12.1.2023, 19:27:25 - INFO - Req was made 
+12.1.2023, 19:27:25 - DEBUG - Getting Toys 
+12.1.2023, 19:27:25 - INFO - Req was made 
+12.1.2023, 19:27:25 - DEBUG - Getting Toys 
+12.1.2023, 19:27:25 - INFO - Req was made 
+12.1.2023, 19:27:25 - DEBUG - Getting Toys 
+12.1.2023, 19:27:25 - INFO - Req was made 
+12.1.2023, 19:27:25 - DEBUG - Getting Toys 
+12.1.2023, 19:27:25 - INFO - Req was made 
+12.1.2023, 19:27:25 - DEBUG - Getting Toys 
+12.1.2023, 19:33:37 - INFO - Req was made 
+12.1.2023, 19:33:37 - DEBUG - Getting Toys 
+12.1.2023, 19:33:37 - INFO - Req was made 
+12.1.2023, 19:33:37 - DEBUG - Getting Toys 
+12.1.2023, 19:33:37 - INFO - Req was made 
+12.1.2023, 19:33:37 - DEBUG - Getting Toys 
+12.1.2023, 19:33:37 - INFO - Req was made 
+12.1.2023, 19:33:37 - DEBUG - Getting Toys 
+12.1.2023, 19:33:37 - INFO - Req was made 
+12.1.2023, 19:33:37 - DEBUG - Getting Toys 
+12.1.2023, 19:33:42 - INFO - Req was made 
+12.1.2023, 19:33:42 - DEBUG - Getting Toys 
+12.1.2023, 19:33:42 - DEBUG - Getting Toys 
+12.1.2023, 19:33:42 - INFO - Req was made 
+12.1.2023, 19:33:42 - INFO - Req was made 
+12.1.2023, 19:33:42 - DEBUG - Getting Toys 
+12.1.2023, 19:33:43 - INFO - Req was made 
+12.1.2023, 19:33:43 - DEBUG - Getting Toys 
+12.1.2023, 19:33:43 - INFO - Req was made 
+12.1.2023, 19:33:43 - DEBUG - Getting Toys 
+12.1.2023, 19:50:18 - INFO - Server is running on port: 3030 
+12.1.2023, 19:50:27 - INFO - Server is running on port: 3030 
+12.1.2023, 19:50:34 - INFO - Server is running on port: 3030 
+12.1.2023, 19:50:36 - INFO - Server is running on port: 3030 
+12.1.2023, 19:50:40 - INFO - Server is running on port: 3030 
+12.1.2023, 19:50:49 - INFO - Req was made 
+12.1.2023, 19:50:49 - DEBUG - Getting Toys 
+12.1.2023, 19:50:49 - ERROR - Failed to get toys | TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle 
+12.1.2023, 19:50:49 - INFO - Req was made 
+12.1.2023, 19:50:49 - DEBUG - Getting Toys 
+12.1.2023, 19:50:49 - ERROR - Failed to get toys | TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle 
+12.1.2023, 19:50:50 - INFO - Req was made 
+12.1.2023, 19:50:50 - DEBUG - Getting Toys 
+12.1.2023, 19:50:50 - ERROR - Failed to get toys | TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle 
+12.1.2023, 19:50:50 - INFO - Req was made 
+12.1.2023, 19:50:50 - DEBUG - Getting Toys 
+12.1.2023, 19:50:50 - ERROR - Failed to get toys | TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle 
+12.1.2023, 19:50:50 - INFO - Req was made 
+12.1.2023, 19:50:50 - DEBUG - Getting Toys 
+12.1.2023, 19:50:50 - ERROR - Failed to get toys | TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle 
+12.1.2023, 19:51:19 - INFO - Server is running on port: 3030 
+12.1.2023, 19:51:22 - INFO - Server is running on port: 3030 
+12.1.2023, 19:51:26 - INFO - Server is running on port: 3030 
+12.1.2023, 19:51:35 - INFO - Req was made 
+12.1.2023, 19:51:35 - DEBUG - Getting Toys 
+12.1.2023, 19:51:35 - INFO - Req was made 
+12.1.2023, 19:51:35 - DEBUG - Getting Toys 
+12.1.2023, 19:51:35 - INFO - Req was made 
+12.1.2023, 19:51:35 - DEBUG - Getting Toys 
+12.1.2023, 19:51:35 - INFO - Req was made 
+12.1.2023, 19:51:35 - DEBUG - Getting Toys 
+12.1.2023, 19:51:35 - DEBUG - Getting Toys 
+12.1.2023, 19:51:35 - INFO - Req was made 
+12.1.2023, 19:51:54 - INFO - Req was made 
+12.1.2023, 19:51:54 - DEBUG - Getting Toys 
+12.1.2023, 19:51:54 - DEBUG - Getting Toys 
+12.1.2023, 19:51:54 - INFO - Req was made 
+12.1.2023, 19:51:54 - INFO - Req was made 
+12.1.2023, 19:51:54 - DEBUG - Getting Toys 
+12.1.2023, 19:51:54 - INFO - Req was made 
+12.1.2023, 19:51:54 - DEBUG - Getting Toys 
+12.1.2023, 19:51:54 - INFO - Req was made 
+12.1.2023, 19:51:54 - DEBUG - Getting Toys 
+12.1.2023, 19:52:35 - INFO - Server is running on port: 3030 
+12.1.2023, 19:53:04 - INFO - Server is running on port: 3030 
+12.1.2023, 19:53:05 - INFO - Server is running on port: 3030 
+12.1.2023, 19:53:24 - INFO - Server is running on port: 3030 
+12.1.2023, 20:00:38 - INFO - Req was made 
+12.1.2023, 20:00:38 - DEBUG - Getting Toys 
+12.1.2023, 20:00:38 - INFO - Req was made 
+12.1.2023, 20:00:38 - DEBUG - Getting Toys 
+12.1.2023, 20:00:38 - INFO - Req was made 
+12.1.2023, 20:00:38 - DEBUG - Getting Toys 
+12.1.2023, 20:00:39 - INFO - Req was made 
+12.1.2023, 20:00:39 - DEBUG - Getting Toys 
+12.1.2023, 20:00:39 - INFO - Req was made 
+12.1.2023, 20:00:39 - DEBUG - Getting Toys 
+12.1.2023, 20:00:43 - INFO - Req was made 
+12.1.2023, 20:00:43 - DEBUG - Getting Toys 
+12.1.2023, 20:00:48 - DEBUG - Getting Toys 
+12.1.2023, 20:00:48 - INFO - Req was made 
+12.1.2023, 20:00:53 - INFO - Req was made 
+12.1.2023, 20:00:53 - DEBUG - Getting Toys 
+12.1.2023, 20:00:53 - DEBUG - Getting Toys 
+12.1.2023, 20:00:53 - INFO - Req was made 
+12.1.2023, 20:00:53 - DEBUG - Getting Toys 
+12.1.2023, 20:00:53 - INFO - Req was made 
+12.1.2023, 20:00:53 - INFO - Req was made 
+12.1.2023, 20:00:53 - DEBUG - Getting Toys 
+12.1.2023, 20:00:53 - INFO - Req was made 
+12.1.2023, 20:00:53 - DEBUG - Getting Toys 
+12.1.2023, 20:00:54 - INFO - Req was made 
+12.1.2023, 20:00:54 - DEBUG - Getting Toys 
+12.1.2023, 20:01:23 - INFO - Server is running on port: 3030 
+12.1.2023, 20:02:07 - INFO - Server is running on port: 3030 
+12.1.2023, 20:02:08 - INFO - Server is running on port: 3030 
+12.1.2023, 20:02:13 - INFO - Server is running on port: 3030 
+12.1.2023, 20:03:32 - INFO - Server is running on port: 3030 
+12.1.2023, 20:03:34 - INFO - Server is running on port: 3030 
+12.1.2023, 20:03:35 - INFO - Server is running on port: 3030 
+12.1.2023, 20:11:27 - INFO - Server is running on port: 3030 
+12.1.2023, 20:11:35 - INFO - Req was made 
+12.1.2023, 20:11:35 - DEBUG - Getting Toys 
+12.1.2023, 20:11:35 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:11:35 - INFO - Req was made 
+12.1.2023, 20:11:35 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:11:35 - DEBUG - Getting Toys 
+12.1.2023, 20:11:35 - INFO - Req was made 
+12.1.2023, 20:11:35 - DEBUG - Getting Toys 
+12.1.2023, 20:11:35 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:11:35 - INFO - Req was made 
+12.1.2023, 20:11:35 - DEBUG - Getting Toys 
+12.1.2023, 20:11:35 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:11:36 - INFO - Req was made 
+12.1.2023, 20:11:36 - DEBUG - Getting Toys 
+12.1.2023, 20:11:36 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:11:37 - INFO - Req was made 
+12.1.2023, 20:11:37 - DEBUG - Getting Toys 
+12.1.2023, 20:11:37 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:11:37 - INFO - Req was made 
+12.1.2023, 20:11:37 - DEBUG - Getting Toys 
+12.1.2023, 20:11:37 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:11:37 - INFO - Req was made 
+12.1.2023, 20:11:37 - DEBUG - Getting Toys 
+12.1.2023, 20:11:37 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:11:38 - INFO - Req was made 
+12.1.2023, 20:11:38 - DEBUG - Getting Toys 
+12.1.2023, 20:11:38 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:11:38 - INFO - Req was made 
+12.1.2023, 20:11:38 - DEBUG - Getting Toys 
+12.1.2023, 20:11:38 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:13:14 - INFO - Server is running on port: 3030 
+12.1.2023, 20:13:16 - INFO - Server is running on port: 3030 
+12.1.2023, 20:13:22 - INFO - Server is running on port: 3030 
+12.1.2023, 20:13:26 - INFO - Server is running on port: 3030 
+12.1.2023, 20:13:32 - INFO - Server is running on port: 3030 
+12.1.2023, 20:13:38 - INFO - Server is running on port: 3030 
+12.1.2023, 20:13:42 - INFO - Server is running on port: 3030 
+12.1.2023, 20:14:21 - INFO - Req was made 
+12.1.2023, 20:14:21 - DEBUG - Getting Toys 
+12.1.2023, 20:14:21 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:14:22 - INFO - Req was made 
+12.1.2023, 20:14:22 - DEBUG - Getting Toys 
+12.1.2023, 20:14:22 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:14:22 - INFO - Req was made 
+12.1.2023, 20:14:22 - DEBUG - Getting Toys 
+12.1.2023, 20:14:22 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:14:22 - INFO - Req was made 
+12.1.2023, 20:14:22 - DEBUG - Getting Toys 
+12.1.2023, 20:14:22 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:14:22 - INFO - Req was made 
+12.1.2023, 20:14:22 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:14:22 - DEBUG - Getting Toys 
+12.1.2023, 20:15:14 - INFO - Server is running on port: 3030 
+12.1.2023, 20:15:14 - INFO - Req was made 
+12.1.2023, 20:15:14 - DEBUG - Getting Toys 
+12.1.2023, 20:15:14 - INFO - Req was made 
+12.1.2023, 20:15:14 - DEBUG - Getting Toys 
+12.1.2023, 20:15:14 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:15:14 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:15:14 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 20:15:14 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 20:15:14 - INFO - Req was made 
+12.1.2023, 20:15:14 - DEBUG - Getting Toys 
+12.1.2023, 20:15:14 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:15:14 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:15:15 - INFO - Req was made 
+12.1.2023, 20:15:15 - DEBUG - Getting Toys 
+12.1.2023, 20:15:15 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:15:15 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:15:15 - INFO - Req was made 
+12.1.2023, 20:15:15 - DEBUG - Getting Toys 
+12.1.2023, 20:15:15 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:15:15 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:16:09 - INFO - Server is running on port: 3030 
+12.1.2023, 20:16:13 - INFO - Server is running on port: 3030 
+12.1.2023, 20:16:58 - INFO - Server is running on port: 3030 
+12.1.2023, 20:16:58 - INFO - Req was made 
+12.1.2023, 20:16:58 - DEBUG - Getting Toys 
+12.1.2023, 20:16:58 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:16:58 - INFO - Req was made 
+12.1.2023, 20:16:58 - DEBUG - Getting Toys 
+12.1.2023, 20:16:58 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:16:58 - INFO - Req was made 
+12.1.2023, 20:16:58 - DEBUG - Getting Toys 
+12.1.2023, 20:16:58 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:16:58 - INFO - Req was made 
+12.1.2023, 20:16:58 - DEBUG - Getting Toys 
+12.1.2023, 20:16:58 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:16:58 - INFO - Req was made 
+12.1.2023, 20:16:58 - DEBUG - Getting Toys 
+12.1.2023, 20:16:58 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:18:08 - INFO - Server is running on port: 3030 
+12.1.2023, 20:18:12 - INFO - Server is running on port: 3030 
+12.1.2023, 20:18:14 - INFO - Server is running on port: 3030 
+12.1.2023, 20:18:27 - INFO - Server is running on port: 3030 
+12.1.2023, 20:18:28 - INFO - Req was made 
+12.1.2023, 20:18:28 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:18:28 - DEBUG - Getting Toys 
+12.1.2023, 20:18:28 - INFO - Req was made 
+12.1.2023, 20:18:28 - DEBUG - Getting Toys 
+12.1.2023, 20:18:28 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:18:28 - INFO - Req was made 
+12.1.2023, 20:18:28 - DEBUG - Getting Toys 
+12.1.2023, 20:18:28 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:18:28 - INFO - Req was made 
+12.1.2023, 20:18:28 - DEBUG - Getting Toys 
+12.1.2023, 20:18:28 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:18:28 - DEBUG - Getting Toys 
+12.1.2023, 20:18:28 - INFO - Req was made 
+12.1.2023, 20:18:28 - ERROR - Failed to get toys | SyntaxError: Unexpected token o in JSON at position 1 
+12.1.2023, 20:18:44 - INFO - Server is running on port: 3030 
+12.1.2023, 20:21:31 - INFO - Server is running on port: 3030 
+12.1.2023, 20:21:33 - INFO - Server is running on port: 3030 
+12.1.2023, 20:21:35 - INFO - Req was made 
+12.1.2023, 20:21:35 - DEBUG - Getting Toys 
+12.1.2023, 20:21:35 - INFO - Req was made 
+12.1.2023, 20:21:35 - DEBUG - Getting Toys 
+12.1.2023, 20:21:35 - INFO - Req was made 
+12.1.2023, 20:21:35 - DEBUG - Getting Toys 
+12.1.2023, 20:21:35 - DEBUG - Getting Toys 
+12.1.2023, 20:21:35 - INFO - Req was made 
+12.1.2023, 20:21:35 - INFO - Req was made 
+12.1.2023, 20:21:35 - DEBUG - Getting Toys 
+12.1.2023, 20:21:47 - INFO - Req was made 
+12.1.2023, 20:21:47 - DEBUG - Getting Toys 
+12.1.2023, 20:21:47 - INFO - Req was made 
+12.1.2023, 20:21:47 - DEBUG - Getting Toys 
+12.1.2023, 20:21:47 - INFO - Req was made 
+12.1.2023, 20:21:47 - DEBUG - Getting Toys 
+12.1.2023, 20:21:47 - INFO - Req was made 
+12.1.2023, 20:21:47 - DEBUG - Getting Toys 
+12.1.2023, 20:21:47 - INFO - Req was made 
+12.1.2023, 20:21:47 - DEBUG - Getting Toys 
+12.1.2023, 20:22:18 - INFO - Server is running on port: 3030 
+12.1.2023, 20:22:18 - INFO - Req was made 
+12.1.2023, 20:22:18 - DEBUG - Getting Toys 
+12.1.2023, 20:22:18 - INFO - Req was made 
+12.1.2023, 20:22:18 - DEBUG - Getting Toys 
+12.1.2023, 20:22:21 - INFO - Req was made 
+12.1.2023, 20:22:21 - DEBUG - Getting Toys 
+12.1.2023, 20:22:21 - INFO - Req was made 
+12.1.2023, 20:22:21 - DEBUG - Getting Toys 
+12.1.2023, 20:22:24 - INFO - Req was made 
+12.1.2023, 20:22:24 - DEBUG - Getting Toys 
+12.1.2023, 20:22:24 - INFO - Req was made 
+12.1.2023, 20:22:24 - DEBUG - Getting Toys 
+12.1.2023, 20:22:25 - INFO - Req was made 
+12.1.2023, 20:22:25 - DEBUG - Getting Toys 
+12.1.2023, 20:22:25 - INFO - Req was made 
+12.1.2023, 20:22:25 - DEBUG - Getting Toys 
+12.1.2023, 20:22:27 - INFO - Req was made 
+12.1.2023, 20:22:27 - DEBUG - Getting Toys 
+12.1.2023, 20:22:27 - INFO - Req was made 
+12.1.2023, 20:22:27 - DEBUG - Getting Toys 
+12.1.2023, 20:22:28 - INFO - Req was made 
+12.1.2023, 20:22:28 - DEBUG - Getting Toys 
+12.1.2023, 20:22:28 - INFO - Req was made 
+12.1.2023, 20:22:28 - DEBUG - Getting Toys 
+12.1.2023, 20:22:29 - INFO - Req was made 
+12.1.2023, 20:22:29 - DEBUG - Getting Toys 
+12.1.2023, 20:22:29 - INFO - Req was made 
+12.1.2023, 20:22:29 - DEBUG - Getting Toys 
+12.1.2023, 20:22:33 - INFO - Req was made 
+12.1.2023, 20:22:33 - DEBUG - Getting Toys 
+12.1.2023, 20:22:33 - INFO - Req was made 
+12.1.2023, 20:22:33 - DEBUG - Getting Toys 
+12.1.2023, 20:22:34 - DEBUG - Getting Toys 
+12.1.2023, 20:22:34 - INFO - Req was made 
+12.1.2023, 20:22:34 - INFO - Req was made 
+12.1.2023, 20:22:34 - DEBUG - Getting Toys 
+12.1.2023, 20:22:37 - INFO - Req was made 
+12.1.2023, 20:22:37 - DEBUG - Getting Toys 
+12.1.2023, 20:22:37 - INFO - Req was made 
+12.1.2023, 20:22:37 - DEBUG - Getting Toys 
+12.1.2023, 20:22:43 - INFO - Req was made 
+12.1.2023, 20:22:43 - DEBUG - Getting Toys 
+12.1.2023, 20:22:43 - INFO - Req was made 
+12.1.2023, 20:22:43 - DEBUG - Getting Toys 
+12.1.2023, 20:22:46 - INFO - Req was made 
+12.1.2023, 20:22:46 - DEBUG - Getting Toys 
+12.1.2023, 20:22:46 - INFO - Req was made 
+12.1.2023, 20:22:46 - DEBUG - Getting Toys 
+12.1.2023, 20:22:51 - INFO - Req was made 
+12.1.2023, 20:22:51 - DEBUG - Getting Toys 
+12.1.2023, 20:22:51 - DEBUG - Getting Toys 
+12.1.2023, 20:22:51 - INFO - Req was made 
+12.1.2023, 20:22:54 - INFO - Req was made 
+12.1.2023, 20:22:54 - DEBUG - Getting Toys 
+12.1.2023, 20:22:54 - INFO - Req was made 
+12.1.2023, 20:22:54 - DEBUG - Getting Toys 
+12.1.2023, 20:22:55 - INFO - Req was made 
+12.1.2023, 20:22:55 - DEBUG - Getting Toys 
+12.1.2023, 20:22:55 - INFO - Req was made 
+12.1.2023, 20:22:55 - DEBUG - Getting Toys 
+12.1.2023, 20:23:17 - INFO - Server is running on port: 3030 
+12.1.2023, 20:23:23 - INFO - Server is running on port: 3030 
+12.1.2023, 20:23:24 - INFO - Req was made 
+12.1.2023, 20:23:24 - DEBUG - Getting Toys 
+12.1.2023, 20:23:24 - INFO - Req was made 
+12.1.2023, 20:23:24 - DEBUG - Getting Toys 
+12.1.2023, 20:23:24 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 20:23:24 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 20:23:24 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:23:24 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:23:24 - INFO - Req was made 
+12.1.2023, 20:23:24 - DEBUG - Getting Toys 
+12.1.2023, 20:23:24 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:23:24 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:23:24 - INFO - Req was made 
+12.1.2023, 20:23:24 - DEBUG - Getting Toys 
+12.1.2023, 20:23:24 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:23:24 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:23:24 - DEBUG - Getting Toys 
+12.1.2023, 20:23:24 - INFO - Req was made 
+12.1.2023, 20:23:24 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:23:24 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:23:46 - INFO - Server is running on port: 3030 
+12.1.2023, 20:23:51 - INFO - Server is running on port: 3030 
+12.1.2023, 20:23:51 - INFO - Req was made 
+12.1.2023, 20:23:51 - DEBUG - Getting Toys 
+12.1.2023, 20:23:51 - INFO - Req was made 
+12.1.2023, 20:23:51 - DEBUG - Getting Toys 
+12.1.2023, 20:23:51 - INFO - Req was made 
+12.1.2023, 20:23:51 - DEBUG - Getting Toys 
+12.1.2023, 20:23:51 - INFO - Req was made 
+12.1.2023, 20:23:51 - DEBUG - Getting Toys 
+12.1.2023, 20:23:51 - INFO - Req was made 
+12.1.2023, 20:23:51 - DEBUG - Getting Toys 
+12.1.2023, 20:24:17 - INFO - Req was made 
+12.1.2023, 20:24:17 - DEBUG - Getting Toys 
+12.1.2023, 20:24:17 - INFO - Req was made 
+12.1.2023, 20:24:17 - DEBUG - Getting Toys 
+12.1.2023, 20:24:17 - INFO - Req was made 
+12.1.2023, 20:24:17 - DEBUG - Getting Toys 
+12.1.2023, 20:24:17 - INFO - Req was made 
+12.1.2023, 20:24:17 - DEBUG - Getting Toys 
+12.1.2023, 20:24:17 - INFO - Req was made 
+12.1.2023, 20:24:17 - DEBUG - Getting Toys 
+12.1.2023, 20:24:32 - INFO - Server is running on port: 3030 
+12.1.2023, 20:24:37 - INFO - Server is running on port: 3030 
+12.1.2023, 20:24:55 - INFO - Server is running on port: 3030 
+12.1.2023, 20:24:56 - INFO - Req was made 
+12.1.2023, 20:24:56 - DEBUG - Getting Toys 
+12.1.2023, 20:24:56 - INFO - Req was made 
+12.1.2023, 20:24:56 - DEBUG - Getting Toys 
+12.1.2023, 20:24:56 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 20:24:56 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 20:24:56 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:24:56 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:24:56 - INFO - Req was made 
+12.1.2023, 20:24:56 - DEBUG - Getting Toys 
+12.1.2023, 20:24:56 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:24:56 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:24:57 - INFO - Req was made 
+12.1.2023, 20:24:57 - DEBUG - Getting Toys 
+12.1.2023, 20:24:57 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:24:57 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:24:57 - INFO - Req was made 
+12.1.2023, 20:24:57 - DEBUG - Getting Toys 
+12.1.2023, 20:24:57 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:24:57 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:25:03 - INFO - Server is running on port: 3030 
+12.1.2023, 20:25:11 - INFO - Server is running on port: 3030 
+12.1.2023, 20:25:11 - INFO - Req was made 
+12.1.2023, 20:25:11 - DEBUG - Getting Toys 
+12.1.2023, 20:25:11 - ERROR - cannot find toys | ReferenceError: toys is not defined 
+12.1.2023, 20:25:11 - ERROR - Failed to get toys | ReferenceError: toys is not defined 
+12.1.2023, 20:25:12 - INFO - Req was made 
+12.1.2023, 20:25:12 - DEBUG - Getting Toys 
+12.1.2023, 20:25:12 - ERROR - cannot find toys | ReferenceError: toys is not defined 
+12.1.2023, 20:25:12 - ERROR - Failed to get toys | ReferenceError: toys is not defined 
+12.1.2023, 20:25:12 - INFO - Req was made 
+12.1.2023, 20:25:12 - DEBUG - Getting Toys 
+12.1.2023, 20:25:12 - ERROR - cannot find toys | ReferenceError: toys is not defined 
+12.1.2023, 20:25:12 - ERROR - Failed to get toys | ReferenceError: toys is not defined 
+12.1.2023, 20:25:12 - INFO - Req was made 
+12.1.2023, 20:25:12 - DEBUG - Getting Toys 
+12.1.2023, 20:25:12 - ERROR - cannot find toys | ReferenceError: toys is not defined 
+12.1.2023, 20:25:12 - ERROR - Failed to get toys | ReferenceError: toys is not defined 
+12.1.2023, 20:25:12 - INFO - Req was made 
+12.1.2023, 20:25:12 - DEBUG - Getting Toys 
+12.1.2023, 20:25:12 - ERROR - cannot find toys | ReferenceError: toys is not defined 
+12.1.2023, 20:25:12 - ERROR - Failed to get toys | ReferenceError: toys is not defined 
+12.1.2023, 20:25:28 - INFO - Server is running on port: 3030 
+12.1.2023, 20:25:28 - INFO - Req was made 
+12.1.2023, 20:25:28 - DEBUG - Getting Toys 
+12.1.2023, 20:25:28 - INFO - Req was made 
+12.1.2023, 20:25:28 - DEBUG - Getting Toys 
+12.1.2023, 20:25:28 - ERROR - cannot find toys | ReferenceError: criteria is not defined 
+12.1.2023, 20:25:28 - ERROR - Failed to get toys | ReferenceError: criteria is not defined 
+12.1.2023, 20:25:28 - ERROR - cannot find toys | ReferenceError: criteria is not defined 
+12.1.2023, 20:25:28 - ERROR - Failed to get toys | ReferenceError: criteria is not defined 
+12.1.2023, 20:25:28 - INFO - Req was made 
+12.1.2023, 20:25:28 - DEBUG - Getting Toys 
+12.1.2023, 20:25:28 - ERROR - cannot find toys | ReferenceError: criteria is not defined 
+12.1.2023, 20:25:28 - ERROR - Failed to get toys | ReferenceError: criteria is not defined 
+12.1.2023, 20:25:28 - INFO - Req was made 
+12.1.2023, 20:25:28 - DEBUG - Getting Toys 
+12.1.2023, 20:25:28 - ERROR - cannot find toys | ReferenceError: criteria is not defined 
+12.1.2023, 20:25:28 - ERROR - Failed to get toys | ReferenceError: criteria is not defined 
+12.1.2023, 20:25:28 - INFO - Req was made 
+12.1.2023, 20:25:28 - DEBUG - Getting Toys 
+12.1.2023, 20:25:28 - ERROR - cannot find toys | ReferenceError: criteria is not defined 
+12.1.2023, 20:25:28 - ERROR - Failed to get toys | ReferenceError: criteria is not defined 
+12.1.2023, 20:26:06 - INFO - Server is running on port: 3030 
+12.1.2023, 20:26:06 - INFO - Req was made 
+12.1.2023, 20:26:06 - DEBUG - Getting Toys 
+12.1.2023, 20:26:06 - INFO - Req was made 
+12.1.2023, 20:26:06 - DEBUG - Getting Toys 
+12.1.2023, 20:26:07 - ERROR - cannot find toys | ReferenceError: criteria is not defined 
+12.1.2023, 20:26:07 - ERROR - Failed to get toys | ReferenceError: criteria is not defined 
+12.1.2023, 20:26:07 - ERROR - cannot find toys | ReferenceError: criteria is not defined 
+12.1.2023, 20:26:07 - ERROR - Failed to get toys | ReferenceError: criteria is not defined 
+12.1.2023, 20:26:07 - INFO - Req was made 
+12.1.2023, 20:26:07 - ERROR - cannot find toys | ReferenceError: criteria is not defined 
+12.1.2023, 20:26:07 - DEBUG - Getting Toys 
+12.1.2023, 20:26:07 - ERROR - Failed to get toys | ReferenceError: criteria is not defined 
+12.1.2023, 20:26:07 - INFO - Req was made 
+12.1.2023, 20:26:07 - DEBUG - Getting Toys 
+12.1.2023, 20:26:07 - ERROR - Failed to get toys | ReferenceError: criteria is not defined 
+12.1.2023, 20:26:07 - ERROR - cannot find toys | ReferenceError: criteria is not defined 
+12.1.2023, 20:26:07 - INFO - Req was made 
+12.1.2023, 20:26:07 - DEBUG - Getting Toys 
+12.1.2023, 20:26:07 - ERROR - cannot find toys | ReferenceError: criteria is not defined 
+12.1.2023, 20:26:07 - ERROR - Failed to get toys | ReferenceError: criteria is not defined 
+12.1.2023, 20:26:23 - INFO - Server is running on port: 3030 
+12.1.2023, 20:26:28 - INFO - Server is running on port: 3030 
+12.1.2023, 20:26:29 - INFO - Req was made 
+12.1.2023, 20:26:29 - DEBUG - Getting Toys 
+12.1.2023, 20:26:29 - INFO - Req was made 
+12.1.2023, 20:26:29 - DEBUG - Getting Toys 
+12.1.2023, 20:26:29 - INFO - Req was made 
+12.1.2023, 20:26:29 - DEBUG - Getting Toys 
+12.1.2023, 20:26:29 - INFO - Req was made 
+12.1.2023, 20:26:29 - DEBUG - Getting Toys 
+12.1.2023, 20:26:29 - INFO - Req was made 
+12.1.2023, 20:26:29 - DEBUG - Getting Toys 
+12.1.2023, 20:26:32 - INFO - Req was made 
+12.1.2023, 20:26:32 - DEBUG - Getting Toys 
+12.1.2023, 20:26:32 - INFO - Req was made 
+12.1.2023, 20:26:32 - DEBUG - Getting Toys 
+12.1.2023, 20:26:32 - INFO - Req was made 
+12.1.2023, 20:26:32 - DEBUG - Getting Toys 
+12.1.2023, 20:26:32 - INFO - Req was made 
+12.1.2023, 20:26:32 - DEBUG - Getting Toys 
+12.1.2023, 20:26:32 - INFO - Req was made 
+12.1.2023, 20:26:32 - DEBUG - Getting Toys 
+12.1.2023, 20:26:39 - INFO - Req was made 
+12.1.2023, 20:26:39 - DEBUG - Getting Toys 
+12.1.2023, 20:26:39 - INFO - Req was made 
+12.1.2023, 20:26:39 - DEBUG - Getting Toys 
+12.1.2023, 20:26:42 - INFO - Req was made 
+12.1.2023, 20:26:42 - DEBUG - Getting Toys 
+12.1.2023, 20:26:42 - INFO - Req was made 
+12.1.2023, 20:26:42 - DEBUG - Getting Toys 
+12.1.2023, 20:26:43 - INFO - Req was made 
+12.1.2023, 20:26:43 - DEBUG - Getting Toys 
+12.1.2023, 20:26:43 - DEBUG - Getting Toys 
+12.1.2023, 20:26:43 - INFO - Req was made 
+12.1.2023, 20:26:44 - INFO - Req was made 
+12.1.2023, 20:26:44 - DEBUG - Getting Toys 
+12.1.2023, 20:26:44 - INFO - Req was made 
+12.1.2023, 20:26:44 - DEBUG - Getting Toys 
+12.1.2023, 20:26:49 - INFO - Req was made 
+12.1.2023, 20:26:49 - DEBUG - Getting Toys 
+12.1.2023, 20:26:49 - INFO - Req was made 
+12.1.2023, 20:26:49 - DEBUG - Getting Toys 
+12.1.2023, 20:26:53 - INFO - Req was made 
+12.1.2023, 20:26:53 - DEBUG - Getting Toys 
+12.1.2023, 20:26:53 - INFO - Req was made 
+12.1.2023, 20:26:53 - DEBUG - Getting Toys 
+12.1.2023, 20:27:09 - INFO - Server is running on port: 3030 
+12.1.2023, 20:27:11 - INFO - Server is running on port: 3030 
+12.1.2023, 20:27:24 - INFO - Server is running on port: 3030 
+12.1.2023, 20:27:25 - INFO - Req was made 
+12.1.2023, 20:27:25 - DEBUG - Getting Toys 
+12.1.2023, 20:27:25 - INFO - Req was made 
+12.1.2023, 20:27:25 - DEBUG - Getting Toys 
+12.1.2023, 20:27:25 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 20:27:25 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 20:27:25 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:27:25 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:27:25 - INFO - Req was made 
+12.1.2023, 20:27:25 - DEBUG - Getting Toys 
+12.1.2023, 20:27:25 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:27:25 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:27:25 - DEBUG - Getting Toys 
+12.1.2023, 20:27:25 - INFO - Req was made 
+12.1.2023, 20:27:25 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:27:25 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:27:25 - INFO - Req was made 
+12.1.2023, 20:27:25 - DEBUG - Getting Toys 
+12.1.2023, 20:27:25 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:27:25 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:27:43 - INFO - Server is running on port: 3030 
+12.1.2023, 20:27:45 - INFO - Server is running on port: 3030 
+12.1.2023, 20:27:45 - INFO - Req was made 
+12.1.2023, 20:27:45 - DEBUG - Getting Toys 
+12.1.2023, 20:27:46 - INFO - Req was made 
+12.1.2023, 20:27:46 - DEBUG - Getting Toys 
+12.1.2023, 20:27:46 - INFO - Req was made 
+12.1.2023, 20:27:46 - DEBUG - Getting Toys 
+12.1.2023, 20:27:46 - DEBUG - Getting Toys 
+12.1.2023, 20:27:46 - INFO - Req was made 
+12.1.2023, 20:27:46 - INFO - Req was made 
+12.1.2023, 20:27:46 - DEBUG - Getting Toys 
+12.1.2023, 20:27:51 - INFO - Req was made 
+12.1.2023, 20:27:51 - DEBUG - Getting Toys 
+12.1.2023, 20:27:51 - INFO - Req was made 
+12.1.2023, 20:27:51 - DEBUG - Getting Toys 
+12.1.2023, 20:27:51 - INFO - Req was made 
+12.1.2023, 20:27:51 - DEBUG - Getting Toys 
+12.1.2023, 20:27:51 - INFO - Req was made 
+12.1.2023, 20:27:51 - DEBUG - Getting Toys 
+12.1.2023, 20:27:51 - INFO - Req was made 
+12.1.2023, 20:27:51 - DEBUG - Getting Toys 
+12.1.2023, 20:28:02 - INFO - Server is running on port: 3030 
+12.1.2023, 20:28:02 - INFO - Req was made 
+12.1.2023, 20:28:02 - DEBUG - Getting Toys 
+12.1.2023, 20:28:02 - INFO - Req was made 
+12.1.2023, 20:28:02 - DEBUG - Getting Toys 
+12.1.2023, 20:28:02 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 20:28:02 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 20:28:02 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:28:02 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:28:02 - INFO - Req was made 
+12.1.2023, 20:28:02 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:28:02 - DEBUG - Getting Toys 
+12.1.2023, 20:28:02 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:28:02 - INFO - Req was made 
+12.1.2023, 20:28:02 - DEBUG - Getting Toys 
+12.1.2023, 20:28:02 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:28:02 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:28:02 - INFO - Req was made 
+12.1.2023, 20:28:02 - DEBUG - Getting Toys 
+12.1.2023, 20:28:02 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:28:02 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:33:08 - INFO - Server is running on port: 3030 
+12.1.2023, 20:33:11 - INFO - Req was made 
+12.1.2023, 20:33:11 - DEBUG - Getting Toys 
+12.1.2023, 20:33:11 - INFO - Req was made 
+12.1.2023, 20:33:11 - DEBUG - Getting Toys 
+12.1.2023, 20:33:11 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:33:11 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:33:11 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 20:33:11 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 20:33:11 - INFO - Req was made 
+12.1.2023, 20:33:11 - DEBUG - Getting Toys 
+12.1.2023, 20:33:11 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:33:11 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:33:11 - INFO - Req was made 
+12.1.2023, 20:33:11 - DEBUG - Getting Toys 
+12.1.2023, 20:33:11 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:33:11 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:33:11 - INFO - Req was made 
+12.1.2023, 20:33:11 - DEBUG - Getting Toys 
+12.1.2023, 20:33:11 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:33:11 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:33:29 - INFO - Server is running on port: 3030 
+12.1.2023, 20:33:29 - INFO - Req was made 
+12.1.2023, 20:33:29 - DEBUG - Getting Toys 
+12.1.2023, 20:33:29 - ERROR - cannot find toys | ReferenceError: collection is not defined 
+12.1.2023, 20:33:29 - ERROR - Failed to get toys | ReferenceError: collection is not defined 
+12.1.2023, 20:33:29 - INFO - Req was made 
+12.1.2023, 20:33:29 - DEBUG - Getting Toys 
+12.1.2023, 20:33:29 - ERROR - cannot find toys | ReferenceError: collection is not defined 
+12.1.2023, 20:33:29 - ERROR - Failed to get toys | ReferenceError: collection is not defined 
+12.1.2023, 20:33:29 - INFO - Req was made 
+12.1.2023, 20:33:29 - DEBUG - Getting Toys 
+12.1.2023, 20:33:29 - ERROR - cannot find toys | ReferenceError: collection is not defined 
+12.1.2023, 20:33:29 - ERROR - Failed to get toys | ReferenceError: collection is not defined 
+12.1.2023, 20:33:29 - INFO - Req was made 
+12.1.2023, 20:33:29 - DEBUG - Getting Toys 
+12.1.2023, 20:33:29 - ERROR - cannot find toys | ReferenceError: collection is not defined 
+12.1.2023, 20:33:29 - ERROR - Failed to get toys | ReferenceError: collection is not defined 
+12.1.2023, 20:33:29 - INFO - Req was made 
+12.1.2023, 20:33:29 - DEBUG - Getting Toys 
+12.1.2023, 20:33:29 - ERROR - cannot find toys | ReferenceError: collection is not defined 
+12.1.2023, 20:33:29 - ERROR - Failed to get toys | ReferenceError: collection is not defined 
+12.1.2023, 20:33:52 - INFO - Server is running on port: 3030 
+12.1.2023, 20:34:04 - INFO - Server is running on port: 3030 
+12.1.2023, 20:34:06 - INFO - Server is running on port: 3030 
+12.1.2023, 20:34:13 - INFO - Server is running on port: 3030 
+12.1.2023, 20:34:13 - INFO - Req was made 
+12.1.2023, 20:34:13 - DEBUG - Getting Toys 
+12.1.2023, 20:34:13 - ERROR - cannot find toys | ReferenceError: collection is not defined 
+12.1.2023, 20:34:13 - ERROR - Failed to get toys | ReferenceError: collection is not defined 
+12.1.2023, 20:34:13 - INFO - Req was made 
+12.1.2023, 20:34:13 - DEBUG - Getting Toys 
+12.1.2023, 20:34:13 - ERROR - cannot find toys | ReferenceError: collection is not defined 
+12.1.2023, 20:34:13 - ERROR - Failed to get toys | ReferenceError: collection is not defined 
+12.1.2023, 20:34:13 - INFO - Req was made 
+12.1.2023, 20:34:13 - DEBUG - Getting Toys 
+12.1.2023, 20:34:13 - ERROR - cannot find toys | ReferenceError: collection is not defined 
+12.1.2023, 20:34:13 - ERROR - Failed to get toys | ReferenceError: collection is not defined 
+12.1.2023, 20:34:13 - INFO - Req was made 
+12.1.2023, 20:34:13 - DEBUG - Getting Toys 
+12.1.2023, 20:34:13 - ERROR - cannot find toys | ReferenceError: collection is not defined 
+12.1.2023, 20:34:13 - ERROR - Failed to get toys | ReferenceError: collection is not defined 
+12.1.2023, 20:34:13 - INFO - Req was made 
+12.1.2023, 20:34:13 - DEBUG - Getting Toys 
+12.1.2023, 20:34:13 - ERROR - cannot find toys | ReferenceError: collection is not defined 
+12.1.2023, 20:34:13 - ERROR - Failed to get toys | ReferenceError: collection is not defined 
+12.1.2023, 20:35:52 - INFO - Server is running on port: 3030 
+12.1.2023, 20:36:02 - INFO - Server is running on port: 3030 
+12.1.2023, 20:36:16 - INFO - Server is running on port: 3030 
+12.1.2023, 20:36:21 - INFO - Server is running on port: 3030 
+12.1.2023, 20:36:24 - INFO - Server is running on port: 3030 
+12.1.2023, 20:37:13 - INFO - Req was made 
+12.1.2023, 20:37:13 - DEBUG - Getting Toys 
+12.1.2023, 20:37:13 - ERROR - cannot find toys | ReferenceError: collection is not defined 
+12.1.2023, 20:37:13 - ERROR - Failed to get toys | ReferenceError: collection is not defined 
+12.1.2023, 20:37:13 - INFO - Req was made 
+12.1.2023, 20:37:13 - DEBUG - Getting Toys 
+12.1.2023, 20:37:13 - ERROR - cannot find toys | ReferenceError: collection is not defined 
+12.1.2023, 20:37:13 - ERROR - Failed to get toys | ReferenceError: collection is not defined 
+12.1.2023, 20:37:13 - INFO - Req was made 
+12.1.2023, 20:37:13 - DEBUG - Getting Toys 
+12.1.2023, 20:37:13 - ERROR - cannot find toys | ReferenceError: collection is not defined 
+12.1.2023, 20:37:13 - ERROR - Failed to get toys | ReferenceError: collection is not defined 
+12.1.2023, 20:37:13 - INFO - Req was made 
+12.1.2023, 20:37:13 - ERROR - cannot find toys | ReferenceError: collection is not defined 
+12.1.2023, 20:37:13 - ERROR - Failed to get toys | ReferenceError: collection is not defined 
+12.1.2023, 20:37:13 - DEBUG - Getting Toys 
+12.1.2023, 20:37:13 - INFO - Req was made 
+12.1.2023, 20:37:13 - ERROR - Failed to get toys | ReferenceError: collection is not defined 
+12.1.2023, 20:37:13 - DEBUG - Getting Toys 
+12.1.2023, 20:37:13 - ERROR - cannot find toys | ReferenceError: collection is not defined 
+12.1.2023, 20:37:25 - INFO - Server is running on port: 3030 
+12.1.2023, 20:37:25 - INFO - Req was made 
+12.1.2023, 20:37:25 - DEBUG - Getting Toys 
+12.1.2023, 20:37:25 - INFO - Req was made 
+12.1.2023, 20:37:25 - DEBUG - Getting Toys 
+12.1.2023, 20:37:25 - INFO - Req was made 
+12.1.2023, 20:37:25 - DEBUG - Getting Toys 
+12.1.2023, 20:37:26 - INFO - Req was made 
+12.1.2023, 20:37:26 - DEBUG - Getting Toys 
+12.1.2023, 20:37:26 - INFO - Req was made 
+12.1.2023, 20:37:26 - DEBUG - Getting Toys 
+12.1.2023, 20:37:29 - DEBUG - Getting Toys 
+12.1.2023, 20:37:29 - INFO - Req was made 
+12.1.2023, 20:37:29 - INFO - Req was made 
+12.1.2023, 20:37:29 - DEBUG - Getting Toys 
+12.1.2023, 20:37:32 - INFO - Req was made 
+12.1.2023, 20:37:32 - DEBUG - Getting Toys 
+12.1.2023, 20:37:32 - INFO - Req was made 
+12.1.2023, 20:37:32 - DEBUG - Getting Toys 
+12.1.2023, 20:37:33 - DEBUG - Getting Toys 
+12.1.2023, 20:37:33 - INFO - Req was made 
+12.1.2023, 20:37:33 - INFO - Req was made 
+12.1.2023, 20:37:33 - DEBUG - Getting Toys 
+12.1.2023, 20:37:38 - INFO - Req was made 
+12.1.2023, 20:37:38 - DEBUG - Getting Toys 
+12.1.2023, 20:37:38 - INFO - Req was made 
+12.1.2023, 20:37:38 - DEBUG - Getting Toys 
+12.1.2023, 20:39:15 - INFO - Server is running on port: 3030 
+12.1.2023, 20:39:19 - INFO - Server is running on port: 3030 
+12.1.2023, 20:39:24 - INFO - Server is running on port: 3030 
+12.1.2023, 20:39:26 - INFO - Server is running on port: 3030 
+12.1.2023, 20:39:45 - INFO - Req was made 
+12.1.2023, 20:39:45 - DEBUG - Getting Toys 
+12.1.2023, 20:39:45 - INFO - Req was made 
+12.1.2023, 20:39:45 - DEBUG - Getting Toys 
+12.1.2023, 20:39:45 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:39:45 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:39:45 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 20:39:45 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 20:39:45 - INFO - Req was made 
+12.1.2023, 20:39:45 - DEBUG - Getting Toys 
+12.1.2023, 20:39:45 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:39:45 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:39:45 - INFO - Req was made 
+12.1.2023, 20:39:45 - DEBUG - Getting Toys 
+12.1.2023, 20:39:45 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:39:45 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:39:45 - INFO - Req was made 
+12.1.2023, 20:39:45 - DEBUG - Getting Toys 
+12.1.2023, 20:39:45 - ERROR - cannot find toys | MongoError: unknown operator: $split 
+12.1.2023, 20:39:45 - ERROR - Failed to get toys | MongoError: unknown operator: $split 
+12.1.2023, 20:42:43 - INFO - Server is running on port: 3030 
+12.1.2023, 20:42:49 - INFO - Server is running on port: 3030 
+12.1.2023, 20:42:50 - INFO - Req was made 
+12.1.2023, 20:42:50 - DEBUG - Getting Toys 
+12.1.2023, 20:42:50 - INFO - Req was made 
+12.1.2023, 20:42:50 - DEBUG - Getting Toys 
+12.1.2023, 20:42:51 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 20:42:51 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 20:42:51 - INFO - Req was made 
+12.1.2023, 20:42:51 - DEBUG - Getting Toys 
+12.1.2023, 20:42:51 - INFO - Req was made 
+12.1.2023, 20:42:51 - DEBUG - Getting Toys 
+12.1.2023, 20:42:51 - INFO - Req was made 
+12.1.2023, 20:42:51 - DEBUG - Getting Toys 
+12.1.2023, 20:43:00 - INFO - Req was made 
+12.1.2023, 20:43:00 - DEBUG - Getting Toys 
+12.1.2023, 20:43:00 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 20:43:00 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 20:43:00 - INFO - Req was made 
+12.1.2023, 20:43:00 - DEBUG - Getting Toys 
+12.1.2023, 20:43:01 - INFO - Req was made 
+12.1.2023, 20:43:01 - DEBUG - Getting Toys 
+12.1.2023, 20:43:01 - DEBUG - Getting Toys 
+12.1.2023, 20:43:01 - INFO - Req was made 
+12.1.2023, 20:43:01 - INFO - Req was made 
+12.1.2023, 20:43:01 - DEBUG - Getting Toys 
+12.1.2023, 20:43:18 - INFO - Server is running on port: 3030 
+12.1.2023, 20:43:18 - INFO - Req was made 
+12.1.2023, 20:43:18 - DEBUG - Getting Toys 
+12.1.2023, 20:43:18 - INFO - Req was made 
+12.1.2023, 20:43:18 - DEBUG - Getting Toys 
+12.1.2023, 20:43:18 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 20:43:18 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 20:43:18 - INFO - Req was made 
+12.1.2023, 20:43:18 - DEBUG - Getting Toys 
+12.1.2023, 20:43:18 - INFO - Req was made 
+12.1.2023, 20:43:18 - DEBUG - Getting Toys 
+12.1.2023, 20:43:18 - INFO - Req was made 
+12.1.2023, 20:43:18 - DEBUG - Getting Toys 
+12.1.2023, 20:43:23 - INFO - Server is running on port: 3030 
+12.1.2023, 20:45:57 - INFO - Server is running on port: 3030 
+12.1.2023, 20:45:57 - INFO - Req was made 
+12.1.2023, 20:45:57 - DEBUG - Getting Toys 
+12.1.2023, 20:45:57 - DEBUG - Getting Toys 
+12.1.2023, 20:45:57 - INFO - Req was made 
+12.1.2023, 20:45:57 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 20:45:57 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 20:45:57 - INFO - Req was made 
+12.1.2023, 20:45:57 - DEBUG - Getting Toys 
+12.1.2023, 20:45:57 - INFO - Req was made 
+12.1.2023, 20:45:57 - DEBUG - Getting Toys 
+12.1.2023, 20:45:57 - INFO - Req was made 
+12.1.2023, 20:45:57 - DEBUG - Getting Toys 
+12.1.2023, 20:46:23 - INFO - Server is running on port: 3030 
+12.1.2023, 20:46:23 - INFO - Req was made 
+12.1.2023, 20:46:23 - DEBUG - Getting Toys 
+12.1.2023, 20:46:23 - INFO - Req was made 
+12.1.2023, 20:46:23 - DEBUG - Getting Toys 
+12.1.2023, 20:46:23 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 20:46:23 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 20:46:23 - INFO - Req was made 
+12.1.2023, 20:46:23 - DEBUG - Getting Toys 
+12.1.2023, 20:46:23 - INFO - Req was made 
+12.1.2023, 20:46:23 - DEBUG - Getting Toys 
+12.1.2023, 20:46:23 - INFO - Req was made 
+12.1.2023, 20:46:23 - DEBUG - Getting Toys 
+12.1.2023, 20:47:50 - INFO - Req was made 
+12.1.2023, 20:47:50 - DEBUG - Getting Toys 
+12.1.2023, 20:47:50 - INFO - Req was made 
+12.1.2023, 20:47:50 - DEBUG - Getting Toys 
+12.1.2023, 20:47:54 - DEBUG - Getting Toys 
+12.1.2023, 20:47:54 - INFO - Req was made 
+12.1.2023, 20:47:54 - INFO - Req was made 
+12.1.2023, 20:47:54 - DEBUG - Getting Toys 
+12.1.2023, 20:47:57 - INFO - Req was made 
+12.1.2023, 20:47:57 - DEBUG - Getting Toys 
+12.1.2023, 20:47:57 - INFO - Req was made 
+12.1.2023, 20:47:57 - DEBUG - Getting Toys 
+12.1.2023, 20:48:00 - INFO - Req was made 
+12.1.2023, 20:48:00 - DEBUG - Getting Toys 
+12.1.2023, 20:48:00 - INFO - Req was made 
+12.1.2023, 20:48:00 - DEBUG - Getting Toys 
+12.1.2023, 20:48:01 - INFO - Req was made 
+12.1.2023, 20:48:01 - DEBUG - Getting Toys 
+12.1.2023, 20:48:02 - INFO - Req was made 
+12.1.2023, 20:48:02 - DEBUG - Getting Toys 
+12.1.2023, 20:48:03 - INFO - Req was made 
+12.1.2023, 20:48:03 - DEBUG - Getting Toys 
+12.1.2023, 20:48:03 - INFO - Req was made 
+12.1.2023, 20:48:03 - DEBUG - Getting Toys 
+12.1.2023, 20:48:05 - INFO - Req was made 
+12.1.2023, 20:48:05 - DEBUG - Getting Toys 
+12.1.2023, 20:48:05 - INFO - Req was made 
+12.1.2023, 20:48:05 - DEBUG - Getting Toys 
+12.1.2023, 20:48:05 - INFO - Req was made 
+12.1.2023, 20:48:05 - DEBUG - Getting Toys 
+12.1.2023, 20:48:05 - INFO - Req was made 
+12.1.2023, 20:48:05 - DEBUG - Getting Toys 
+12.1.2023, 20:48:07 - INFO - Req was made 
+12.1.2023, 20:48:07 - DEBUG - Getting Toys 
+12.1.2023, 20:48:07 - INFO - Req was made 
+12.1.2023, 20:48:07 - DEBUG - Getting Toys 
+12.1.2023, 20:48:10 - INFO - Req was made 
+12.1.2023, 20:48:10 - DEBUG - Getting Toys 
+12.1.2023, 20:48:10 - INFO - Req was made 
+12.1.2023, 20:48:10 - DEBUG - Getting Toys 
+12.1.2023, 20:48:21 - INFO - Server is running on port: 3030 
+12.1.2023, 20:48:37 - INFO - Server is running on port: 3030 
+12.1.2023, 20:48:38 - INFO - Req was made 
+12.1.2023, 20:48:38 - DEBUG - Getting Toys 
+12.1.2023, 20:48:38 - DEBUG - Getting Toys 
+12.1.2023, 20:48:38 - INFO - Req was made 
+12.1.2023, 20:48:38 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 20:48:38 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 20:48:39 - INFO - Req was made 
+12.1.2023, 20:48:39 - DEBUG - Getting Toys 
+12.1.2023, 20:48:39 - INFO - Req was made 
+12.1.2023, 20:48:39 - DEBUG - Getting Toys 
+12.1.2023, 20:48:39 - INFO - Req was made 
+12.1.2023, 20:48:39 - DEBUG - Getting Toys 
+12.1.2023, 20:48:42 - INFO - Req was made 
+12.1.2023, 20:48:42 - DEBUG - Getting Toys 
+12.1.2023, 20:48:43 - INFO - Req was made 
+12.1.2023, 20:48:43 - DEBUG - Getting Toys 
+12.1.2023, 20:48:45 - INFO - Req was made 
+12.1.2023, 20:48:45 - DEBUG - Getting Toys 
+12.1.2023, 20:48:45 - INFO - Req was made 
+12.1.2023, 20:48:45 - DEBUG - Getting Toys 
+12.1.2023, 20:48:45 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 20:48:45 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 20:48:45 - INFO - Req was made 
+12.1.2023, 20:48:45 - DEBUG - Getting Toys 
+12.1.2023, 20:48:45 - INFO - Req was made 
+12.1.2023, 20:48:45 - DEBUG - Getting Toys 
+12.1.2023, 20:48:45 - INFO - Req was made 
+12.1.2023, 20:48:45 - DEBUG - Getting Toys 
+12.1.2023, 20:48:47 - INFO - Req was made 
+12.1.2023, 20:48:47 - DEBUG - Getting Toys 
+12.1.2023, 20:48:47 - INFO - Req was made 
+12.1.2023, 20:48:47 - DEBUG - Getting Toys 
+12.1.2023, 20:48:47 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 20:48:47 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 20:48:47 - INFO - Req was made 
+12.1.2023, 20:48:47 - DEBUG - Getting Toys 
+12.1.2023, 20:48:47 - INFO - Req was made 
+12.1.2023, 20:48:47 - DEBUG - Getting Toys 
+12.1.2023, 20:48:47 - INFO - Req was made 
+12.1.2023, 20:48:47 - DEBUG - Getting Toys 
+12.1.2023, 20:48:55 - INFO - Server is running on port: 3030 
+12.1.2023, 20:48:58 - INFO - Server is running on port: 3030 
+12.1.2023, 20:49:05 - INFO - Req was made 
+12.1.2023, 20:49:05 - DEBUG - Getting Toys 
+12.1.2023, 20:49:05 - INFO - Req was made 
+12.1.2023, 20:49:05 - DEBUG - Getting Toys 
+12.1.2023, 20:49:09 - INFO - Req was made 
+12.1.2023, 20:49:09 - DEBUG - Getting Toys 
+12.1.2023, 20:49:09 - INFO - Req was made 
+12.1.2023, 20:49:09 - DEBUG - Getting Toys 
+12.1.2023, 20:49:20 - INFO - Server is running on port: 3030 
+12.1.2023, 20:49:22 - INFO - Server is running on port: 3030 
+12.1.2023, 20:49:24 - INFO - Server is running on port: 3030 
+12.1.2023, 20:49:27 - INFO - Server is running on port: 3030 
+12.1.2023, 20:49:30 - INFO - Server is running on port: 3030 
+12.1.2023, 20:49:32 - INFO - Server is running on port: 3030 
+12.1.2023, 20:49:41 - INFO - Server is running on port: 3030 
+12.1.2023, 20:49:43 - INFO - Server is running on port: 3030 
+12.1.2023, 20:49:44 - INFO - Req was made 
+12.1.2023, 20:49:44 - DEBUG - Getting Toys 
+12.1.2023, 20:49:44 - DEBUG - Getting Toys 
+12.1.2023, 20:49:44 - INFO - Req was made 
+12.1.2023, 20:49:44 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 20:49:44 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 20:49:44 - INFO - Req was made 
+12.1.2023, 20:49:44 - DEBUG - Getting Toys 
+12.1.2023, 20:49:44 - INFO - Req was made 
+12.1.2023, 20:49:44 - DEBUG - Getting Toys 
+12.1.2023, 20:49:44 - INFO - Req was made 
+12.1.2023, 20:49:44 - DEBUG - Getting Toys 
+12.1.2023, 20:49:52 - INFO - Req was made 
+12.1.2023, 20:49:52 - DEBUG - Getting Toys 
+12.1.2023, 20:49:52 - INFO - Req was made 
+12.1.2023, 20:49:52 - DEBUG - Getting Toys 
+12.1.2023, 20:49:56 - INFO - Req was made 
+12.1.2023, 20:49:56 - DEBUG - Getting Toys 
+12.1.2023, 20:49:56 - DEBUG - Getting Toys 
+12.1.2023, 20:49:56 - INFO - Req was made 
+12.1.2023, 20:50:00 - INFO - Req was made 
+12.1.2023, 20:50:00 - DEBUG - Getting Toys 
+12.1.2023, 20:50:01 - INFO - Req was made 
+12.1.2023, 20:50:01 - DEBUG - Getting Toys 
+12.1.2023, 20:50:06 - INFO - Server is running on port: 3030 
+12.1.2023, 20:50:06 - INFO - Req was made 
+12.1.2023, 20:50:06 - DEBUG - Getting Toys 
+12.1.2023, 20:50:06 - INFO - Req was made 
+12.1.2023, 20:50:06 - DEBUG - Getting Toys 
+12.1.2023, 20:50:08 - INFO - Req was made 
+12.1.2023, 20:50:08 - DEBUG - Getting Toys 
+12.1.2023, 20:50:08 - INFO - Req was made 
+12.1.2023, 20:50:08 - DEBUG - Getting Toys 
+12.1.2023, 20:50:10 - INFO - Req was made 
+12.1.2023, 20:50:10 - DEBUG - Getting Toys 
+12.1.2023, 20:50:10 - INFO - Req was made 
+12.1.2023, 20:50:10 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 20:50:10 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 20:50:10 - DEBUG - Getting Toys 
+12.1.2023, 20:50:10 - DEBUG - Getting Toys 
+12.1.2023, 20:50:10 - INFO - Req was made 
+12.1.2023, 20:50:11 - INFO - Req was made 
+12.1.2023, 20:50:11 - DEBUG - Getting Toys 
+12.1.2023, 20:50:11 - DEBUG - Getting Toys 
+12.1.2023, 20:50:11 - INFO - Req was made 
+12.1.2023, 20:50:15 - INFO - Req was made 
+12.1.2023, 20:50:15 - DEBUG - Getting Toys 
+12.1.2023, 20:50:15 - INFO - Req was made 
+12.1.2023, 20:50:15 - DEBUG - Getting Toys 
+12.1.2023, 20:50:21 - INFO - Req was made 
+12.1.2023, 20:50:21 - DEBUG - Getting Toys 
+12.1.2023, 20:50:21 - INFO - Req was made 
+12.1.2023, 20:50:21 - DEBUG - Getting Toys 
+12.1.2023, 20:50:24 - INFO - Req was made 
+12.1.2023, 20:50:24 - DEBUG - Getting Toys 
+12.1.2023, 20:50:24 - INFO - Req was made 
+12.1.2023, 20:50:24 - DEBUG - Getting Toys 
+12.1.2023, 20:50:24 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 20:50:24 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 20:50:24 - INFO - Req was made 
+12.1.2023, 20:50:24 - DEBUG - Getting Toys 
+12.1.2023, 20:50:24 - DEBUG - Getting Toys 
+12.1.2023, 20:50:24 - INFO - Req was made 
+12.1.2023, 20:50:24 - INFO - Req was made 
+12.1.2023, 20:50:24 - DEBUG - Getting Toys 
+12.1.2023, 20:51:19 - DEBUG - Getting Toys 
+12.1.2023, 20:51:19 - INFO - Req was made 
+12.1.2023, 20:51:19 - INFO - Req was made 
+12.1.2023, 20:51:19 - DEBUG - Getting Toys 
+12.1.2023, 20:51:20 - INFO - Req was made 
+12.1.2023, 20:51:20 - DEBUG - Getting Toys 
+12.1.2023, 20:51:20 - INFO - Req was made 
+12.1.2023, 20:51:20 - DEBUG - Getting Toys 
+12.1.2023, 20:51:22 - INFO - Req was made 
+12.1.2023, 20:51:22 - DEBUG - Getting Toys 
+12.1.2023, 20:51:22 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 20:51:22 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 20:51:22 - DEBUG - Getting Toys 
+12.1.2023, 20:51:22 - INFO - Req was made 
+12.1.2023, 20:51:22 - INFO - Req was made 
+12.1.2023, 20:51:22 - DEBUG - Getting Toys 
+12.1.2023, 20:51:22 - INFO - Req was made 
+12.1.2023, 20:51:22 - DEBUG - Getting Toys 
+12.1.2023, 20:51:22 - INFO - Req was made 
+12.1.2023, 20:51:22 - DEBUG - Getting Toys 
+12.1.2023, 20:51:26 - INFO - Req was made 
+12.1.2023, 20:51:26 - DEBUG - Getting Toys 
+12.1.2023, 20:51:26 - INFO - Req was made 
+12.1.2023, 20:51:26 - DEBUG - Getting Toys 
+12.1.2023, 20:51:26 - INFO - Req was made 
+12.1.2023, 20:51:26 - DEBUG - Getting Toys 
+12.1.2023, 20:51:26 - INFO - Req was made 
+12.1.2023, 20:51:26 - DEBUG - Getting Toys 
+12.1.2023, 20:51:35 - INFO - Server is running on port: 3030 
+12.1.2023, 20:51:36 - INFO - Req was made 
+12.1.2023, 20:51:36 - DEBUG - Getting Toys 
+12.1.2023, 20:51:36 - INFO - Req was made 
+12.1.2023, 20:51:36 - DEBUG - Getting Toys 
+12.1.2023, 20:51:36 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 20:51:36 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 20:51:36 - INFO - Req was made 
+12.1.2023, 20:51:36 - DEBUG - Getting Toys 
+12.1.2023, 20:51:36 - INFO - Req was made 
+12.1.2023, 20:51:36 - DEBUG - Getting Toys 
+12.1.2023, 20:51:36 - INFO - Req was made 
+12.1.2023, 20:51:36 - DEBUG - Getting Toys 
+12.1.2023, 20:51:39 - INFO - Req was made 
+12.1.2023, 20:51:39 - DEBUG - Getting Toys 
+12.1.2023, 20:51:39 - INFO - Req was made 
+12.1.2023, 20:51:39 - DEBUG - Getting Toys 
+12.1.2023, 20:51:40 - INFO - Req was made 
+12.1.2023, 20:51:40 - DEBUG - Getting Toys 
+12.1.2023, 20:51:40 - INFO - Req was made 
+12.1.2023, 20:51:40 - DEBUG - Getting Toys 
+12.1.2023, 20:51:41 - INFO - Req was made 
+12.1.2023, 20:51:41 - DEBUG - Getting Toys 
+12.1.2023, 20:51:41 - INFO - Req was made 
+12.1.2023, 20:51:41 - DEBUG - Getting Toys 
+12.1.2023, 20:51:41 - INFO - Req was made 
+12.1.2023, 20:51:41 - DEBUG - Getting Toys 
+12.1.2023, 20:51:41 - INFO - Req was made 
+12.1.2023, 20:51:41 - DEBUG - Getting Toys 
+12.1.2023, 20:51:47 - INFO - Server is running on port: 3030 
+12.1.2023, 20:52:25 - INFO - Server is running on port: 3030 
+12.1.2023, 20:52:25 - INFO - Req was made 
+12.1.2023, 20:52:25 - DEBUG - Getting Toys 
+12.1.2023, 20:52:25 - INFO - Req was made 
+12.1.2023, 20:52:25 - DEBUG - Getting Toys 
+12.1.2023, 20:52:26 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 20:52:26 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 20:52:26 - INFO - Req was made 
+12.1.2023, 20:52:26 - DEBUG - Getting Toys 
+12.1.2023, 20:52:26 - INFO - Req was made 
+12.1.2023, 20:52:26 - DEBUG - Getting Toys 
+12.1.2023, 20:52:26 - INFO - Req was made 
+12.1.2023, 20:52:26 - DEBUG - Getting Toys 
+12.1.2023, 20:52:30 - INFO - Req was made 
+12.1.2023, 20:52:30 - DEBUG - Getting Toys 
+12.1.2023, 20:52:31 - INFO - Req was made 
+12.1.2023, 20:52:31 - DEBUG - Getting Toys 
+12.1.2023, 20:52:51 - INFO - Server is running on port: 3030 
+12.1.2023, 20:53:00 - INFO - Server is running on port: 3030 
+12.1.2023, 20:53:06 - INFO - Server is running on port: 3030 
+12.1.2023, 20:53:07 - INFO - Req was made 
+12.1.2023, 20:53:07 - DEBUG - Getting Toys 
+12.1.2023, 20:53:07 - INFO - Req was made 
+12.1.2023, 20:53:07 - DEBUG - Getting Toys 
+12.1.2023, 20:53:07 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 20:53:07 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 20:53:07 - INFO - Req was made 
+12.1.2023, 20:53:07 - DEBUG - Getting Toys 
+12.1.2023, 20:53:07 - INFO - Req was made 
+12.1.2023, 20:53:07 - DEBUG - Getting Toys 
+12.1.2023, 20:53:07 - INFO - Req was made 
+12.1.2023, 20:53:07 - DEBUG - Getting Toys 
+12.1.2023, 20:53:09 - INFO - Req was made 
+12.1.2023, 20:53:09 - DEBUG - Getting Toys 
+12.1.2023, 20:53:09 - INFO - Req was made 
+12.1.2023, 20:53:09 - DEBUG - Getting Toys 
+12.1.2023, 20:53:13 - INFO - Req was made 
+12.1.2023, 20:53:13 - DEBUG - Getting Toys 
+12.1.2023, 20:53:13 - INFO - Req was made 
+12.1.2023, 20:53:13 - DEBUG - Getting Toys 
+12.1.2023, 20:53:14 - INFO - Req was made 
+12.1.2023, 20:53:14 - DEBUG - Getting Toys 
+12.1.2023, 20:53:14 - INFO - Req was made 
+12.1.2023, 20:53:14 - DEBUG - Getting Toys 
+12.1.2023, 20:53:21 - INFO - Req was made 
+12.1.2023, 20:53:21 - DEBUG - Getting Toys 
+12.1.2023, 20:53:21 - INFO - Req was made 
+12.1.2023, 20:53:21 - DEBUG - Getting Toys 
+12.1.2023, 20:53:24 - INFO - Req was made 
+12.1.2023, 20:53:24 - DEBUG - Getting Toys 
+12.1.2023, 20:53:24 - INFO - Req was made 
+12.1.2023, 20:53:24 - DEBUG - Getting Toys 
+12.1.2023, 20:53:27 - INFO - Req was made 
+12.1.2023, 20:53:27 - DEBUG - Getting Toys 
+12.1.2023, 20:53:27 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 20:53:27 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 20:53:27 - INFO - Req was made 
+12.1.2023, 20:53:27 - DEBUG - Getting Toys 
+12.1.2023, 20:53:27 - INFO - Req was made 
+12.1.2023, 20:53:27 - DEBUG - Getting Toys 
+12.1.2023, 20:53:28 - DEBUG - Getting Toys 
+12.1.2023, 20:53:28 - INFO - Req was made 
+12.1.2023, 20:53:28 - INFO - Req was made 
+12.1.2023, 20:53:28 - DEBUG - Getting Toys 
+12.1.2023, 20:58:36 - INFO - Server is running on port: 3030 
+12.1.2023, 20:58:37 - INFO - Req was made 
+12.1.2023, 20:58:37 - DEBUG - Getting Toys 
+12.1.2023, 20:58:37 - INFO - Req was made 
+12.1.2023, 20:58:37 - DEBUG - Getting Toys 
+12.1.2023, 20:58:37 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 20:58:37 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 20:58:37 - INFO - Req was made 
+12.1.2023, 20:58:37 - DEBUG - Getting Toys 
+12.1.2023, 20:58:37 - INFO - Req was made 
+12.1.2023, 20:58:37 - DEBUG - Getting Toys 
+12.1.2023, 20:58:37 - INFO - Req was made 
+12.1.2023, 20:58:37 - DEBUG - Getting Toys 
+12.1.2023, 21:01:55 - INFO - Req was made 
+12.1.2023, 21:01:55 - DEBUG - Getting Toys 
+12.1.2023, 21:01:55 - INFO - Req was made 
+12.1.2023, 21:01:55 - DEBUG - Getting Toys 
+12.1.2023, 21:01:55 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 21:01:55 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 21:01:55 - INFO - Req was made 
+12.1.2023, 21:01:55 - DEBUG - Getting Toys 
+12.1.2023, 21:01:56 - INFO - Req was made 
+12.1.2023, 21:01:56 - DEBUG - Getting Toys 
+12.1.2023, 21:01:56 - INFO - Req was made 
+12.1.2023, 21:01:56 - DEBUG - Getting Toys 
+12.1.2023, 21:04:24 - INFO - Req was made 
+12.1.2023, 21:04:24 - DEBUG - Getting Toys 
+12.1.2023, 21:04:24 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 21:04:24 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 21:04:24 - INFO - Req was made 
+12.1.2023, 21:04:24 - DEBUG - Getting Toys 
+12.1.2023, 21:04:24 - INFO - Req was made 
+12.1.2023, 21:04:24 - DEBUG - Getting Toys 
+12.1.2023, 21:04:24 - INFO - Req was made 
+12.1.2023, 21:04:24 - DEBUG - Getting Toys 
+12.1.2023, 21:04:24 - INFO - Req was made 
+12.1.2023, 21:04:24 - DEBUG - Getting Toys 
+12.1.2023, 21:07:55 - INFO - Req was made 
+12.1.2023, 21:07:55 - DEBUG - Getting Toys 
+12.1.2023, 21:07:55 - INFO - Req was made 
+12.1.2023, 21:07:55 - DEBUG - Getting Toys 
+12.1.2023, 21:07:55 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 21:07:55 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 21:07:55 - INFO - Req was made 
+12.1.2023, 21:07:55 - DEBUG - Getting Toys 
+12.1.2023, 21:07:55 - INFO - Req was made 
+12.1.2023, 21:07:55 - DEBUG - Getting Toys 
+12.1.2023, 21:07:56 - INFO - Req was made 
+12.1.2023, 21:07:56 - DEBUG - Getting Toys 
+12.1.2023, 21:10:39 - INFO - Req was made 
+12.1.2023, 21:10:39 - DEBUG - Getting Toys 
+12.1.2023, 21:10:39 - ERROR - cannot find toys | TypeError: Cannot read properties of undefined (reading 'name') 
+12.1.2023, 21:10:39 - ERROR - Failed to get toys | TypeError: Cannot read properties of undefined (reading 'name') 
+12.1.2023, 21:10:39 - DEBUG - Getting Toys 
+12.1.2023, 21:10:39 - INFO - Req was made 
+12.1.2023, 21:10:39 - INFO - Req was made 
+12.1.2023, 21:10:39 - DEBUG - Getting Toys 
+12.1.2023, 21:10:39 - INFO - Req was made 
+12.1.2023, 21:10:39 - DEBUG - Getting Toys 
+12.1.2023, 21:10:39 - INFO - Req was made 
+12.1.2023, 21:10:39 - DEBUG - Getting Toys 
+12.1.2023, 21:11:07 - INFO - Req was made 
+12.1.2023, 21:11:07 - DEBUG - Getting Toys 
+12.1.2023, 21:11:07 - INFO - Req was made 
+12.1.2023, 21:11:07 - DEBUG - Getting Toys 
+12.1.2023, 21:11:16 - INFO - Req was made 
+12.1.2023, 21:11:16 - DEBUG - Getting Toys 
+12.1.2023, 21:11:16 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+12.1.2023, 21:11:16 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+12.1.2023, 21:11:16 - INFO - Req was made 
+12.1.2023, 21:11:16 - DEBUG - Getting Toys 
+12.1.2023, 21:11:16 - INFO - Req was made 
+12.1.2023, 21:11:16 - DEBUG - Getting Toys 
+12.1.2023, 21:11:17 - INFO - Req was made 
+12.1.2023, 21:11:17 - DEBUG - Getting Toys 
+12.1.2023, 21:11:17 - INFO - Req was made 
+12.1.2023, 21:11:17 - DEBUG - Getting Toys 
+12.1.2023, 21:13:07 - INFO - Req was made 
+12.1.2023, 21:13:07 - DEBUG - Getting Toys 
+12.1.2023, 21:13:07 - INFO - Req was made 
+12.1.2023, 21:13:07 - DEBUG - Getting Toys 
+12.1.2023, 21:13:08 - INFO - Req was made 
+12.1.2023, 21:13:08 - DEBUG - Getting Toys 
+12.1.2023, 21:13:13 - INFO - Req was made 
+12.1.2023, 21:13:13 - DEBUG - Getting Toys 
+12.1.2023, 21:13:14 - INFO - Req was made 
+12.1.2023, 21:13:14 - DEBUG - Getting Toys 
+12.1.2023, 21:13:21 - INFO - Req was made 
+12.1.2023, 21:13:21 - DEBUG - Getting Toys 
+12.1.2023, 21:13:26 - DEBUG - Getting Toys 
+12.1.2023, 21:13:26 - INFO - Req was made 
+12.1.2023, 21:13:30 - INFO - Req was made 
+12.1.2023, 21:13:30 - DEBUG - Getting Toys 
+12.1.2023, 21:13:35 - INFO - Req was made 
+12.1.2023, 21:13:35 - DEBUG - Getting Toys 
+12.1.2023, 21:13:37 - INFO - Req was made 
+12.1.2023, 21:13:37 - DEBUG - Getting Toys 
+12.1.2023, 21:13:38 - DEBUG - Getting Toys 
+12.1.2023, 21:13:38 - INFO - Req was made 
+12.1.2023, 21:13:41 - INFO - Req was made 
+12.1.2023, 21:13:41 - DEBUG - Getting Toys 
+12.1.2023, 21:13:41 - INFO - Req was made 
+12.1.2023, 21:13:42 - DEBUG - Getting Toys 
+12.1.2023, 21:13:43 - INFO - Req was made 
+12.1.2023, 21:13:43 - DEBUG - Getting Toys 
+12.1.2023, 21:13:43 - INFO - Req was made 
+12.1.2023, 21:13:43 - DEBUG - Getting Toys 
+12.1.2023, 21:13:49 - INFO - Req was made 
+12.1.2023, 21:13:49 - DEBUG - Getting Toys 
+12.1.2023, 21:13:49 - INFO - Req was made 
+12.1.2023, 21:13:49 - DEBUG - Getting Toys 
+12.1.2023, 21:13:49 - INFO - Req was made 
+12.1.2023, 21:13:49 - DEBUG - Getting Toys 
+12.1.2023, 21:14:13 - INFO - Req was made 
+12.1.2023, 21:14:13 - DEBUG - Getting Toys 
+12.1.2023, 21:14:13 - INFO - Req was made 
+12.1.2023, 21:14:13 - DEBUG - Getting Toys 
+12.1.2023, 21:14:13 - INFO - Req was made 
+12.1.2023, 21:14:13 - DEBUG - Getting Toys 
+12.1.2023, 21:20:37 - DEBUG - Getting Toys 
+12.1.2023, 21:20:37 - INFO - Req was made 
+12.1.2023, 21:20:37 - INFO - Req was made 
+12.1.2023, 21:20:37 - DEBUG - Getting Toys 
+12.1.2023, 21:20:37 - INFO - Req was made 
+12.1.2023, 21:20:37 - DEBUG - Getting Toys 
+12.1.2023, 21:21:00 - INFO - Req was made 
+12.1.2023, 21:21:00 - DEBUG - Getting Toys 
+12.1.2023, 21:21:00 - INFO - Req was made 
+12.1.2023, 21:21:00 - DEBUG - Getting Toys 
+12.1.2023, 21:21:00 - INFO - Req was made 
+12.1.2023, 21:21:00 - DEBUG - Getting Toys 
+12.1.2023, 21:32:31 - INFO - Req was made 
+12.1.2023, 21:32:31 - DEBUG - Getting Toys 
+12.1.2023, 21:32:31 - INFO - Req was made 
+12.1.2023, 21:32:31 - DEBUG - Getting Toys 
+12.1.2023, 21:32:32 - INFO - Req was made 
+12.1.2023, 21:32:32 - DEBUG - Getting Toys 
+12.1.2023, 21:54:10 - INFO - Req was made 
+12.1.2023, 21:54:10 - DEBUG - Getting Toys 
+12.1.2023, 21:54:10 - INFO - Req was made 
+12.1.2023, 21:54:10 - DEBUG - Getting Toys 
+12.1.2023, 21:54:10 - INFO - Req was made 
+12.1.2023, 21:54:10 - DEBUG - Getting Toys 
+12.1.2023, 21:59:55 - INFO - Req was made 
+12.1.2023, 21:59:55 - DEBUG - Getting Toys 
+12.1.2023, 21:59:55 - INFO - Req was made 
+12.1.2023, 21:59:55 - DEBUG - Getting Toys 
+12.1.2023, 21:59:55 - INFO - Req was made 
+12.1.2023, 21:59:55 - DEBUG - Getting Toys 
+12.1.2023, 22:01:02 - INFO - Req was made 
+12.1.2023, 22:01:02 - DEBUG - Getting Toys 
+12.1.2023, 22:01:02 - INFO - Req was made 
+12.1.2023, 22:01:02 - DEBUG - Getting Toys 
+12.1.2023, 22:01:02 - INFO - Req was made 
+12.1.2023, 22:01:02 - DEBUG - Getting Toys 
+12.1.2023, 22:01:41 - INFO - Req was made 
+12.1.2023, 22:01:41 - DEBUG - Getting Toys 
+12.1.2023, 22:01:42 - INFO - Req was made 
+12.1.2023, 22:01:42 - DEBUG - Getting Toys 
+12.1.2023, 22:01:42 - DEBUG - Getting Toys 
+12.1.2023, 22:01:42 - INFO - Req was made 
+12.1.2023, 22:02:07 - INFO - Req was made 
+12.1.2023, 22:02:07 - DEBUG - Getting Toys 
+12.1.2023, 22:04:43 - INFO - Req was made 
+12.1.2023, 22:04:43 - DEBUG - Getting Toys 
+12.1.2023, 22:04:43 - DEBUG - Getting Toys 
+12.1.2023, 22:04:43 - INFO - Req was made 
+12.1.2023, 22:04:43 - INFO - Req was made 
+12.1.2023, 22:04:43 - DEBUG - Getting Toys 
+12.1.2023, 22:14:45 - DEBUG - auth.service - login with username: moria 
+12.1.2023, 22:14:45 - ERROR - Failed to Login Invalid username or password 
+12.1.2023, 22:18:01 - DEBUG - auth.service - signup with username: moria, fullname: moria 
+12.1.2023, 22:18:01 - DEBUG - auth.route - new account created: {"username":"moria","password":"$2b$10$Dtuq7r4f9kTootxfhJ1JC.K7D2KtiZ9nXc.Nk/MuVcLA9zxebVkcm","fullname":"moria","score":0,"_id":"63c06af9aff55949e4e211fe"} 
+12.1.2023, 22:18:01 - DEBUG - auth.service - login with username: moria 
+12.1.2023, 22:18:01 - INFO - User login:  | {"_id":"63c06af9aff55949e4e211fe","username":"moria","fullname":"moria","score":0} 
+12.1.2023, 22:18:01 - INFO - Req was made 
+12.1.2023, 22:18:01 - DEBUG - Getting Toys 
+12.1.2023, 22:18:01 - INFO - Req was made 
+12.1.2023, 22:18:01 - DEBUG - Getting Toys 
+12.1.2023, 22:18:02 - INFO - Req was made 
+12.1.2023, 22:18:02 - DEBUG - Getting Toys 
+12.1.2023, 22:24:37 - DEBUG - auth.service - login with username: admin 
+12.1.2023, 22:24:37 - ERROR - Failed to Login Invalid username or password 
+12.1.2023, 22:25:55 - INFO - Server is running on port: 3030 
+12.1.2023, 22:25:59 - INFO - Server is running on port: 3030 
+12.1.2023, 22:26:06 - INFO - Server is running on port: 3030 
+12.1.2023, 22:26:21 - INFO - Server is running on port: 3030 
+12.1.2023, 22:30:59 - INFO - Server is running on port: 3030 
+12.1.2023, 22:31:02 - INFO - Server is running on port: 3030 
+12.1.2023, 22:31:10 - INFO - Server is running on port: 3030 
+12.1.2023, 22:31:33 - INFO - Server is running on port: 3030 
+12.1.2023, 22:33:29 - DEBUG - auth.service - signup with username: new, fullname: new 
+12.1.2023, 22:33:29 - DEBUG - auth.route - new account created: {"username":"new","password":"$2b$10$QrJvcNwljEk0a2lahXvzzOWDjCcrQzYCeJPQlTDJ.yPDYMrOOdF8C","fullname":"new","score":0,"_id":"63c06e99e5a4e04b1472eda2"} 
+12.1.2023, 22:33:29 - DEBUG - auth.service - login with username: new 
+12.1.2023, 22:33:29 - INFO - User login:  | {"_id":"63c06e99e5a4e04b1472eda2","username":"new","fullname":"new","score":0} 
+12.1.2023, 22:40:10 - DEBUG - auth.service - signup with username: new, fullname: new 
+12.1.2023, 22:40:10 - DEBUG - auth.route - new account created: {"username":"new","password":"$2b$10$4P1m.dYUvEVxdGRFYRimOeOOmqxFEXVX6WZmICM5ZdBLx9hvFdeUK","fullname":"new","score":0,"_id":"63c0702ae5a4e04b1472eda3"} 
+12.1.2023, 22:40:10 - DEBUG - auth.service - login with username: new 
+12.1.2023, 22:40:11 - INFO - User login:  | {"_id":"63c06e99e5a4e04b1472eda2","username":"new","fullname":"new","score":0} 
+12.1.2023, 22:40:43 - DEBUG - auth.service - login with username: new 
+12.1.2023, 22:40:44 - INFO - User login:  | {"_id":"63c06e99e5a4e04b1472eda2","username":"new","fullname":"new","score":0} 
+12.1.2023, 22:42:07 - DEBUG - auth.service - login with username: new 
+12.1.2023, 22:42:07 - INFO - User login:  | {"_id":"63c06e99e5a4e04b1472eda2","username":"new","fullname":"new","score":0} 
+12.1.2023, 23:18:02 - DEBUG - auth.service - login with username: admin 
+12.1.2023, 23:18:02 - ERROR - Failed to Login Invalid username or password 
+12.1.2023, 23:24:51 - DEBUG - auth.service - login with username: moria 
+12.1.2023, 23:24:51 - ERROR - Failed to Login Invalid username or password 
+12.1.2023, 23:25:02 - DEBUG - auth.service - login with username: admin 
+12.1.2023, 23:25:02 - ERROR - Failed to Login Invalid username or password 
+12.1.2023, 23:25:47 - DEBUG - auth.service - signup with username: moria, fullname: moria 
+12.1.2023, 23:25:48 - DEBUG - auth.route - new account created: {"username":"moria","password":"$2b$10$GJgkucplK9WnJ140RhDROer.nmPIcIWf/hqNlc07D5.6FMcf2DMO.","fullname":"moria","score":0,"_id":"63c07adce5a4e04b1472eda4"} 
+12.1.2023, 23:25:48 - DEBUG - auth.service - login with username: moria 
+12.1.2023, 23:25:48 - INFO - User login:  | {"_id":"63c07adce5a4e04b1472eda4","username":"moria","fullname":"moria","score":0} 
+12.1.2023, 23:25:59 - DEBUG - auth.service - signup with username: new, fullname: new 
+12.1.2023, 23:25:59 - DEBUG - auth.route - new account created: {"username":"new","password":"$2b$10$XF3nq6sflAvf/kEr1jg2cu9gt3tZc8DK1fa8oH9Np4CpNWXorpUgy","fullname":"new","score":0,"_id":"63c07ae7e5a4e04b1472eda5"} 
+12.1.2023, 23:25:59 - DEBUG - auth.service - login with username: new 
+12.1.2023, 23:25:59 - INFO - User login:  | {"_id":"63c07ae7e5a4e04b1472eda5","username":"new","fullname":"new","score":0} 
+12.1.2023, 23:26:10 - DEBUG - auth.service - signup with username: admin, fullname: admin 
+12.1.2023, 23:26:10 - DEBUG - auth.route - new account created: {"username":"admin","password":"$2b$10$OixIKepzVnLULn5kgMcZvOCdegRtlzLnFSh6Vv73tI14HTDlg5W9a","fullname":"admin","score":0,"_id":"63c07af2e5a4e04b1472eda6"} 
+12.1.2023, 23:26:10 - DEBUG - auth.service - login with username: admin 
+12.1.2023, 23:26:10 - INFO - User login:  | {"_id":"63c07af2e5a4e04b1472eda6","username":"admin","fullname":"admin","score":0} 
+12.1.2023, 23:27:03 - INFO - Server is running on port: 3030 
+12.1.2023, 23:27:07 - INFO - Server is running on port: 3030 
+12.1.2023, 23:27:11 - INFO - Server is running on port: 3030 
+12.1.2023, 23:27:13 - INFO - Server is running on port: 3030 
+12.1.2023, 23:27:18 - INFO - Server is running on port: 3030 
+12.1.2023, 23:27:20 - INFO - Server is running on port: 3030 
+12.1.2023, 23:27:32 - INFO - Server is running on port: 3030 
+12.1.2023, 23:30:22 - DEBUG - auth.service - signup with username: admin, fullname: admin 
+12.1.2023, 23:30:22 - DEBUG - auth.route - new account created: {"username":"admin","password":"$2b$10$Mi78or7A5DUjPC7xYDA0WeEjEhr08bJ1EFGTzZTKqBbIjYfC4JJuG","fullname":"admin","_id":"63c07beee30e6b59943b27d7"} 
+12.1.2023, 23:30:22 - DEBUG - auth.service - login with username: admin 
+12.1.2023, 23:30:22 - INFO - User login:  | {"_id":"63c07beee30e6b59943b27d7","username":"admin","fullname":"admin","isAdmin":null} 
+12.1.2023, 23:30:33 - DEBUG - auth.service - signup with username: new, fullname: new 
+12.1.2023, 23:30:33 - DEBUG - auth.route - new account created: {"username":"new","password":"$2b$10$ffV83zQp.xjeDov3dt2YuOSJFTDF2H103z4dSPvkyVqa.geMsMTWG","fullname":"new","_id":"63c07bf9e30e6b59943b27d8"} 
+12.1.2023, 23:30:33 - DEBUG - auth.service - login with username: new 
+12.1.2023, 23:30:33 - INFO - User login:  | {"_id":"63c07bf9e30e6b59943b27d8","username":"new","fullname":"new","isAdmin":null} 
+12.1.2023, 23:31:57 - DEBUG - auth.service - signup with username: admin, fullname: admin 
+12.1.2023, 23:31:57 - DEBUG - auth.route - new account created: {"username":"admin","password":"$2b$10$ZJctCSrUoIwmxXJZkT/uaOIyylwMxnSPM.fzYN8ZqKKm0iRdtdz9u","fullname":"admin","_id":"63c07c4de30e6b59943b27d9"} 
+12.1.2023, 23:31:57 - DEBUG - auth.service - login with username: admin 
+12.1.2023, 23:31:57 - INFO - User login:  | {"_id":"63c07beee30e6b59943b27d7","username":"admin","fullname":"admin","isAdmin":null} 
+12.1.2023, 23:38:40 - INFO - Server is running on port: 3030 
+12.1.2023, 23:38:42 - INFO - Server is running on port: 3030 
+12.1.2023, 23:38:48 - INFO - Server is running on port: 3030 
+12.1.2023, 23:39:26 - INFO - Server is running on port: 3030 
+12.1.2023, 23:39:30 - INFO - Server is running on port: 3030 
+12.1.2023, 23:39:32 - INFO - Server is running on port: 3030 
+12.1.2023, 23:39:41 - INFO - Server is running on port: 3030 
+12.1.2023, 23:39:51 - INFO - Server is running on port: 3030 
+12.1.2023, 23:39:54 - INFO - Server is running on port: 3030 
+12.1.2023, 23:40:06 - DEBUG - auth.service - signup with username: admin, fullname: admin 
+12.1.2023, 23:40:06 - ERROR - Failed to signup ReferenceError: isAdmin is not defined 
+12.1.2023, 23:43:12 - INFO - Server is running on port: 3030 
+12.1.2023, 23:43:14 - INFO - Server is running on port: 3030 
+12.1.2023, 23:43:15 - DEBUG - auth.service - signup with username: admin, fullname: admin 
+12.1.2023, 23:43:15 - DEBUG - auth.route - new account created: {"username":"admin","password":"$2b$10$4wH4DDSRwr34XyeDfeenQe5Hh8ojWHxus.CGokQhWMwuOksx0pTUK","fullname":"admin","isAdmin":true,"_id":"63c07ef34feef45aac3d6ba8"} 
+12.1.2023, 23:43:15 - DEBUG - auth.service - login with username: admin 
+12.1.2023, 23:43:15 - INFO - User login:  | {"_id":"63c07ef34feef45aac3d6ba8","username":"admin","fullname":"admin","isAdmin":true} 
+12.1.2023, 23:43:27 - DEBUG - auth.service - signup with username: new, fullname: new 
+12.1.2023, 23:43:27 - DEBUG - auth.route - new account created: {"username":"new","password":"$2b$10$srxpPz9GncHNO.RotnWbGu5kCtXMtJuB4Y4411lA4hwyjVe1.z4Xy","fullname":"new","isAdmin":true,"_id":"63c07eff4feef45aac3d6ba9"} 
+12.1.2023, 23:43:27 - DEBUG - auth.service - login with username: new 
+12.1.2023, 23:43:27 - INFO - User login:  | {"_id":"63c07eff4feef45aac3d6ba9","username":"new","fullname":"new","isAdmin":true} 
+12.1.2023, 23:43:46 - DEBUG - auth.service - signup with username: meme, fullname: meme 
+12.1.2023, 23:43:46 - DEBUG - auth.route - new account created: {"username":"meme","password":"$2b$10$6UBa7c7Re9zLZGo.6qGFx.s2QuKcaczx.8JcdPtEjEQLHS/CzX7Hq","fullname":"meme","isAdmin":false,"_id":"63c07f124feef45aac3d6baa"} 
+12.1.2023, 23:43:46 - DEBUG - auth.service - login with username: meme 
+12.1.2023, 23:43:46 - INFO - User login:  | {"_id":"63c07f124feef45aac3d6baa","username":"meme","fullname":"meme","isAdmin":false} 
+12.1.2023, 23:44:15 - DEBUG - auth.service - signup with username: new, fullname: new 
+12.1.2023, 23:44:15 - DEBUG - auth.route - new account created: {"username":"new","password":"$2b$10$Q7SzFqKJvHDpWeoiGKvRr.M749RMVTbWC9iC.BY4gtgO0l1X7b4uu","fullname":"new","isAdmin":false,"_id":"63c07f2f4feef45aac3d6bab"} 
+12.1.2023, 23:44:15 - DEBUG - auth.service - login with username: new 
+12.1.2023, 23:44:16 - INFO - User login:  | {"_id":"63c07f2f4feef45aac3d6bab","username":"new","fullname":"new","isAdmin":false} 
+13.1.2023, 0:03:46 - INFO - Req was made 
+13.1.2023, 0:03:46 - DEBUG - Getting Toys 
+13.1.2023, 0:03:46 - INFO - Req was made 
+13.1.2023, 0:03:46 - DEBUG - Getting Toys 
+13.1.2023, 0:03:46 - DEBUG - Getting Toys 
+13.1.2023, 0:03:46 - INFO - Req was made 
+13.1.2023, 0:03:57 - INFO - Req was made 
+13.1.2023, 0:03:57 - DEBUG - Getting Toys 
+13.1.2023, 0:03:58 - INFO - Req was made 
+13.1.2023, 0:03:58 - DEBUG - Getting Toys 
+13.1.2023, 0:03:58 - INFO - Req was made 
+13.1.2023, 0:03:58 - DEBUG - Getting Toys 
+13.1.2023, 0:06:05 - INFO - Server is running on port: 3030 
+13.1.2023, 0:06:07 - INFO - Server is running on port: 3030 
+13.1.2023, 0:06:09 - INFO - Server is running on port: 3030 
+13.1.2023, 0:06:18 - INFO - Req was made 
+13.1.2023, 0:06:18 - DEBUG - Getting Toys 
+13.1.2023, 0:06:18 - INFO - Req was made 
+13.1.2023, 0:06:18 - DEBUG - Getting Toys 
+13.1.2023, 0:06:19 - INFO - Req was made 
+13.1.2023, 0:06:19 - DEBUG - Getting Toys 
+13.1.2023, 0:07:32 - INFO - Req was made 
+13.1.2023, 0:07:32 - DEBUG - Getting Toys 
+13.1.2023, 0:07:32 - INFO - Req was made 
+13.1.2023, 0:07:32 - DEBUG - Getting Toys 
+13.1.2023, 0:07:32 - INFO - Req was made 
+13.1.2023, 0:07:32 - DEBUG - Getting Toys 
+13.1.2023, 0:17:39 - INFO - Req was made 
+13.1.2023, 0:17:39 - DEBUG - Getting Toys 
+13.1.2023, 0:17:39 - INFO - Req was made 
+13.1.2023, 0:17:39 - DEBUG - Getting Toys 
+13.1.2023, 0:17:39 - INFO - Req was made 
+13.1.2023, 0:17:39 - DEBUG - Getting Toys 
+13.1.2023, 0:20:33 - INFO - Req was made 
+13.1.2023, 0:20:33 - DEBUG - Getting Toys 
+13.1.2023, 0:20:33 - INFO - Req was made 
+13.1.2023, 0:20:33 - DEBUG - Getting Toys 
+13.1.2023, 0:20:34 - INFO - Req was made 
+13.1.2023, 0:20:34 - DEBUG - Getting Toys 
+13.1.2023, 0:23:18 - INFO - Req was made 
+13.1.2023, 0:23:18 - DEBUG - Getting Toys 
+13.1.2023, 0:23:18 - INFO - Req was made 
+13.1.2023, 0:23:18 - DEBUG - Getting Toys 
+13.1.2023, 0:23:18 - INFO - Req was made 
+13.1.2023, 0:23:18 - DEBUG - Getting Toys 
+13.1.2023, 0:28:10 - DEBUG - auth.service - login with username: moria 
+13.1.2023, 0:28:10 - ERROR - Failed to Login Invalid username or password 
+13.1.2023, 0:28:16 - INFO - Req was made 
+13.1.2023, 0:28:16 - DEBUG - Getting Toys 
+13.1.2023, 0:28:16 - INFO - Req was made 
+13.1.2023, 0:28:16 - DEBUG - Getting Toys 
+13.1.2023, 0:28:16 - DEBUG - Getting Toys 
+13.1.2023, 0:28:16 - INFO - Req was made 
+13.1.2023, 0:29:19 - DEBUG - Getting Toys 
+13.1.2023, 0:29:19 - INFO - Req was made 
+13.1.2023, 0:29:19 - INFO - Req was made 
+13.1.2023, 0:29:19 - DEBUG - Getting Toys 
+13.1.2023, 0:29:20 - INFO - Req was made 
+13.1.2023, 0:29:20 - DEBUG - Getting Toys 
+13.1.2023, 0:30:24 - DEBUG - auth.service - login with username: moria 
+13.1.2023, 0:30:24 - ERROR - Failed to Login Invalid username or password 
+13.1.2023, 0:30:38 - DEBUG - auth.service - login with username: new 
+13.1.2023, 0:30:38 - INFO - User login:  | {"_id":"63c07f2f4feef45aac3d6bab","username":"new","fullname":"new","isAdmin":false} 
+13.1.2023, 0:30:43 - DEBUG - Getting Toys 
+13.1.2023, 0:30:43 - INFO - Req was made 
+13.1.2023, 0:30:43 - INFO - Req was made 
+13.1.2023, 0:30:43 - DEBUG - Getting Toys 
+13.1.2023, 0:30:43 - INFO - Req was made 
+13.1.2023, 0:30:43 - DEBUG - Getting Toys 
+13.1.2023, 1:13:27 - INFO - Req was made 
+13.1.2023, 1:13:27 - DEBUG - Getting Toys 
+13.1.2023, 1:13:27 - INFO - Req was made 
+13.1.2023, 1:13:27 - DEBUG - Getting Toys 
+13.1.2023, 1:13:27 - INFO - Req was made 
+13.1.2023, 1:13:27 - DEBUG - Getting Toys 
+13.1.2023, 1:17:41 - INFO - Req was made 
+13.1.2023, 1:17:41 - DEBUG - Getting Toys 
+13.1.2023, 1:17:41 - INFO - Req was made 
+13.1.2023, 1:17:41 - DEBUG - Getting Toys 
+13.1.2023, 1:17:41 - INFO - Req was made 
+13.1.2023, 1:17:41 - DEBUG - Getting Toys 
+13.1.2023, 1:17:48 - ERROR - cannot add toy msg hello | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+13.1.2023, 1:17:48 - ERROR - Failed to update toy | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+13.1.2023, 1:26:36 - INFO - Req was made 
+13.1.2023, 1:26:36 - DEBUG - Getting Toys 
+13.1.2023, 1:26:36 - INFO - Req was made 
+13.1.2023, 1:26:36 - DEBUG - Getting Toys 
+13.1.2023, 1:26:37 - INFO - Req was made 
+13.1.2023, 1:26:37 - DEBUG - Getting Toys 
+13.1.2023, 1:47:03 - DEBUG - Getting Toys 
+13.1.2023, 1:47:03 - INFO - Req was made 
+13.1.2023, 1:47:03 - INFO - Req was made 
+13.1.2023, 1:47:03 - DEBUG - Getting Toys 
+13.1.2023, 1:47:03 - INFO - Req was made 
+13.1.2023, 1:47:03 - DEBUG - Getting Toys 
+13.1.2023, 1:50:49 - DEBUG - auth.service - login with username: admin 
+13.1.2023, 1:50:50 - INFO - User login:  | {"_id":"63c07ef34feef45aac3d6ba8","username":"admin","fullname":"admin","isAdmin":true} 
+13.1.2023, 1:51:39 - DEBUG - Getting Toys 
+13.1.2023, 1:51:39 - INFO - Req was made 
+13.1.2023, 1:51:39 - INFO - Req was made 
+13.1.2023, 1:51:39 - DEBUG - Getting Toys 
+13.1.2023, 1:51:39 - INFO - Req was made 
+13.1.2023, 1:51:39 - DEBUG - Getting Toys 
+13.1.2023, 2:14:48 - INFO - Req was made 
+13.1.2023, 2:14:48 - DEBUG - Getting Toys 
+13.1.2023, 2:14:48 - INFO - Req was made 
+13.1.2023, 2:14:48 - DEBUG - Getting Toys 
+13.1.2023, 2:14:48 - INFO - Req was made 
+13.1.2023, 2:14:48 - DEBUG - Getting Toys 
+13.1.2023, 2:14:57 - INFO - Req was made 
+13.1.2023, 2:14:57 - DEBUG - Getting Toys 
+13.1.2023, 2:14:57 - INFO - Req was made 
+13.1.2023, 2:14:57 - DEBUG - Getting Toys 
+13.1.2023, 2:14:57 - INFO - Req was made 
+13.1.2023, 2:14:57 - DEBUG - Getting Toys 
+13.1.2023, 2:20:30 - INFO - Req was made 
+13.1.2023, 2:20:30 - DEBUG - Getting Toys 
+13.1.2023, 2:20:30 - INFO - Req was made 
+13.1.2023, 2:20:30 - DEBUG - Getting Toys 
+13.1.2023, 2:20:30 - INFO - Req was made 
+13.1.2023, 2:20:30 - DEBUG - Getting Toys 
+13.1.2023, 2:20:49 - INFO - Req was made 
+13.1.2023, 2:20:49 - DEBUG - Getting Toys 
+13.1.2023, 2:20:49 - INFO - Req was made 
+13.1.2023, 2:20:49 - DEBUG - Getting Toys 
+13.1.2023, 2:20:49 - INFO - Req was made 
+13.1.2023, 2:20:49 - DEBUG - Getting Toys 
+13.1.2023, 2:21:18 - INFO - Req was made 
+13.1.2023, 2:21:18 - DEBUG - Getting Toys 
+13.1.2023, 2:21:18 - INFO - Req was made 
+13.1.2023, 2:21:18 - DEBUG - Getting Toys 
+13.1.2023, 2:21:18 - INFO - Req was made 
+13.1.2023, 2:21:18 - DEBUG - Getting Toys 
+13.1.2023, 2:21:24 - INFO - Req was made 
+13.1.2023, 2:21:24 - DEBUG - Getting Toys 
+13.1.2023, 2:21:24 - DEBUG - Getting Toys 
+13.1.2023, 2:21:24 - INFO - Req was made 
+13.1.2023, 2:21:24 - INFO - Req was made 
+13.1.2023, 2:21:24 - DEBUG - Getting Toys 
+13.1.2023, 2:21:45 - INFO - Req was made 
+13.1.2023, 2:21:45 - DEBUG - Getting Toys 
+13.1.2023, 2:21:45 - INFO - Req was made 
+13.1.2023, 2:21:45 - DEBUG - Getting Toys 
+13.1.2023, 2:21:45 - INFO - Req was made 
+13.1.2023, 2:21:45 - DEBUG - Getting Toys 
+13.1.2023, 2:22:38 - INFO - Req was made 
+13.1.2023, 2:22:38 - DEBUG - Getting Toys 
+13.1.2023, 2:22:38 - INFO - Req was made 
+13.1.2023, 2:22:38 - DEBUG - Getting Toys 
+13.1.2023, 2:22:38 - INFO - Req was made 
+13.1.2023, 2:22:38 - DEBUG - Getting Toys 
+13.1.2023, 2:23:44 - INFO - Req was made 
+13.1.2023, 2:23:44 - DEBUG - Getting Toys 
+13.1.2023, 2:23:44 - INFO - Req was made 
+13.1.2023, 2:23:44 - DEBUG - Getting Toys 
+13.1.2023, 2:23:44 - INFO - Req was made 
+13.1.2023, 2:23:44 - DEBUG - Getting Toys 
+15.1.2023, 15:27:50 - INFO - Server is running on port: 3030 
+15.1.2023, 15:31:57 - INFO - Server is running on port: 3030 
+15.1.2023, 15:38:48 - INFO - Server is running on port: 3030 
+15.1.2023, 15:38:55 - INFO - Server is running on port: 3030 
+15.1.2023, 15:39:01 - INFO - Server is running on port: 3030 
+15.1.2023, 15:41:25 - INFO - Server is running on port: 3030 
+15.1.2023, 15:42:25 - INFO - Server is running on port: 3030 
+15.1.2023, 15:42:36 - INFO - Server is running on port: 3030 
+15.1.2023, 15:43:00 - INFO - Server is running on port: 3030 
+15.1.2023, 15:44:14 - INFO - Server is running on port: 3030 
+15.1.2023, 15:45:01 - INFO - Server is running on port: 3030 
+15.1.2023, 15:54:55 - INFO - Server is running on port: 3030 
+15.1.2023, 15:54:58 - INFO - Server is running on port: 3030 
+15.1.2023, 15:55:23 - DEBUG - auth.service - login with username: moria 
+15.1.2023, 15:55:24 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 15:55:49 - DEBUG - auth.service - login with username: admin 
+15.1.2023, 15:55:49 - INFO - User login:  | {"_id":"63c07ef34feef45aac3d6ba8","username":"admin","fullname":"admin","isAdmin":true} 
+15.1.2023, 15:55:57 - INFO - Req was made 
+15.1.2023, 15:55:57 - DEBUG - Getting Toys 
+15.1.2023, 15:55:57 - INFO - Req was made 
+15.1.2023, 15:55:57 - DEBUG - Getting Toys 
+15.1.2023, 15:55:58 - INFO - Req was made 
+15.1.2023, 15:55:58 - DEBUG - Getting Toys 
+15.1.2023, 16:11:25 - INFO - Server is running on port: 3030 
+15.1.2023, 16:11:30 - INFO - Server is running on port: 3030 
+15.1.2023, 16:12:10 - INFO - Server is running on port: 3030 
+15.1.2023, 16:13:33 - INFO - Server is running on port: 3030 
+15.1.2023, 16:22:48 - INFO - Server is running on port: 3030 
+15.1.2023, 16:22:50 - INFO - Server is running on port: 3030 
+15.1.2023, 16:32:00 - INFO - Server is running on port: 3030 
+15.1.2023, 16:32:08 - INFO - Server is running on port: 3030 
+15.1.2023, 16:34:29 - INFO - Server is running on port: 3030 
+15.1.2023, 16:44:26 - INFO - Server is running on port: 3030 
+15.1.2023, 16:44:34 - INFO - Server is running on port: 3030 
+15.1.2023, 16:44:35 - INFO - Server is running on port: 3030 
+15.1.2023, 16:52:06 - INFO - Server is running on port: 3030 
+15.1.2023, 16:58:42 - INFO - Req was made 
+15.1.2023, 16:58:42 - DEBUG - Getting Toys 
+15.1.2023, 16:58:42 - INFO - Req was made 
+15.1.2023, 16:58:42 - DEBUG - Getting Toys 
+15.1.2023, 16:58:42 - INFO - Req was made 
+15.1.2023, 16:58:42 - DEBUG - Getting Toys 
+15.1.2023, 17:03:18 - INFO - Req was made 
+15.1.2023, 17:06:11 - INFO - Req was made 
+15.1.2023, 17:06:57 - INFO - Server is running on port: 3030 
+15.1.2023, 17:07:02 - INFO - Req was made 
+15.1.2023, 17:07:02 - ERROR - cannot insert review | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 17:07:02 - ERROR - Failed to add review | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 17:07:32 - INFO - Server is running on port: 3030 
+15.1.2023, 17:07:40 - INFO - Server is running on port: 3030 
+15.1.2023, 17:07:46 - INFO - Req was made 
+15.1.2023, 17:07:46 - ERROR - cannot insert review | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 17:07:46 - ERROR - Failed to add review | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 17:07:53 - INFO - Req was made 
+15.1.2023, 17:07:53 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading 'fullname') 
+15.1.2023, 17:07:53 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading 'fullname') 
+15.1.2023, 17:09:26 - INFO - Req was made 
+15.1.2023, 17:09:26 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading 'fullname') 
+15.1.2023, 17:09:26 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading 'fullname') 
+15.1.2023, 17:12:07 - INFO - Server is running on port: 3030 
+15.1.2023, 17:12:40 - INFO - Server is running on port: 3030 
+15.1.2023, 17:12:42 - INFO - Server is running on port: 3030 
+15.1.2023, 17:12:44 - INFO - Server is running on port: 3030 
+15.1.2023, 17:12:48 - INFO - Server is running on port: 3030 
+15.1.2023, 17:13:00 - INFO - Server is running on port: 3030 
+15.1.2023, 17:13:04 - INFO - Server is running on port: 3030 
+15.1.2023, 17:13:09 - INFO - Server is running on port: 3030 
+15.1.2023, 17:13:17 - INFO - Server is running on port: 3030 
+15.1.2023, 17:13:24 - INFO - Server is running on port: 3030 
+15.1.2023, 17:13:53 - INFO - Req was made 
+15.1.2023, 17:13:53 - ERROR - cannot insert review | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 17:13:53 - ERROR - Failed to add review | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 17:13:55 - INFO - Req was made 
+15.1.2023, 17:13:55 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading 'fullname') 
+15.1.2023, 17:13:55 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading 'fullname') 
+15.1.2023, 17:13:57 - INFO - Req was made 
+15.1.2023, 17:13:57 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading 'fullname') 
+15.1.2023, 17:13:57 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading 'fullname') 
+15.1.2023, 17:15:12 - INFO - Server is running on port: 3030 
+15.1.2023, 17:15:26 - INFO - Server is running on port: 3030 
+15.1.2023, 17:15:28 - INFO - Server is running on port: 3030 
+15.1.2023, 17:15:34 - INFO - Req was made 
+15.1.2023, 17:15:34 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading 'fullname') 
+15.1.2023, 17:15:34 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading 'fullname') 
+15.1.2023, 17:15:50 - INFO - Server is running on port: 3030 
+15.1.2023, 17:15:53 - INFO - Req was made 
+15.1.2023, 17:15:53 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading 'name') 
+15.1.2023, 17:15:53 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading 'name') 
+15.1.2023, 17:15:55 - INFO - Req was made 
+15.1.2023, 17:15:55 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading 'name') 
+15.1.2023, 17:15:55 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading 'name') 
+15.1.2023, 17:15:55 - INFO - Req was made 
+15.1.2023, 17:15:55 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading 'name') 
+15.1.2023, 17:15:55 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading 'name') 
+15.1.2023, 17:17:14 - INFO - Req was made 
+15.1.2023, 17:17:35 - INFO - Server is running on port: 3030 
+15.1.2023, 17:17:52 - INFO - Req was made 
+15.1.2023, 17:17:52 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading 'name') 
+15.1.2023, 17:17:52 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading 'name') 
+15.1.2023, 17:19:05 - INFO - Server is running on port: 3030 
+15.1.2023, 17:19:14 - INFO - Server is running on port: 3030 
+15.1.2023, 17:19:18 - INFO - Req was made 
+15.1.2023, 17:19:31 - INFO - Server is running on port: 3030 
+15.1.2023, 17:53:29 - INFO - Req was made 
+15.1.2023, 17:53:29 - DEBUG - Getting Toys 
+15.1.2023, 17:53:29 - INFO - Req was made 
+15.1.2023, 17:53:29 - DEBUG - Getting Toys 
+15.1.2023, 17:53:30 - INFO - Req was made 
+15.1.2023, 17:53:30 - DEBUG - Getting Toys 
+15.1.2023, 17:56:13 - INFO - Req was made 
+15.1.2023, 17:56:24 - INFO - Req was made 
+15.1.2023, 17:58:55 - INFO - Req was made 
+15.1.2023, 17:59:01 - INFO - Req was made 
+15.1.2023, 18:01:12 - INFO - Req was made 
+15.1.2023, 18:02:01 - INFO - Server is running on port: 3030 
+15.1.2023, 18:02:03 - INFO - Server is running on port: 3030 
+15.1.2023, 18:02:42 - INFO - Server is running on port: 3030 
+15.1.2023, 18:02:44 - INFO - Server is running on port: 3030 
+15.1.2023, 18:02:48 - INFO - Server is running on port: 3030 
+15.1.2023, 18:02:51 - INFO - Server is running on port: 3030 
+15.1.2023, 18:04:33 - INFO - Req was made 
+15.1.2023, 18:04:37 - INFO - Server is running on port: 3030 
+15.1.2023, 18:05:40 - INFO - Req was made 
+15.1.2023, 18:05:41 - INFO - Req was made 
+15.1.2023, 18:05:43 - INFO - Req was made 
+15.1.2023, 18:05:47 - INFO - Req was made 
+15.1.2023, 18:05:49 - INFO - Req was made 
+15.1.2023, 18:05:51 - INFO - Req was made 
+15.1.2023, 18:05:57 - INFO - Req was made 
+15.1.2023, 18:06:07 - INFO - Req was made 
+15.1.2023, 18:06:25 - INFO - Req was made 
+15.1.2023, 18:06:36 - INFO - Req was made 
+15.1.2023, 18:06:39 - INFO - Req was made 
+15.1.2023, 18:06:43 - INFO - Req was made 
+15.1.2023, 18:06:46 - INFO - Req was made 
+15.1.2023, 18:06:50 - INFO - Req was made 
+15.1.2023, 18:07:20 - INFO - Req was made 
+15.1.2023, 18:07:32 - INFO - Req was made 
+15.1.2023, 18:07:34 - INFO - Req was made 
+15.1.2023, 18:07:35 - INFO - Req was made 
+15.1.2023, 18:07:45 - INFO - Req was made 
+15.1.2023, 18:07:50 - INFO - Req was made 
+15.1.2023, 18:11:19 - INFO - Req was made 
+15.1.2023, 18:18:04 - INFO - Req was made 
+15.1.2023, 18:18:06 - INFO - Req was made 
+15.1.2023, 18:18:06 - DEBUG - Getting Toys 
+15.1.2023, 18:18:06 - INFO - Req was made 
+15.1.2023, 18:18:06 - DEBUG - Getting Toys 
+15.1.2023, 18:18:06 - INFO - Req was made 
+15.1.2023, 18:18:06 - DEBUG - Getting Toys 
+15.1.2023, 18:24:31 - INFO - Req was made 
+15.1.2023, 18:24:31 - ERROR - while finding user 63c428bfdfcf6e4714b319cf | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:24:31 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:24:31 - INFO - Req was made 
+15.1.2023, 18:24:32 - ERROR - while finding user 63c428c0dfcf6e4714b319d1 | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:24:32 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:25:09 - INFO - Req was made 
+15.1.2023, 18:25:09 - ERROR - while finding user 63c428e5dfcf6e4714b319d3 | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:25:09 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:26:41 - INFO - Req was made 
+15.1.2023, 18:26:42 - ERROR - while finding user 63c42942dfcf6e4714b319d5 | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:26:42 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:31:48 - INFO - Req was made 
+15.1.2023, 18:31:49 - ERROR - while finding user 63c093fdbf0c639121d39199 | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:31:49 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:33:17 - INFO - Req was made 
+15.1.2023, 18:33:18 - ERROR - while finding user 63c093fdbf0c639121d39199 | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:33:18 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:33:44 - INFO - Req was made 
+15.1.2023, 18:33:45 - ERROR - while finding user 63c093fdbf0c639121d39199 | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:33:45 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:35:29 - INFO - Server is running on port: 3030 
+15.1.2023, 18:41:42 - INFO - Server is running on port: 3030 
+15.1.2023, 18:41:44 - INFO - Server is running on port: 3030 
+15.1.2023, 18:45:42 - INFO - Server is running on port: 3030 
+15.1.2023, 18:45:51 - INFO - Server is running on port: 3030 
+15.1.2023, 18:45:53 - INFO - Server is running on port: 3030 
+15.1.2023, 18:46:08 - INFO - Server is running on port: 3030 
+15.1.2023, 18:46:15 - INFO - Server is running on port: 3030 
+15.1.2023, 18:46:21 - INFO - Server is running on port: 3030 
+15.1.2023, 18:46:27 - INFO - Server is running on port: 3030 
+15.1.2023, 18:46:36 - INFO - Server is running on port: 3030 
+15.1.2023, 19:11:11 - INFO - Server is running on port: 3030 
+15.1.2023, 19:11:14 - INFO - Server is running on port: 3030 
+15.1.2023, 19:11:18 - INFO - Server is running on port: 3030 
+15.1.2023, 19:11:56 - INFO - Req was made 
+15.1.2023, 19:11:59 - INFO - Req was made 
+15.1.2023, 19:11:59 - DEBUG - Getting Toys 
+15.1.2023, 19:11:59 - INFO - Req was made 
+15.1.2023, 19:11:59 - DEBUG - Getting Toys 
+15.1.2023, 19:12:00 - INFO - Req was made 
+15.1.2023, 19:12:00 - DEBUG - Getting Toys 
+15.1.2023, 19:15:09 - INFO - Req was made 
+15.1.2023, 19:15:09 - ERROR - while finding user 63c093fdbf0c639121d39199 | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 19:15:09 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 19:19:34 - INFO - Req was made 
+15.1.2023, 19:20:59 - INFO - Server is running on port: 3030 
+15.1.2023, 19:21:24 - INFO - Req was made 
+15.1.2023, 19:21:30 - INFO - Server is running on port: 3030 
+15.1.2023, 19:21:53 - INFO - Req was made 
+15.1.2023, 19:21:53 - DEBUG - Getting Toys 
+15.1.2023, 19:21:53 - INFO - Req was made 
+15.1.2023, 19:21:53 - DEBUG - Getting Toys 
+15.1.2023, 19:21:54 - INFO - Req was made 
+15.1.2023, 19:21:54 - DEBUG - Getting Toys 
+15.1.2023, 19:22:02 - INFO - Req was made 
+15.1.2023, 19:22:02 - ERROR - while finding user 63c093fdbf0c639121d3919f | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 19:22:02 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 19:22:07 - INFO - Req was made 
+15.1.2023, 19:22:16 - INFO - Req was made 
+15.1.2023, 19:22:16 - DEBUG - Getting Toys 
+15.1.2023, 19:22:17 - INFO - Req was made 
+15.1.2023, 19:22:17 - DEBUG - Getting Toys 
+15.1.2023, 19:22:17 - INFO - Req was made 
+15.1.2023, 19:22:17 - DEBUG - Getting Toys 
+15.1.2023, 19:23:28 - INFO - Req was made 
+15.1.2023, 19:23:28 - ERROR - while finding user 63c093fdbf0c639121d39199 | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 19:23:28 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+16.1.2023, 13:24:13 - INFO - Server is running on port: 3030 
+16.1.2023, 13:50:17 - DEBUG - auth.service - login with username: admin 
+16.1.2023, 13:50:17 - INFO - User login:  | {"_id":"63c07ef34feef45aac3d6ba8","username":"admin","fullname":"admin","isAdmin":true} 
+16.1.2023, 13:50:41 - INFO - Req was made 
+16.1.2023, 13:50:44 - INFO - Req was made 
+16.1.2023, 13:50:44 - DEBUG - Getting Toys 
+16.1.2023, 13:50:45 - INFO - Req was made 
+16.1.2023, 13:50:45 - DEBUG - Getting Toys 
+16.1.2023, 13:50:45 - INFO - Req was made 
+16.1.2023, 13:50:45 - DEBUG - Getting Toys 
+16.1.2023, 13:57:12 - INFO - Server is running on port: 3030 
+16.1.2023, 13:57:56 - INFO - Server is running on port: 3030 
+16.1.2023, 13:57:59 - INFO - Server is running on port: 3030 
+16.1.2023, 13:58:02 - INFO - Server is running on port: 3030 
+16.1.2023, 13:58:06 - INFO - Server is running on port: 3030 
+16.1.2023, 14:00:40 - INFO - Server is running on port: 3030 
+16.1.2023, 14:02:05 - INFO - Server is running on port: 3030 
+16.1.2023, 14:02:14 - INFO - Req was made 
+16.1.2023, 14:02:14 - ERROR - while finding user 63c093fdbf0c639121d39199 | TypeError: Cannot convert undefined or null to object 
+16.1.2023, 14:02:14 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+16.1.2023, 14:04:27 - INFO - Server is running on port: 3030 
+16.1.2023, 14:04:34 - INFO - Server is running on port: 3030 
+16.1.2023, 14:06:22 - INFO - Server is running on port: 3030 
+16.1.2023, 14:06:36 - INFO - Req was made 
+16.1.2023, 14:06:36 - ERROR - while finding user 63c093fdbf0c639121d39199 | TypeError: Cannot convert undefined or null to object 
+16.1.2023, 14:06:36 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+16.1.2023, 14:07:01 - INFO - Server is running on port: 3030 
+16.1.2023, 14:07:11 - INFO - Server is running on port: 3030 
+16.1.2023, 14:07:44 - INFO - Server is running on port: 3030 
+16.1.2023, 14:07:47 - INFO - Server is running on port: 3030 
+16.1.2023, 14:08:19 - INFO - Req was made 
+16.1.2023, 14:08:19 - ERROR - while finding user 63c093fdbf0c639121d39199 | TypeError: Cannot convert undefined or null to object 
+16.1.2023, 14:08:19 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+16.1.2023, 14:08:45 - INFO - Server is running on port: 3030 
+16.1.2023, 14:09:04 - INFO - Server is running on port: 3030 
+16.1.2023, 14:09:09 - INFO - Server is running on port: 3030 
+16.1.2023, 14:09:15 - INFO - Req was made 
+16.1.2023, 14:09:15 - ERROR - while finding user 63c093fdbf0c639121d39199 | TypeError: Cannot convert undefined or null to object 
+16.1.2023, 14:09:15 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+16.1.2023, 14:09:32 - INFO - Server is running on port: 3030 
+16.1.2023, 14:09:47 - INFO - Req was made 
+16.1.2023, 14:09:59 - INFO - Req was made 
+16.1.2023, 14:09:59 - DEBUG - Getting Toys 
+16.1.2023, 14:10:00 - INFO - Req was made 
+16.1.2023, 14:10:00 - DEBUG - Getting Toys 
+16.1.2023, 14:10:00 - INFO - Req was made 
+16.1.2023, 14:10:00 - DEBUG - Getting Toys 
+16.1.2023, 14:10:05 - INFO - Req was made 
+16.1.2023, 14:10:05 - DEBUG - Getting Toys 
+16.1.2023, 14:10:05 - INFO - Req was made 
+16.1.2023, 14:10:05 - DEBUG - Getting Toys 
+16.1.2023, 14:10:05 - INFO - Req was made 
+16.1.2023, 14:10:05 - DEBUG - Getting Toys 
+16.1.2023, 14:12:50 - INFO - Server is running on port: 3030 
+16.1.2023, 14:13:15 - INFO - Server is running on port: 3030 
+16.1.2023, 14:13:34 - INFO - Server is running on port: 3030 
+16.1.2023, 14:13:37 - INFO - Server is running on port: 3030 
+16.1.2023, 14:13:49 - INFO - Req was made 
+16.1.2023, 14:13:49 - ERROR - Failed to add review | ReferenceError: toyService is not defined 
+16.1.2023, 14:13:58 - INFO - Req was made 
+16.1.2023, 14:13:59 - ERROR - Failed to add review | ReferenceError: toyService is not defined 
+16.1.2023, 14:14:55 - INFO - Server is running on port: 3030 
+16.1.2023, 14:16:04 - INFO - Server is running on port: 3030 
+16.1.2023, 14:16:26 - INFO - Req was made 
+16.1.2023, 14:16:26 - DEBUG - Getting Toys 
+16.1.2023, 14:16:26 - INFO - Req was made 
+16.1.2023, 14:16:26 - DEBUG - Getting Toys 
+16.1.2023, 14:16:27 - INFO - Req was made 
+16.1.2023, 14:16:27 - DEBUG - Getting Toys 
+16.1.2023, 14:16:32 - INFO - Req was made 
+16.1.2023, 14:16:46 - INFO - Req was made 
+16.1.2023, 14:16:57 - INFO - Req was made 
+16.1.2023, 14:16:57 - DEBUG - Getting Toys 
+16.1.2023, 14:16:57 - INFO - Req was made 
+16.1.2023, 14:16:57 - DEBUG - Getting Toys 
+16.1.2023, 14:16:58 - DEBUG - Getting Toys 
+16.1.2023, 14:16:58 - INFO - Req was made 
+16.1.2023, 14:19:34 - INFO - Req was made 
+16.1.2023, 14:21:30 - INFO - Req was made 
+16.1.2023, 14:22:32 - INFO - Req was made 
+16.1.2023, 14:24:47 - INFO - Server is running on port: 3030 
+16.1.2023, 14:24:51 - INFO - Req was made 
+16.1.2023, 14:25:07 - INFO - Server is running on port: 3030 
+16.1.2023, 14:25:58 - INFO - Server is running on port: 3030 
+16.1.2023, 14:26:04 - INFO - Req was made 
+16.1.2023, 14:26:33 - INFO - Server is running on port: 3030 
+16.1.2023, 14:26:36 - INFO - Server is running on port: 3030 
+16.1.2023, 14:26:59 - INFO - Server is running on port: 3030 
+16.1.2023, 14:27:14 - INFO - Server is running on port: 3030 
+16.1.2023, 14:27:18 - INFO - Server is running on port: 3030 
+16.1.2023, 14:27:22 - INFO - Req was made 
+16.1.2023, 14:28:50 - INFO - Server is running on port: 3030 
+16.1.2023, 14:29:04 - INFO - Req was made 
+16.1.2023, 14:29:12 - INFO - Server is running on port: 3030 
+16.1.2023, 14:34:29 - INFO - Server is running on port: 3030 
+16.1.2023, 14:38:33 - INFO - Server is running on port: 3030 
+16.1.2023, 14:40:45 - INFO - Server is running on port: 3030 
+16.1.2023, 14:40:52 - INFO - Server is running on port: 3030 
+16.1.2023, 14:41:23 - INFO - Server is running on port: 3030 
+16.1.2023, 14:41:38 - INFO - Server is running on port: 3030 
+16.1.2023, 14:41:41 - INFO - Server is running on port: 3030 
+16.1.2023, 14:42:16 - INFO - Server is running on port: 3030 
+16.1.2023, 14:47:28 - INFO - Server is running on port: 3030 
+16.1.2023, 15:43:38 - INFO - Server is running on port: 3030 
+16.1.2023, 15:45:40 - INFO - Server is running on port: 3030 
+16.1.2023, 15:45:55 - INFO - New connected socket [id: cF8k1iNo-xFHLovTAAAB] 
+16.1.2023, 15:46:15 - INFO - Req was made 
+16.1.2023, 15:46:15 - DEBUG - Getting Toys 
+16.1.2023, 15:46:15 - INFO - Req was made 
+16.1.2023, 15:46:15 - DEBUG - Getting Toys 
+16.1.2023, 15:46:15 - INFO - Req was made 
+16.1.2023, 15:46:15 - DEBUG - Getting Toys 
+16.1.2023, 15:46:34 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 15:46:34 - INFO - New connected socket [id: 0gQlONLfcsEbsM4lAAAD] 
+16.1.2023, 15:46:35 - INFO - Req was made 
+16.1.2023, 15:46:35 - DEBUG - Getting Toys 
+16.1.2023, 15:46:35 - INFO - Req was made 
+16.1.2023, 15:46:35 - DEBUG - Getting Toys 
+16.1.2023, 15:46:35 - INFO - Req was made 
+16.1.2023, 15:46:35 - DEBUG - Getting Toys 
+16.1.2023, 15:53:11 - DEBUG - auth.service - login with username: admin 
+16.1.2023, 15:53:11 - INFO - User login:  | {"_id":"63c07ef34feef45aac3d6ba8","username":"admin","fullname":"admin","isAdmin":true} 
+16.1.2023, 15:53:11 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: 0gQlONLfcsEbsM4lAAAD] 
+16.1.2023, 15:54:27 - INFO - Req was made 
+16.1.2023, 15:54:27 - DEBUG - Getting Toys 
+16.1.2023, 15:54:27 - INFO - Req was made 
+16.1.2023, 15:54:27 - DEBUG - Getting Toys 
+16.1.2023, 15:54:27 - INFO - Req was made 
+16.1.2023, 15:54:27 - DEBUG - Getting Toys 
+16.1.2023, 15:54:34 - INFO - New chat msg from socket [id: 0gQlONLfcsEbsM4lAAAD], emitting to topic Love 
+16.1.2023, 15:59:15 - INFO - New connected socket [id: iTuEcSu-rRMWJiiUAAAF] 
+16.1.2023, 15:59:56 - INFO - New chat msg from socket [id: iTuEcSu-rRMWJiiUAAAF], emitting to topic Love 
+16.1.2023, 16:00:33 - INFO - New chat msg from socket [id: iTuEcSu-rRMWJiiUAAAF], emitting to topic Love 
+16.1.2023, 16:01:14 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:01:14 - INFO - New connected socket [id: ooA9ljU-GwfqgYO7AAAH] 
+16.1.2023, 16:01:18 - INFO - New chat msg from socket [id: ooA9ljU-GwfqgYO7AAAH], emitting to topic Love 
+16.1.2023, 16:01:37 - INFO - New chat msg from socket [id: 0gQlONLfcsEbsM4lAAAD], emitting to topic Love 
+16.1.2023, 16:04:47 - INFO - Socket is leaving topic Love [id: 0gQlONLfcsEbsM4lAAAD] 
+16.1.2023, 16:16:25 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:16:26 - INFO - New connected socket [id: Y62Ps-IwgfWaBSoSAAAJ] 
+16.1.2023, 16:16:27 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: Y62Ps-IwgfWaBSoSAAAJ] 
+16.1.2023, 16:16:31 - INFO - New chat msg from socket [id: Y62Ps-IwgfWaBSoSAAAJ], emitting to topic undefined 
+16.1.2023, 16:16:34 - INFO - New chat msg from socket [id: Y62Ps-IwgfWaBSoSAAAJ], emitting to topic undefined 
+16.1.2023, 16:16:41 - INFO - Req was made 
+16.1.2023, 16:16:41 - DEBUG - Getting Toys 
+16.1.2023, 16:16:41 - DEBUG - Getting Toys 
+16.1.2023, 16:16:41 - INFO - Req was made 
+16.1.2023, 16:16:41 - INFO - Req was made 
+16.1.2023, 16:16:41 - DEBUG - Getting Toys 
+16.1.2023, 16:16:51 - DEBUG - auth.service - login with username: moria 
+16.1.2023, 16:16:51 - ERROR - Failed to Login Invalid username or password 
+16.1.2023, 16:16:51 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:16:52 - INFO - New connected socket [id: DscZgX8IEdmXE_TjAAAL] 
+16.1.2023, 16:17:09 - DEBUG - auth.service - signup with username: moria, fullname: moria 
+16.1.2023, 16:17:09 - DEBUG - auth.route - new account created: {"username":"moria","password":"$2b$10$KQWf41lGGrhVW2E8BGPYreHH5Ywdu8kM6cwuTqfufLnfrc9gKuQP2","fullname":"moria","isAdmin":false,"_id":"63c55c65ee8344469cf9d744"} 
+16.1.2023, 16:17:09 - DEBUG - auth.service - login with username: moria 
+16.1.2023, 16:17:09 - INFO - User login:  | {"_id":"63c55c65ee8344469cf9d744","username":"moria","fullname":"moria","isAdmin":false} 
+16.1.2023, 16:17:09 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: DscZgX8IEdmXE_TjAAAL] 
+16.1.2023, 16:17:13 - INFO - Req was made 
+16.1.2023, 16:17:13 - DEBUG - Getting Toys 
+16.1.2023, 16:17:13 - INFO - Req was made 
+16.1.2023, 16:17:13 - DEBUG - Getting Toys 
+16.1.2023, 16:17:14 - INFO - Req was made 
+16.1.2023, 16:17:14 - DEBUG - Getting Toys 
+16.1.2023, 16:17:20 - INFO - New chat msg from socket [id: DscZgX8IEdmXE_TjAAAL], emitting to topic undefined 
+16.1.2023, 16:17:25 - INFO - Req was made 
+16.1.2023, 16:17:25 - DEBUG - Getting Toys 
+16.1.2023, 16:17:25 - INFO - Req was made 
+16.1.2023, 16:17:25 - DEBUG - Getting Toys 
+16.1.2023, 16:17:26 - INFO - Req was made 
+16.1.2023, 16:17:26 - DEBUG - Getting Toys 
+16.1.2023, 16:17:51 - INFO - Req was made 
+16.1.2023, 16:17:51 - DEBUG - Getting Toys 
+16.1.2023, 16:17:51 - INFO - Req was made 
+16.1.2023, 16:17:51 - DEBUG - Getting Toys 
+16.1.2023, 16:17:52 - INFO - Req was made 
+16.1.2023, 16:17:52 - DEBUG - Getting Toys 
+16.1.2023, 16:18:01 - INFO - New chat msg from socket [id: DscZgX8IEdmXE_TjAAAL], emitting to topic undefined 
+16.1.2023, 16:18:07 - INFO - New chat msg from socket [id: Y62Ps-IwgfWaBSoSAAAJ], emitting to topic undefined 
+16.1.2023, 16:18:10 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:18:11 - INFO - New connected socket [id: wVNbNJ3Cm15j7sz3AAAN] 
+16.1.2023, 16:18:12 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: wVNbNJ3Cm15j7sz3AAAN] 
+16.1.2023, 16:18:21 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:18:22 - INFO - New connected socket [id: z6KiAL4CdjzhrpJXAAAP] 
+16.1.2023, 16:18:22 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: z6KiAL4CdjzhrpJXAAAP] 
+16.1.2023, 16:18:32 - ERROR - cannot remove review null | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.1.2023, 16:18:32 - ERROR - Failed to delete review | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.1.2023, 16:18:32 - ERROR - cannot remove review null | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.1.2023, 16:18:32 - ERROR - Failed to delete review | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.1.2023, 16:18:33 - ERROR - cannot remove review null | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.1.2023, 16:18:33 - ERROR - Failed to delete review | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.1.2023, 16:18:33 - ERROR - cannot remove review null | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.1.2023, 16:18:33 - ERROR - Failed to delete review | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.1.2023, 16:18:34 - ERROR - cannot remove review null | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.1.2023, 16:18:34 - ERROR - Failed to delete review | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.1.2023, 16:18:47 - ERROR - cannot remove review null | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.1.2023, 16:18:47 - ERROR - Failed to delete review | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.1.2023, 16:26:06 - INFO - Server is running on port: 3030 
+16.1.2023, 16:26:06 - INFO - New connected socket [id: ybxsQHPjgtz3S0bWAAAB] 
+16.1.2023, 16:26:06 - INFO - New connected socket [id: n3CeuA-gm6uQlM1xAAAD] 
+16.1.2023, 16:26:10 - INFO - Server is running on port: 3030 
+16.1.2023, 16:26:10 - INFO - New connected socket [id: s15EF-kUQR9oLk9FAAAB] 
+16.1.2023, 16:26:10 - INFO - New connected socket [id: rvzhEDHQzFSnSQhUAAAD] 
+16.1.2023, 16:26:19 - INFO - Server is running on port: 3030 
+16.1.2023, 16:26:19 - INFO - New connected socket [id: CxRGKUKqcMuf70gkAAAC] 
+16.1.2023, 16:26:19 - INFO - New connected socket [id: K77mpdGSLn3t3SnYAAAD] 
+16.1.2023, 16:26:19 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: CxRGKUKqcMuf70gkAAAC] 
+16.1.2023, 16:26:32 - ERROR - cannot remove review null | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.1.2023, 16:26:32 - ERROR - Failed to delete review | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.1.2023, 16:27:02 - INFO - Server is running on port: 3030 
+16.1.2023, 16:27:02 - INFO - New connected socket [id: pRbnGbuiLBugdf5IAAAB] 
+16.1.2023, 16:27:03 - INFO - New connected socket [id: 0uH9DE8u-Mr2qW_vAAAD] 
+16.1.2023, 16:27:21 - INFO - Server is running on port: 3030 
+16.1.2023, 16:27:21 - INFO - New connected socket [id: iIJ5Q5IIZ8QdjZ4yAAAB] 
+16.1.2023, 16:27:21 - INFO - New connected socket [id: 2vWL7c-i6fuXASZgAAAD] 
+16.1.2023, 16:27:23 - INFO - Server is running on port: 3030 
+16.1.2023, 16:27:24 - INFO - New connected socket [id: duvRFavIjqYBaq9gAAAB] 
+16.1.2023, 16:27:24 - ERROR - cannot remove review null | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.1.2023, 16:27:24 - ERROR - Failed to delete review | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.1.2023, 16:27:24 - INFO - New connected socket [id: 5xrXHZh6UoBKEosOAAAD] 
+16.1.2023, 16:28:55 - INFO - Server is running on port: 3030 
+16.1.2023, 16:28:55 - INFO - New connected socket [id: e3cJn0_DaLkEIQQsAAAC] 
+16.1.2023, 16:28:55 - INFO - New connected socket [id: xoZK-9t0-ePbYUoJAAAD] 
+16.1.2023, 16:31:03 - INFO - Server is running on port: 3030 
+16.1.2023, 16:31:04 - INFO - New connected socket [id: 97hGgZWUuziQe3K0AAAB] 
+16.1.2023, 16:31:06 - INFO - New connected socket [id: dIm5LEk0bev3QD1dAAAD] 
+16.1.2023, 16:31:06 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: dIm5LEk0bev3QD1dAAAD] 
+16.1.2023, 16:31:40 - INFO - Server is running on port: 3030 
+16.1.2023, 16:31:41 - INFO - New connected socket [id: UOLWWAJZ8zMgqBBNAAAB] 
+16.1.2023, 16:31:48 - INFO - Server is running on port: 3030 
+16.1.2023, 16:31:48 - INFO - New connected socket [id: 2QIwqiMhZ2eTK3YKAAAB] 
+16.1.2023, 16:31:48 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:31:49 - INFO - New connected socket [id: v8ZG0o-FOshDGDEfAAAD] 
+16.1.2023, 16:31:50 - INFO - Req was made 
+16.1.2023, 16:31:50 - DEBUG - Getting Toys 
+16.1.2023, 16:31:50 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: v8ZG0o-FOshDGDEfAAAD] 
+16.1.2023, 16:31:50 - INFO - Req was made 
+16.1.2023, 16:31:50 - DEBUG - Getting Toys 
+16.1.2023, 16:31:50 - INFO - Req was made 
+16.1.2023, 16:31:50 - DEBUG - Getting Toys 
+16.1.2023, 16:31:52 - INFO - New connected socket [id: xq9GsCoXQy6M7y7AAAAF] 
+16.1.2023, 16:31:59 - INFO - Req was made 
+16.1.2023, 16:32:00 - INFO - Broadcasting event: review-added 
+16.1.2023, 16:32:00 - ERROR - Failed to add review | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 16:32:00 - INFO - Broadcast to all excluding user: 63c07ef34feef45aac3d6ba8 
+16.1.2023, 16:32:19 - INFO - Server is running on port: 3030 
+16.1.2023, 16:32:20 - INFO - New connected socket [id: SinJAE2R4GDte44vAAAC] 
+16.1.2023, 16:32:20 - INFO - New connected socket [id: uXxQTACqPo1KsRb5AAAD] 
+16.1.2023, 16:32:20 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: SinJAE2R4GDte44vAAAC] 
+16.1.2023, 16:32:25 - INFO - Req was made 
+16.1.2023, 16:32:26 - INFO - Broadcasting event: review-added 
+16.1.2023, 16:32:26 - ERROR - Failed to add review | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 16:32:26 - INFO - Broadcast to all excluding user: 63c07ef34feef45aac3d6ba8 
+16.1.2023, 16:33:05 - INFO - Req was made 
+16.1.2023, 16:33:05 - INFO - Broadcasting event: review-added 
+16.1.2023, 16:33:05 - ERROR - Failed to add review | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 16:33:05 - INFO - Broadcast to all excluding user: 63c07ef34feef45aac3d6ba8 
+16.1.2023, 16:34:08 - INFO - Req was made 
+16.1.2023, 16:34:08 - DEBUG - Getting Toys 
+16.1.2023, 16:34:09 - INFO - Req was made 
+16.1.2023, 16:34:09 - DEBUG - Getting Toys 
+16.1.2023, 16:34:09 - INFO - Req was made 
+16.1.2023, 16:34:09 - DEBUG - Getting Toys 
+16.1.2023, 16:34:12 - INFO - Req was made 
+16.1.2023, 16:34:13 - INFO - Broadcasting event: review-added 
+16.1.2023, 16:34:13 - ERROR - Failed to add review | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 16:34:13 - INFO - Broadcast to all excluding user: 63c07ef34feef45aac3d6ba8 
+16.1.2023, 16:35:04 - INFO - Req was made 
+16.1.2023, 16:35:16 - INFO - Req was made 
+16.1.2023, 16:35:16 - DEBUG - Getting Toys 
+16.1.2023, 16:35:16 - INFO - Req was made 
+16.1.2023, 16:35:16 - DEBUG - Getting Toys 
+16.1.2023, 16:35:16 - INFO - Req was made 
+16.1.2023, 16:35:16 - DEBUG - Getting Toys 
+16.1.2023, 16:35:25 - INFO - Req was made 
+16.1.2023, 16:35:26 - INFO - Broadcasting event: review-added 
+16.1.2023, 16:35:26 - ERROR - Failed to add review | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 16:35:26 - INFO - Broadcast to all excluding user: 63c07ef34feef45aac3d6ba8 
+16.1.2023, 16:35:40 - INFO - New chat msg from socket [id: SinJAE2R4GDte44vAAAC], emitting to topic undefined 
+16.1.2023, 16:37:43 - INFO - Server is running on port: 3030 
+16.1.2023, 16:37:43 - INFO - Req was made 
+16.1.2023, 16:37:43 - INFO - New connected socket [id: HXpET-7n3ylhiQz8AAAB] 
+16.1.2023, 16:37:43 - INFO - New connected socket [id: pSNRq1X3aaSfzGbNAAAD] 
+16.1.2023, 16:37:44 - INFO - Broadcasting event: review-added 
+16.1.2023, 16:37:44 - ERROR - Failed to add review | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 16:37:44 - INFO - Emit to all 
+16.1.2023, 16:38:10 - INFO - Server is running on port: 3030 
+16.1.2023, 16:38:10 - INFO - New connected socket [id: BbldwukKEwr6ZvYGAAAC] 
+16.1.2023, 16:38:10 - INFO - New connected socket [id: 2zG-e4gHNpiInhUlAAAD] 
+16.1.2023, 16:38:21 - INFO - Server is running on port: 3030 
+16.1.2023, 16:38:21 - INFO - New connected socket [id: tEzV_i7dM0MB6o1tAAAC] 
+16.1.2023, 16:38:22 - INFO - New connected socket [id: HC1293FEbp7Cyp1LAAAE] 
+16.1.2023, 16:38:22 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: HC1293FEbp7Cyp1LAAAE] 
+16.1.2023, 16:38:26 - INFO - Req was made 
+16.1.2023, 16:38:27 - INFO - Req was made 
+16.1.2023, 16:38:27 - ERROR - Failed to add review | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 16:38:27 - INFO - Broadcast to all excluding user: 63c07ef34feef45aac3d6ba8 
+16.1.2023, 16:38:27 - INFO - Broadcasting event: review-added 
+16.1.2023, 16:38:28 - INFO - Broadcasting event: review-added 
+16.1.2023, 16:38:28 - ERROR - Failed to add review | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 16:38:28 - INFO - Broadcast to all excluding user: 63c07ef34feef45aac3d6ba8 
+16.1.2023, 16:46:11 - INFO - Server is running on port: 3030 
+16.1.2023, 16:46:12 - INFO - New connected socket [id: _JoTQh2-SsyutJBvAAAC] 
+16.1.2023, 16:46:12 - INFO - New connected socket [id: PS1LmCW7usQ98qfKAAAD] 
+16.1.2023, 16:46:27 - INFO - Server is running on port: 3030 
+16.1.2023, 16:46:28 - INFO - New connected socket [id: GmdTzD8bJpG8HKWVAAAC] 
+16.1.2023, 16:46:28 - INFO - New connected socket [id: JwJ90qBVIh8W0qIqAAAD] 
+16.1.2023, 16:48:15 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:48:16 - INFO - New connected socket [id: zNZVVQGnnVhmCgjtAAAF] 
+16.1.2023, 16:48:17 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: zNZVVQGnnVhmCgjtAAAF] 
+16.1.2023, 16:48:49 - INFO - New connected socket [id: n4TTh3R96Rh7fhJtAAAH] 
+16.1.2023, 16:48:49 - INFO - New connected socket [id: R3oKxllxiHLm75SvAAAJ] 
+16.1.2023, 16:48:49 - INFO - New connected socket [id: Uy0h6OhgVQMExb77AAAL] 
+16.1.2023, 16:48:49 - INFO - New connected socket [id: fseCpNBSWwGoygZbAAAN] 
+16.1.2023, 16:48:51 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: n4TTh3R96Rh7fhJtAAAH] 
+16.1.2023, 16:48:51 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: Uy0h6OhgVQMExb77AAAL] 
+16.1.2023, 16:48:51 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: R3oKxllxiHLm75SvAAAJ] 
+16.1.2023, 16:48:51 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: fseCpNBSWwGoygZbAAAN] 
+16.1.2023, 16:48:58 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:48:59 - INFO - New connected socket [id: NM-88yqDmyDPxZ3vAAAP] 
+16.1.2023, 16:49:00 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: NM-88yqDmyDPxZ3vAAAP] 
+16.1.2023, 16:49:02 - INFO - New chat msg from socket [id: NM-88yqDmyDPxZ3vAAAP], emitting to topic undefined 
+16.1.2023, 16:49:07 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:49:08 - INFO - New connected socket [id: AKIBqC0PCJ0UvU7nAAAR] 
+16.1.2023, 16:49:08 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: AKIBqC0PCJ0UvU7nAAAR] 
+16.1.2023, 16:57:00 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:57:02 - INFO - New connected socket [id: O0LnHu0YQFZAJxqDAAAT] 
+16.1.2023, 16:57:02 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: O0LnHu0YQFZAJxqDAAAT] 
+16.1.2023, 16:57:06 - INFO - New chat msg from socket [id: O0LnHu0YQFZAJxqDAAAT], emitting to topic undefined 
+16.1.2023, 16:57:10 - INFO - New chat msg from socket [id: O0LnHu0YQFZAJxqDAAAT], emitting to topic undefined 
+16.1.2023, 16:57:11 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:57:13 - INFO - New connected socket [id: e1Cl3oE-v0GrjD0eAAAV] 
+16.1.2023, 16:57:13 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: e1Cl3oE-v0GrjD0eAAAV] 
+16.1.2023, 16:58:42 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:58:43 - INFO - New connected socket [id: SsglDUDQrcpYPr2aAAAX] 
+16.1.2023, 16:58:43 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: SsglDUDQrcpYPr2aAAAX] 
+16.1.2023, 16:58:46 - INFO - New chat msg from socket [id: SsglDUDQrcpYPr2aAAAX], emitting to topic undefined 
+16.1.2023, 16:59:14 - INFO - New connected socket [id: Lxl8Sprhn_XU8JKEAAAZ] 
+16.1.2023, 16:59:14 - INFO - New connected socket [id: CttZKnu1rVt6MufEAAAb] 
+16.1.2023, 16:59:15 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: Lxl8Sprhn_XU8JKEAAAZ] 
+16.1.2023, 16:59:16 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: CttZKnu1rVt6MufEAAAb] 
+16.1.2023, 16:59:17 - INFO - New chat msg from socket [id: Lxl8Sprhn_XU8JKEAAAZ], emitting to topic undefined 
+16.1.2023, 16:59:27 - INFO - New connected socket [id: nlzU5pW61dAAhKgfAAAe] 
+16.1.2023, 16:59:27 - INFO - New connected socket [id: hwm0uiDVxWN3TSN2AAAf] 
+16.1.2023, 16:59:28 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: nlzU5pW61dAAhKgfAAAe] 
+16.1.2023, 16:59:28 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: hwm0uiDVxWN3TSN2AAAf] 
+16.1.2023, 16:59:53 - INFO - Server is running on port: 3030 
+16.1.2023, 16:59:53 - INFO - New connected socket [id: WDPIU7WvpDzQrmFOAAAC] 
+16.1.2023, 16:59:53 - INFO - New connected socket [id: LeUzL7AIifQzeF6mAAAE] 
+16.1.2023, 16:59:53 - INFO - New connected socket [id: MDunQ1uWVJ-PeETmAAAH] 
+16.1.2023, 16:59:53 - INFO - New connected socket [id: DHHP7vo9UcKAX7hwAAAI] 
+16.1.2023, 16:59:53 - INFO - New connected socket [id: PkXWbMfMuLOghPiTAAAJ] 
+16.1.2023, 16:59:53 - INFO - New connected socket [id: GKLjiyOc7LuhCf0YAAAP] 
+16.1.2023, 16:59:53 - INFO - New connected socket [id: SOjM47AYbjSomLXwAAAQ] 
+16.1.2023, 16:59:53 - INFO - New connected socket [id: J3QkJ0mNh5O9I--fAAAR] 
+16.1.2023, 16:59:53 - INFO - New connected socket [id: TDMrigKZVl1q0hCoAAAS] 
+16.1.2023, 16:59:53 - INFO - New connected socket [id: diiMQ71zKpw1ptRtAAAT] 
+16.1.2023, 16:59:58 - INFO - Server is running on port: 3030 
+16.1.2023, 16:59:59 - INFO - New connected socket [id: B50ZKNzxIXvpyxnNAAAB] 
+16.1.2023, 16:59:59 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: B50ZKNzxIXvpyxnNAAAB] 
+16.1.2023, 16:59:59 - INFO - New connected socket [id: bbTU7eFP1v_tcFdkAAAJ] 
+16.1.2023, 16:59:59 - INFO - New connected socket [id: G4QPPPDhvc_pDzA8AAAK] 
+16.1.2023, 16:59:59 - INFO - New connected socket [id: xvtgY3_gMYJfQuDRAAAL] 
+16.1.2023, 16:59:59 - INFO - New connected socket [id: pZLkCMTP1rf4LScXAAAM] 
+16.1.2023, 16:59:59 - INFO - New connected socket [id: Uvm7JgBZLnB4CRQ1AAAN] 
+16.1.2023, 16:59:59 - INFO - New connected socket [id: ImKzIiAqsUAtglCXAAAO] 
+16.1.2023, 16:59:59 - INFO - New connected socket [id: wOWLm_GaOffc7O8aAAAP] 
+16.1.2023, 17:00:02 - INFO - New chat msg from socket [id: B50ZKNzxIXvpyxnNAAAB], emitting to topic undefined 
+16.1.2023, 17:00:39 - INFO - Server is running on port: 3030 
+16.1.2023, 17:00:39 - INFO - New connected socket [id: BnkioUxBd45uTrbNAAAC] 
+16.1.2023, 17:00:39 - INFO - New connected socket [id: _KE7H8vm1DvkRTKWAAAD] 
+16.1.2023, 17:00:39 - INFO - New connected socket [id: bjH6Y4EoxqIcICOlAAAJ] 
+16.1.2023, 17:00:39 - INFO - New connected socket [id: 32h5mwexJz7ukjdDAAAK] 
+16.1.2023, 17:00:40 - INFO - New connected socket [id: yOjquD3Pcd1n1wnLAAAM] 
+16.1.2023, 17:00:40 - INFO - New connected socket [id: 9OBJm8Er9t1-SmTAAAAN] 
+16.1.2023, 17:00:40 - INFO - New connected socket [id: 6y4V5XVFsOinz9-XAAAO] 
+16.1.2023, 17:00:40 - INFO - New connected socket [id: JlSs-JspU-DfKSFQAAAP] 
+16.1.2023, 17:02:17 - INFO - Server is running on port: 3030 
+16.1.2023, 17:02:17 - INFO - New connected socket [id: lSLKZtTs4aVzkLy7AAAF] 
+16.1.2023, 17:02:17 - INFO - New connected socket [id: piYNvOdbdxCN0g0cAAAJ] 
+16.1.2023, 17:02:19 - INFO - Server is running on port: 3030 
+16.1.2023, 17:02:20 - INFO - New connected socket [id: 0I2ywfNtyTgFK23QAAAB] 
+16.1.2023, 17:02:20 - INFO - New connected socket [id: YJwsiaA6TcYuNiLVAAAD] 
+16.1.2023, 17:02:20 - INFO - New connected socket [id: LWBlfr2gY8a7cLdwAAAF] 
+16.1.2023, 17:02:21 - INFO - New connected socket [id: 1zH5POzxDn7oCxwvAAAH] 
+16.1.2023, 17:02:21 - INFO - New connected socket [id: cy_I68iMFqdRSAhVAAAM] 
+16.1.2023, 17:02:21 - INFO - New connected socket [id: NC2vogyV-vB4gviJAAAN] 
+16.1.2023, 17:02:21 - INFO - New connected socket [id: e9Oxo9kS0WTFGtglAAAO] 
+16.1.2023, 17:02:21 - INFO - New connected socket [id: 3gA8RJLcRcKRVS-UAAAP] 
+16.1.2023, 17:02:52 - INFO - New chat msg from socket [id: 1zH5POzxDn7oCxwvAAAH], emitting to topic undefined 
+16.1.2023, 17:03:08 - INFO - Server is running on port: 3030 
+16.1.2023, 17:03:08 - INFO - New connected socket [id: 1GaAReXfLy6kpw1mAAAB] 
+16.1.2023, 17:03:08 - INFO - New connected socket [id: K2_QqugtP7u1xWxVAAAJ] 
+16.1.2023, 17:03:08 - INFO - New connected socket [id: 1UXiBeVcdwhJG-8BAAAK] 
+16.1.2023, 17:03:08 - INFO - New connected socket [id: qDXjshzPkJK673jnAAAL] 
+16.1.2023, 17:03:08 - INFO - New connected socket [id: znj4prn9i4-vAeoOAAAM] 
+16.1.2023, 17:03:08 - INFO - New connected socket [id: nEiE9Zone8BMuvozAAAN] 
+16.1.2023, 17:03:08 - INFO - New connected socket [id: aTSL_4hwsFgXpP2rAAAO] 
+16.1.2023, 17:03:08 - INFO - New connected socket [id: uRmxs0nqAGOt82iwAAAP] 
+16.1.2023, 17:06:36 - INFO - Server is running on port: 3030 
+16.1.2023, 17:06:36 - INFO - New connected socket [id: 6fqoVFuWmAA_6BCrAAAI] 
+16.1.2023, 17:06:36 - INFO - New connected socket [id: J5ofXlZb31x_YtTrAAAJ] 
+16.1.2023, 17:06:36 - INFO - New connected socket [id: 372epS8a_rOSCaqCAAAK] 
+16.1.2023, 17:06:36 - INFO - New connected socket [id: 4phP33MIKJ-ynoPXAAAL] 
+16.1.2023, 17:06:36 - INFO - New connected socket [id: pva47JI1xQud2bt5AAAM] 
+16.1.2023, 17:06:36 - INFO - New connected socket [id: tHXA6BhMtgU-j-FMAAAN] 
+16.1.2023, 17:06:36 - INFO - New connected socket [id: LOG1mOhd3ux8l1_ZAAAO] 
+16.1.2023, 17:06:36 - INFO - New connected socket [id: TbdBmFTBfLu13FBxAAAP] 
+16.1.2023, 17:06:38 - INFO - Server is running on port: 3030 
+16.1.2023, 17:06:38 - INFO - New connected socket [id: V_VhNwD7X0u2T5FQAAAE] 
+16.1.2023, 17:06:38 - INFO - New connected socket [id: GPBqv9wOKfgkIP-RAAAH] 
+16.1.2023, 17:06:38 - INFO - New connected socket [id: Btflo1jyD4YHi_boAAAJ] 
+16.1.2023, 17:06:38 - INFO - New connected socket [id: yfVA_vzsjGP4H9xkAAAK] 
+16.1.2023, 17:06:38 - INFO - New connected socket [id: c4PgIh2vTgK9DocoAAAL] 
+16.1.2023, 17:06:38 - INFO - New connected socket [id: 4254JelLplIYPGlVAAAM] 
+16.1.2023, 17:06:38 - INFO - New connected socket [id: qiMudPDL_Fo6n9o9AAAN] 
+16.1.2023, 17:06:38 - INFO - New connected socket [id: lemlj2PZqWMlu_-6AAAP] 
+16.1.2023, 17:06:42 - INFO - New chat msg from socket [id: V_VhNwD7X0u2T5FQAAAE], emitting to topic undefined 
+16.1.2023, 17:08:31 - INFO - Server is running on port: 3030 
+16.1.2023, 17:08:31 - INFO - New connected socket [id: KgAyxS1_pT0dPfmWAAAB] 
+16.1.2023, 17:08:31 - INFO - New connected socket [id: NhOUp_Wx2yZPZB3uAAAJ] 
+16.1.2023, 17:08:31 - INFO - New connected socket [id: OrZUsFNIQepYkQ6oAAAK] 
+16.1.2023, 17:08:31 - INFO - New connected socket [id: eBfKvWH920OW6FaYAAAL] 
+16.1.2023, 17:08:31 - INFO - New connected socket [id: _en6PN5veF9luCpZAAAM] 
+16.1.2023, 17:08:31 - INFO - New connected socket [id: F5RE5pdoNRN-G8EQAAAN] 
+16.1.2023, 17:08:31 - INFO - New connected socket [id: Xr3keTVrNR9dPZhDAAAO] 
+16.1.2023, 17:08:31 - INFO - New connected socket [id: PlInN1ZJzlxOgMbCAAAP] 
+16.1.2023, 17:08:34 - INFO - Server is running on port: 3030 
+16.1.2023, 17:08:34 - INFO - New connected socket [id: RWs_YKbs3X_FaMDzAAAF] 
+16.1.2023, 17:08:34 - INFO - New connected socket [id: 0y4c2r5xNpS9tyGCAAAG] 
+16.1.2023, 17:08:34 - INFO - New connected socket [id: Yk8-TootdYhrhDL3AAAH] 
+16.1.2023, 17:08:34 - INFO - New connected socket [id: Mi8vG6WzGgOYCsSHAAAJ] 
+16.1.2023, 17:08:34 - INFO - New connected socket [id: ttXtlPCH8Xg46kGDAAAM] 
+16.1.2023, 17:08:34 - INFO - New connected socket [id: GNWTghIy-nyx25tYAAAN] 
+16.1.2023, 17:08:34 - INFO - New connected socket [id: xAZ0tZswdOLVTtpSAAAO] 
+16.1.2023, 17:08:34 - INFO - New connected socket [id: qP7UwyFuuw_YIPa0AAAP] 
+16.1.2023, 17:08:35 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:08:37 - INFO - New connected socket [id: B0LSegH05zoCFNhkAAAR] 
+16.1.2023, 17:08:37 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: B0LSegH05zoCFNhkAAAR] 
+16.1.2023, 17:08:48 - INFO - New chat msg from socket [id: B0LSegH05zoCFNhkAAAR], emitting to topic undefined 
+16.1.2023, 17:09:12 - INFO - Server is running on port: 3030 
+16.1.2023, 17:09:13 - INFO - New connected socket [id: VovVa9u2XVR3wnDhAAAI] 
+16.1.2023, 17:09:13 - INFO - New connected socket [id: QHz2T2AhfUvf5zUzAAAJ] 
+16.1.2023, 17:09:13 - INFO - New connected socket [id: UW8_hp7g_wr3PYz-AAAK] 
+16.1.2023, 17:09:13 - INFO - New connected socket [id: g5FOoCLp0snDWGNZAAAL] 
+16.1.2023, 17:09:13 - INFO - New connected socket [id: -p9yBoJ6AbmKPT-uAAAM] 
+16.1.2023, 17:09:13 - INFO - New connected socket [id: X5APoj2bQKezAyMeAAAN] 
+16.1.2023, 17:09:13 - INFO - New connected socket [id: lweX89f-2a2aTTDnAAAO] 
+16.1.2023, 17:09:13 - INFO - New connected socket [id: eX0kHmWwPphdFU4qAAAP] 
+16.1.2023, 17:09:56 - INFO - New connected socket [id: i4pFLrIPFVBf68xDAAAS] 
+16.1.2023, 17:09:56 - INFO - New connected socket [id: fwc7VNLbz-yps6nMAAAT] 
+16.1.2023, 17:09:57 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: fwc7VNLbz-yps6nMAAAT] 
+16.1.2023, 17:09:57 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: i4pFLrIPFVBf68xDAAAS] 
+16.1.2023, 17:10:24 - INFO - New connected socket [id: CpZmZ0BdXPx2Uy-7AAAV] 
+16.1.2023, 17:10:25 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: CpZmZ0BdXPx2Uy-7AAAV] 
+16.1.2023, 17:10:25 - INFO - New connected socket [id: DIVTjNO7vh_6z8-LAAAX] 
+16.1.2023, 17:10:25 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: DIVTjNO7vh_6z8-LAAAX] 
+16.1.2023, 17:10:26 - INFO - New connected socket [id: PlvpNAnqiGZBfy8fAAAZ] 
+16.1.2023, 17:10:28 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: PlvpNAnqiGZBfy8fAAAZ] 
+16.1.2023, 17:10:28 - INFO - New connected socket [id: VecK1c-Wxrlo94g5AAAb] 
+16.1.2023, 17:10:28 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:10:28 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:10:28 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:10:28 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:10:29 - INFO - New connected socket [id: TRMePFJdFIRg75jnAAAd] 
+16.1.2023, 17:10:29 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: TRMePFJdFIRg75jnAAAd] 
+16.1.2023, 17:10:33 - INFO - New chat msg from socket [id: TRMePFJdFIRg75jnAAAd], emitting to topic undefined 
+16.1.2023, 17:10:36 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:10:37 - INFO - New connected socket [id: hQQebOs_THRBRP7pAAAf] 
+16.1.2023, 17:10:37 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: hQQebOs_THRBRP7pAAAf] 
+16.1.2023, 17:20:43 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:20:44 - INFO - New connected socket [id: SYlBihKyqSH_-AdLAAAh] 
+16.1.2023, 17:20:44 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: SYlBihKyqSH_-AdLAAAh] 
+16.1.2023, 17:20:52 - INFO - New chat msg from socket [id: SYlBihKyqSH_-AdLAAAh], emitting to topic undefined 
+16.1.2023, 17:20:59 - INFO - New chat msg from socket [id: SYlBihKyqSH_-AdLAAAh], emitting to topic undefined 
+16.1.2023, 17:21:17 - INFO - New chat msg from socket [id: SYlBihKyqSH_-AdLAAAh], emitting to topic undefined 
+16.1.2023, 17:21:24 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:21:25 - INFO - New connected socket [id: K_A3FiKWorfcv9zOAAAj] 
+16.1.2023, 17:21:25 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: K_A3FiKWorfcv9zOAAAj] 
+16.1.2023, 17:21:29 - INFO - New chat msg from socket [id: K_A3FiKWorfcv9zOAAAj], emitting to topic undefined 
+16.1.2023, 17:41:35 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:41:37 - INFO - New connected socket [id: V4JnIDXtYxhS1u8cAAAl] 
+16.1.2023, 17:41:37 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: V4JnIDXtYxhS1u8cAAAl] 
+16.1.2023, 17:41:49 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:41:50 - INFO - New connected socket [id: wm4b3mMTldCCgmQUAAAn] 
+16.1.2023, 17:41:50 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: wm4b3mMTldCCgmQUAAAn] 
+16.1.2023, 17:42:16 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:42:17 - INFO - New connected socket [id: 9s_LwSveEuu67aDPAAAp] 
+16.1.2023, 17:42:18 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: 9s_LwSveEuu67aDPAAAp] 
+16.1.2023, 17:50:41 - INFO - Removing socket.userId for socket [id: 9s_LwSveEuu67aDPAAAp] 
+16.1.2023, 17:50:42 - INFO - Removing socket.userId for socket [id: 9s_LwSveEuu67aDPAAAp] 
+16.1.2023, 17:51:55 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:51:56 - INFO - New connected socket [id: Rl0Iq8JMAuiWZpzXAAAr] 
+16.1.2023, 17:52:33 - DEBUG - auth.service - login with username: admin 
+16.1.2023, 17:52:33 - INFO - User login:  | {"_id":"63c07ef34feef45aac3d6ba8","username":"admin","fullname":"admin","isAdmin":true} 
+16.1.2023, 17:52:33 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: Rl0Iq8JMAuiWZpzXAAAr] 
+16.1.2023, 17:52:40 - INFO - Req was made 
+16.1.2023, 17:52:40 - DEBUG - Getting Toys 
+16.1.2023, 17:52:40 - INFO - Req was made 
+16.1.2023, 17:52:40 - DEBUG - Getting Toys 
+16.1.2023, 17:52:41 - INFO - Req was made 
+16.1.2023, 17:52:41 - DEBUG - Getting Toys 
+16.1.2023, 17:52:47 - INFO - New chat msg from socket [id: Rl0Iq8JMAuiWZpzXAAAr], emitting to topic undefined 
+16.1.2023, 17:53:27 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:53:28 - INFO - New connected socket [id: gH_u4WYhaeas3fQFAAAt] 
+16.1.2023, 17:53:29 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: gH_u4WYhaeas3fQFAAAt] 
+16.1.2023, 18:01:26 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:01:27 - INFO - New connected socket [id: KhYhzgYEcm2d6dGrAAAv] 
+16.1.2023, 18:01:27 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: KhYhzgYEcm2d6dGrAAAv] 
+16.1.2023, 18:01:33 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:01:34 - INFO - New connected socket [id: VddqADZfOEtRjOycAAAx] 
+16.1.2023, 18:01:34 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: VddqADZfOEtRjOycAAAx] 
+16.1.2023, 18:11:31 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:11:32 - INFO - New connected socket [id: rZVQBKzg-oW9Jn7rAAAz] 
+16.1.2023, 18:11:33 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: rZVQBKzg-oW9Jn7rAAAz] 
+16.1.2023, 18:11:36 - INFO - New chat msg from socket [id: rZVQBKzg-oW9Jn7rAAAz], emitting to topic undefined 
+16.1.2023, 18:15:18 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:15:19 - INFO - New connected socket [id: GMCttQFHCJ_RL7obAAA1] 
+16.1.2023, 18:15:20 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: GMCttQFHCJ_RL7obAAA1] 
+16.1.2023, 18:15:24 - INFO - New chat msg from socket [id: GMCttQFHCJ_RL7obAAA1], emitting to topic undefined 
+16.1.2023, 18:18:04 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:18:05 - INFO - New connected socket [id: Rej2Al0GrvszNBSdAAA3] 
+16.1.2023, 18:18:05 - INFO - Req was made 
+16.1.2023, 18:18:05 - DEBUG - Getting Toys 
+16.1.2023, 18:18:05 - INFO - Req was made 
+16.1.2023, 18:18:05 - DEBUG - Getting Toys 
+16.1.2023, 18:18:05 - INFO - Req was made 
+16.1.2023, 18:18:05 - DEBUG - Getting Toys 
+16.1.2023, 18:18:05 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: Rej2Al0GrvszNBSdAAA3] 
+16.1.2023, 18:18:13 - INFO - Req was made 
+16.1.2023, 18:18:13 - DEBUG - Getting Toys 
+16.1.2023, 18:18:14 - INFO - Req was made 
+16.1.2023, 18:18:14 - DEBUG - Getting Toys 
+16.1.2023, 18:18:14 - INFO - Req was made 
+16.1.2023, 18:18:14 - DEBUG - Getting Toys 
+16.1.2023, 18:18:23 - INFO - New chat msg from socket [id: Rej2Al0GrvszNBSdAAA3], emitting to topic undefined 
+16.1.2023, 18:18:26 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:18:26 - INFO - New connected socket [id: r4EsoKRdSa1G2aUCAAA5] 
+16.1.2023, 18:18:27 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: r4EsoKRdSa1G2aUCAAA5] 
+16.1.2023, 18:18:45 - INFO - New chat msg from socket [id: r4EsoKRdSa1G2aUCAAA5], emitting to topic undefined 
+16.1.2023, 18:18:47 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:18:47 - INFO - New connected socket [id: Qy_k3_EJK79H73dAAAA7] 
+16.1.2023, 18:18:48 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: Qy_k3_EJK79H73dAAAA7] 
+16.1.2023, 18:19:23 - INFO - New chat msg from socket [id: Qy_k3_EJK79H73dAAAA7], emitting to topic undefined 
+16.1.2023, 18:20:29 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:20:30 - INFO - New connected socket [id: yhDe0SWInwSyZkkbAAA9] 
+16.1.2023, 18:20:30 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: yhDe0SWInwSyZkkbAAA9] 
+16.1.2023, 18:20:36 - INFO - New chat msg from socket [id: yhDe0SWInwSyZkkbAAA9], emitting to topic undefined 
+16.1.2023, 18:20:40 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:20:41 - INFO - New connected socket [id: 0zqBVGkRyXaLzWsSAAA_] 
+16.1.2023, 18:20:41 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: 0zqBVGkRyXaLzWsSAAA_] 
+16.1.2023, 18:24:44 - INFO - New chat msg from socket [id: 0zqBVGkRyXaLzWsSAAA_], emitting to topic undefined 
+16.1.2023, 18:28:20 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:28:21 - INFO - New connected socket [id: 9IuZKPaqOva9nyHeAABB] 
+16.1.2023, 18:28:21 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: 9IuZKPaqOva9nyHeAABB] 
+16.1.2023, 18:32:57 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:32:58 - INFO - New connected socket [id: tJnGTqmSoTPAwDYEAABD] 
+16.1.2023, 18:32:59 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: tJnGTqmSoTPAwDYEAABD] 
+16.1.2023, 18:33:50 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:33:51 - INFO - New connected socket [id: 8Byz0E8bNzwUIfq-AABF] 
+16.1.2023, 18:33:52 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: 8Byz0E8bNzwUIfq-AABF] 
+16.1.2023, 18:37:59 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:38:00 - INFO - New connected socket [id: kCEg5FeuQogYPI73AABH] 
+16.1.2023, 18:38:01 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: kCEg5FeuQogYPI73AABH] 
+16.1.2023, 18:38:06 - INFO - New chat msg from socket [id: kCEg5FeuQogYPI73AABH], emitting to topic undefined 
+16.1.2023, 18:38:12 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:38:12 - INFO - New connected socket [id: iYIwP93CfzfwxEyqAABJ] 
+16.1.2023, 18:38:13 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: iYIwP93CfzfwxEyqAABJ] 
+16.1.2023, 18:41:40 - INFO - New chat msg from socket [id: iYIwP93CfzfwxEyqAABJ], emitting to topic undefined 
+16.1.2023, 18:41:46 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:41:47 - INFO - New connected socket [id: 0pAixaBCjHMtixmDAABL] 
+16.1.2023, 18:41:48 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: 0pAixaBCjHMtixmDAABL] 
+16.1.2023, 18:47:28 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:47:29 - INFO - New connected socket [id: 6cmK6E2zkbP8yr6ZAABN] 
+16.1.2023, 18:47:30 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: 6cmK6E2zkbP8yr6ZAABN] 
+16.1.2023, 18:47:36 - INFO - New chat msg from socket [id: 6cmK6E2zkbP8yr6ZAABN], emitting to topic undefined 
+16.1.2023, 18:48:37 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:48:37 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:48:37 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:48:37 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:48:37 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:48:37 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:48:37 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:48:37 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:48:37 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:48:37 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:48:38 - INFO - New connected socket [id: BiQufzSw7ERaNViFAABP] 
+16.1.2023, 18:48:39 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: BiQufzSw7ERaNViFAABP] 
+16.1.2023, 18:48:44 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:48:45 - INFO - New connected socket [id: eO0QykM61QXByTD8AABR] 
+16.1.2023, 18:48:45 - INFO - Req was made 
+16.1.2023, 18:48:45 - DEBUG - Getting Toys 
+16.1.2023, 18:48:45 - INFO - Req was made 
+16.1.2023, 18:48:45 - DEBUG - Getting Toys 
+16.1.2023, 18:48:45 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: eO0QykM61QXByTD8AABR] 
+16.1.2023, 18:48:45 - INFO - Req was made 
+16.1.2023, 18:48:45 - DEBUG - Getting Toys 
+16.1.2023, 18:48:54 - INFO - Req was made 
+16.1.2023, 18:48:54 - DEBUG - Getting Toys 
+16.1.2023, 18:48:54 - INFO - Req was made 
+16.1.2023, 18:48:54 - DEBUG - Getting Toys 
+16.1.2023, 18:48:54 - INFO - Req was made 
+16.1.2023, 18:48:54 - DEBUG - Getting Toys 
+16.1.2023, 18:49:16 - INFO - New chat msg from socket [id: eO0QykM61QXByTD8AABR], emitting to topic undefined 
+16.1.2023, 18:49:22 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:49:23 - INFO - New connected socket [id: -PsA_FnXBcXJQfm1AABT] 
+16.1.2023, 18:49:23 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: -PsA_FnXBcXJQfm1AABT] 
+16.1.2023, 18:49:40 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:49:41 - INFO - New connected socket [id: ZzxiXRO6vLeH32n0AABV] 
+16.1.2023, 18:49:41 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: ZzxiXRO6vLeH32n0AABV] 
+16.1.2023, 18:49:44 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:49:44 - INFO - New connected socket [id: yCnzZ5fEwiXDUx2vAABX] 
+16.1.2023, 18:49:44 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: yCnzZ5fEwiXDUx2vAABX] 
+16.1.2023, 18:51:51 - INFO - New chat msg from socket [id: ZzxiXRO6vLeH32n0AABV], emitting to topic undefined 
+16.1.2023, 18:51:56 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:51:57 - INFO - New connected socket [id: 5Se_wZiOS78geAATAABZ] 
+16.1.2023, 18:51:57 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: 5Se_wZiOS78geAATAABZ] 
+16.1.2023, 19:01:46 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:01:47 - INFO - New connected socket [id: aSGcyTyFa2l73THBAABb] 
+16.1.2023, 19:01:47 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: aSGcyTyFa2l73THBAABb] 
+16.1.2023, 19:02:00 - INFO - New chat msg from socket [id: aSGcyTyFa2l73THBAABb], emitting to topic undefined 
+16.1.2023, 19:02:03 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:02:04 - INFO - New connected socket [id: u_q5-b7VN9fza8HgAABd] 
+16.1.2023, 19:02:05 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: u_q5-b7VN9fza8HgAABd] 
+16.1.2023, 19:02:10 - INFO - New chat msg from socket [id: u_q5-b7VN9fza8HgAABd], emitting to topic undefined 
+16.1.2023, 19:11:30 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:11:31 - INFO - New connected socket [id: xJ3APP0oWdclezTGAABf] 
+16.1.2023, 19:11:31 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: xJ3APP0oWdclezTGAABf] 
+16.1.2023, 19:11:31 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:11:32 - INFO - New connected socket [id: ux6irNPS39FxUOyLAABh] 
+16.1.2023, 19:11:33 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: ux6irNPS39FxUOyLAABh] 
+16.1.2023, 19:11:54 - INFO - New chat msg from socket [id: ux6irNPS39FxUOyLAABh], emitting to topic undefined 
+16.1.2023, 19:11:57 - INFO - New chat msg from socket [id: xJ3APP0oWdclezTGAABf], emitting to topic undefined 
+16.1.2023, 19:13:22 - INFO - New chat msg from socket [id: ux6irNPS39FxUOyLAABh], emitting to topic 63c093fdbf0c639121d3919a 
+16.1.2023, 19:13:28 - INFO - New chat msg from socket [id: xJ3APP0oWdclezTGAABf], emitting to topic 63c093fdbf0c639121d3919a 
+16.1.2023, 19:15:55 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:15:56 - INFO - New connected socket [id: beB_bgAsWlgRgzGvAABj] 
+16.1.2023, 19:15:56 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: beB_bgAsWlgRgzGvAABj] 
+16.1.2023, 19:16:21 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:16:22 - INFO - New connected socket [id: ca8D-ybz0KCevEMXAABl] 
+16.1.2023, 19:16:22 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: ca8D-ybz0KCevEMXAABl] 
+16.1.2023, 19:22:37 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:22:39 - INFO - New connected socket [id: WB4RDaQ6MgFD9EnjAABn] 
+16.1.2023, 19:22:39 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: WB4RDaQ6MgFD9EnjAABn] 
+16.1.2023, 19:22:47 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:22:48 - INFO - New connected socket [id: JU4TpEMpDJjpTNibAABp] 
+16.1.2023, 19:22:48 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: JU4TpEMpDJjpTNibAABp] 
+16.1.2023, 19:24:44 - INFO - Server is running on port: 3030 
+16.1.2023, 19:24:44 - INFO - New connected socket [id: 6d3FeDAbQY7JnjMeAAAB] 
+16.1.2023, 19:24:44 - INFO - New connected socket [id: 0K0IzxNvbVvBCfAOAAAD] 
+16.1.2023, 19:24:50 - INFO - Server is running on port: 3030 
+16.1.2023, 19:24:50 - INFO - New connected socket [id: S1BBlEc64U7s7NQTAAAC] 
+16.1.2023, 19:24:50 - INFO - New connected socket [id: -35MswB2t9VzLA1bAAAD] 
+16.1.2023, 19:25:50 - INFO - Server is running on port: 3030 
+16.1.2023, 19:25:50 - INFO - New connected socket [id: cvQb0JoIZ-AWowuIAAAC] 
+16.1.2023, 19:25:50 - INFO - New connected socket [id: IZ7YMm2Zz8P3rR8zAAAD] 
+16.1.2023, 19:37:35 - INFO - Server is running on port: 3030 
+16.1.2023, 19:37:43 - INFO - Server is running on port: 3030 
+16.1.2023, 19:37:52 - INFO - Server is running on port: 3030 
+16.1.2023, 19:37:52 - INFO - New connected socket [id: mfzFVWRV40hZukEYAAAB] 
+16.1.2023, 19:37:54 - INFO - New connected socket [id: VVJXobdNaU0A9O46AAAD] 
+16.1.2023, 19:38:17 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:38:19 - INFO - New connected socket [id: fKqGFiZY4zJIWzS6AAAF] 
+16.1.2023, 19:38:19 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: fKqGFiZY4zJIWzS6AAAF] 
+16.1.2023, 19:38:54 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:38:55 - INFO - New connected socket [id: 9mRx48BaJvrNhkIrAAAH] 
+16.1.2023, 19:38:55 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: 9mRx48BaJvrNhkIrAAAH] 
+16.1.2023, 19:44:25 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:44:27 - INFO - New connected socket [id: Hup-UUjKg28mcOE8AAAJ] 
+16.1.2023, 19:44:27 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: Hup-UUjKg28mcOE8AAAJ] 
+16.1.2023, 19:46:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:46:07 - INFO - New connected socket [id: KNrRhjlBDTpru8kDAAAL] 
+16.1.2023, 19:46:08 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: KNrRhjlBDTpru8kDAAAL] 
+16.1.2023, 19:47:07 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:47:07 - INFO - New connected socket [id: eYLy_KK8O81KHxhfAAAN] 
+16.1.2023, 19:47:08 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: eYLy_KK8O81KHxhfAAAN] 
+16.1.2023, 19:49:09 - INFO - New chat msg from socket [id: eYLy_KK8O81KHxhfAAAN], emitting to topic 63c093fdbf0c639121d3919a 
+16.1.2023, 19:49:26 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:49:28 - INFO - New connected socket [id: ipu3wxhiu7JO-CLhAAAP] 
+16.1.2023, 19:49:28 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: ipu3wxhiu7JO-CLhAAAP] 
+16.1.2023, 19:52:26 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:52:27 - INFO - New connected socket [id: _c-iSCwe0xKXPvXpAAAR] 
+16.1.2023, 19:52:27 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: _c-iSCwe0xKXPvXpAAAR] 
+16.1.2023, 19:52:32 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:52:32 - INFO - New connected socket [id: f8TRDVADq4owIMwcAAAT] 
+16.1.2023, 19:52:32 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: f8TRDVADq4owIMwcAAAT] 
+16.1.2023, 19:53:31 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:53:32 - INFO - New connected socket [id: YRONyjg-FWvc1GsKAAAV] 
+16.1.2023, 19:53:33 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: YRONyjg-FWvc1GsKAAAV] 
+16.1.2023, 19:54:32 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:54:33 - INFO - New connected socket [id: 9aRW-K-iW8UnI9R8AAAX] 
+16.1.2023, 19:54:33 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: 9aRW-K-iW8UnI9R8AAAX] 
+16.1.2023, 19:56:27 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:56:29 - INFO - New connected socket [id: beC6HGlDs9pKqDLsAAAZ] 
+16.1.2023, 19:56:30 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: beC6HGlDs9pKqDLsAAAZ] 
+16.1.2023, 19:56:45 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:56:46 - INFO - New connected socket [id: ZyVRl2WicDSoy7SoAAAb] 
+16.1.2023, 19:56:46 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: ZyVRl2WicDSoy7SoAAAb] 
+16.1.2023, 19:57:29 - INFO - New chat msg from socket [id: beC6HGlDs9pKqDLsAAAZ], emitting to topic 63c093fdbf0c639121d3919a 
+16.1.2023, 20:02:45 - INFO - Server is running on port: 3030 
+16.1.2023, 20:02:45 - INFO - New connected socket [id: o-_39zBXsNiH8PCeAAAC] 
+16.1.2023, 20:02:45 - INFO - New connected socket [id: Ixk_mMPUbtjVLpQJAAAD] 
+16.1.2023, 20:06:12 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:06:12 - INFO - New connected socket [id: NPlXx1cHqDg2rOyJAAAF] 
+16.1.2023, 20:06:12 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: NPlXx1cHqDg2rOyJAAAF] 
+16.1.2023, 20:06:21 - INFO - New chat msg from socket [id: NPlXx1cHqDg2rOyJAAAF], emitting to topic 63c093fdbf0c639121d3919a 
+16.1.2023, 20:06:23 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:06:24 - INFO - New connected socket [id: QxGaof4nS7aODBQmAAAH] 
+16.1.2023, 20:06:24 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:06:25 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: QxGaof4nS7aODBQmAAAH] 
+16.1.2023, 20:06:25 - INFO - New connected socket [id: RQM_rDx_ZG-hbp6JAAAJ] 
+16.1.2023, 20:06:26 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: RQM_rDx_ZG-hbp6JAAAJ] 
+16.1.2023, 20:06:31 - INFO - New chat msg from socket [id: QxGaof4nS7aODBQmAAAH], emitting to topic 63c093fdbf0c639121d3919a 
+16.1.2023, 20:06:36 - INFO - New chat msg from socket [id: RQM_rDx_ZG-hbp6JAAAJ], emitting to topic 63c093fdbf0c639121d3919a 
+16.1.2023, 20:06:44 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:06:44 - INFO - New connected socket [id: jI1a9B25VMYiic-oAAAL] 
+16.1.2023, 20:06:45 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: jI1a9B25VMYiic-oAAAL] 
+16.1.2023, 20:08:39 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:08:40 - INFO - New connected socket [id: qh8V9nJVUA--wtBzAAAN] 
+16.1.2023, 20:08:40 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: qh8V9nJVUA--wtBzAAAN] 
+16.1.2023, 20:08:46 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:08:47 - INFO - New connected socket [id: zqxRY9jvycCXsAB3AAAP] 
+16.1.2023, 20:08:48 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: zqxRY9jvycCXsAB3AAAP] 
+16.1.2023, 20:13:55 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:13:55 - INFO - New connected socket [id: 7VyBEglkpot3ynx2AAAR] 
+16.1.2023, 20:13:56 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: 7VyBEglkpot3ynx2AAAR] 
+16.1.2023, 20:13:56 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:13:57 - INFO - New connected socket [id: NyS2GCWahrcg2_vsAAAT] 
+16.1.2023, 20:13:57 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: NyS2GCWahrcg2_vsAAAT] 
+16.1.2023, 20:14:02 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:14:03 - INFO - New connected socket [id: Qod6xUaIyJm_z9CyAAAV] 
+16.1.2023, 20:14:03 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: Qod6xUaIyJm_z9CyAAAV] 
+16.1.2023, 20:14:08 - INFO - New chat msg from socket [id: NyS2GCWahrcg2_vsAAAT], emitting to topic 63c093fdbf0c639121d3919a 
+16.1.2023, 20:14:15 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:14:15 - INFO - New connected socket [id: DgZk48NCpvhrWEkLAAAX] 
+16.1.2023, 20:14:15 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: DgZk48NCpvhrWEkLAAAX] 
+16.1.2023, 20:22:24 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:22:24 - INFO - New connected socket [id: IIhVSjD1jwB9SiNVAAAZ] 
+16.1.2023, 20:22:25 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: IIhVSjD1jwB9SiNVAAAZ] 
+16.1.2023, 20:22:25 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:22:26 - INFO - New connected socket [id: 15_KL6rP_P0QgL0qAAAb] 
+16.1.2023, 20:22:27 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: 15_KL6rP_P0QgL0qAAAb] 
+16.1.2023, 20:22:30 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:22:31 - INFO - New connected socket [id: JCZ77avq1KHlt8t0AAAd] 
+16.1.2023, 20:22:31 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: JCZ77avq1KHlt8t0AAAd] 
+16.1.2023, 20:22:37 - INFO - New chat msg from socket [id: 15_KL6rP_P0QgL0qAAAb], emitting to topic 63c093fdbf0c639121d3919a 
+16.1.2023, 20:24:46 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:24:47 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:24:48 - INFO - New connected socket [id: eX4NbQsLKuRDpnEJAAAf] 
+16.1.2023, 20:24:48 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: eX4NbQsLKuRDpnEJAAAf] 
+16.1.2023, 20:24:49 - INFO - New connected socket [id: yh4ov0_e5-qLKJ3XAAAh] 
+16.1.2023, 20:24:50 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: yh4ov0_e5-qLKJ3XAAAh] 
+16.1.2023, 20:25:37 - INFO - New chat msg from socket [id: eX4NbQsLKuRDpnEJAAAf], emitting to topic 63c093fdbf0c639121d3919a 
+16.1.2023, 20:25:42 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:25:43 - INFO - New connected socket [id: JSA6llh7lf5pLKIFAAAj] 
+16.1.2023, 20:25:43 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: JSA6llh7lf5pLKIFAAAj] 
+16.1.2023, 20:25:44 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:25:45 - INFO - New connected socket [id: heZwnvDtsEFtk9lLAAAl] 
+16.1.2023, 20:25:45 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: heZwnvDtsEFtk9lLAAAl] 
+16.1.2023, 20:28:28 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:28:28 - INFO - New connected socket [id: M4NWqLb7GHm7dzM7AAAn] 
+16.1.2023, 20:28:29 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: M4NWqLb7GHm7dzM7AAAn] 
+16.1.2023, 20:29:16 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:29:16 - INFO - New connected socket [id: UulGDyNv9wy4HnVrAAAp] 
+16.1.2023, 20:29:17 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: UulGDyNv9wy4HnVrAAAp] 
+16.1.2023, 20:36:06 - INFO - Server is running on port: 3030 
+16.1.2023, 20:36:06 - INFO - New connected socket [id: EccTDvqVPXx1dzmrAAAB] 
+16.1.2023, 20:36:06 - INFO - New connected socket [id: M0FTsKGeQUFwxPkHAAAD] 
+16.1.2023, 20:36:10 - INFO - Server is running on port: 3030 
+16.1.2023, 20:36:12 - INFO - Server is running on port: 3030 
+16.1.2023, 20:36:12 - INFO - New connected socket [id: b9__4xDACxjKhTNdAAAB] 
+16.1.2023, 20:36:12 - INFO - New connected socket [id: Sdj_1tn37GhQits4AAAD] 
+16.1.2023, 20:36:16 - INFO - Server is running on port: 3030 
+16.1.2023, 20:36:16 - INFO - New connected socket [id: qNhPQ9Te6aWbpkrXAAAB] 
+16.1.2023, 20:36:17 - INFO - New connected socket [id: VvKBnW--78vGOYvwAAAD] 
+16.1.2023, 20:36:19 - INFO - Server is running on port: 3030 
+16.1.2023, 20:36:19 - INFO - New connected socket [id: myE2wfmo3azoND-zAAAB] 
+16.1.2023, 20:36:20 - INFO - New connected socket [id: 9bisjSka429g9hEOAAAD] 
+16.1.2023, 20:36:25 - INFO - Server is running on port: 3030 
+16.1.2023, 20:36:25 - INFO - New connected socket [id: uV7-C02Nyk1DYYmQAAAB] 
+16.1.2023, 20:36:25 - INFO - New connected socket [id: OCLmOvS4Fo-sX2xFAAAD] 
+16.1.2023, 20:36:35 - INFO - Server is running on port: 3030 
+16.1.2023, 20:36:35 - INFO - New connected socket [id: fA0_p8sPXkkTG4GPAAAB] 
+16.1.2023, 20:36:35 - INFO - New connected socket [id: VdSEN6S7eT0-ZKItAAAD] 
+16.1.2023, 20:36:41 - INFO - Server is running on port: 3030 
+16.1.2023, 20:36:41 - INFO - New connected socket [id: VwkdDYnIAbCKY3t9AAAB] 
+16.1.2023, 20:36:42 - INFO - New connected socket [id: VYU26srzwY5-uiBHAAAD] 
+16.1.2023, 20:36:57 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:36:57 - INFO - New connected socket [id: GFK64XcNQ9PvRvHpAAAF] 
+16.1.2023, 20:36:58 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: GFK64XcNQ9PvRvHpAAAF] 
+16.1.2023, 20:36:59 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:37:00 - INFO - New connected socket [id: fJC3JZxd9KdpH0z0AAAH] 
+16.1.2023, 20:37:00 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: fJC3JZxd9KdpH0z0AAAH] 
+16.1.2023, 20:38:51 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:38:51 - INFO - New connected socket [id: rEwkEBZr4rG_NgbEAAAJ] 
+16.1.2023, 20:38:51 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: rEwkEBZr4rG_NgbEAAAJ] 
+16.1.2023, 20:48:41 - INFO - Server is running on port: 3030 
+16.1.2023, 20:48:42 - INFO - New connected socket [id: 7CfCc6lCVwSdoKEzAAAB] 
+16.1.2023, 20:48:42 - INFO - New connected socket [id: rgSH74So74lO2awaAAAD] 
+16.1.2023, 20:48:44 - INFO - Server is running on port: 3030 
+16.1.2023, 20:48:44 - INFO - New connected socket [id: 814262VmcX172dPVAAAB] 
+16.1.2023, 20:48:45 - INFO - New connected socket [id: odhL4JYr8AwNyA2QAAAD] 
+16.1.2023, 20:48:49 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:48:50 - INFO - New connected socket [id: vtuGG6YEIBCQs4OTAAAF] 
+16.1.2023, 20:48:50 - INFO - Setting socket.userId = 63c55c65ee8344469cf9d744 for socket [id: vtuGG6YEIBCQs4OTAAAF] 
+16.1.2023, 20:48:51 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:48:52 - INFO - New connected socket [id: 2NKpBKTvJ0x3SheyAAAH] 
+16.1.2023, 20:48:52 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: 2NKpBKTvJ0x3SheyAAAH] 

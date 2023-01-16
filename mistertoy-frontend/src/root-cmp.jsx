@@ -15,6 +15,9 @@ import { ToyEdit } from './pages/toy-edit'
 
 import { store } from './store/store'
 import { ToyDashboard } from './pages/toy-dashboard'
+import { LoginSignup } from './pages/login-signup'
+import { UserMsg } from './cmps/user-msg'
+import { ReviewApp } from './pages/review-app'
 
 export default function App() {
 
@@ -32,6 +35,8 @@ export default function App() {
                     <Route element={<HomePage />} path="/" />
                     <Route element={<AboutUs />} path="/about" />
                     <Route element={<ToyDashboard />} path="/dashboard" />
+                    <Route element={<LoginSignup />} path="/user" />
+                    <Route element={<ReviewApp />} path="/review" />
                     <Route element={<ToyIndex />} path="/toy" />
                     <Route element={<ToyEdit />} path="/toy/edit" />
                     <Route element={<ToyEdit />} path="/toy/edit/:toyId" />
@@ -39,6 +44,7 @@ export default function App() {
                 </Routes>
             </main>
             {/* <AppFooter /> */}
+            <UserMsg />
         </Router>
     </Provider >
 }

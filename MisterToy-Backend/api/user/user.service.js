@@ -1,7 +1,6 @@
 
 const dbService = require('../../services/db.service')
 const logger = require('../../services/logger.service')
-const reviewService = require('../review/review.service')
 const ObjectId = require('mongodb').ObjectId
 
 module.exports = {
@@ -37,16 +36,7 @@ async function getById(userId) {
     try {
         const collection = await dbService.getCollection('user')
         const user = await collection.findOne({ _id: ObjectId(userId) })
-    // console.log('user:', user)    
         delete user.password
-
-        // user.givenReviews = await reviewService.query({ byUserId: ObjectId(user._id) })
-        // user.givenReviews = user.givenReviews.map(review => {
-        //     delete review.byUser
-        //     return review
-        // })
-
-
         return user
     } catch (err) {
         logger.error(`while finding user ${userId}`, err)
@@ -59,7 +49,7 @@ async function getByUsername(username) {
         const user = await collection.findOne({ username })
         return user
     } catch (err) {
-        logger.error(`while finding user by username: ${username}`, err)
+        logger.error(`while finding user ${username}`, err)
         throw err
     }
 }
@@ -82,6 +72,7 @@ async function update(user) {
             username: user.username,
             fullname: user.fullname,
             isAdmin: user.isAdmin
+            // score: user.score
         }
         const collection = await dbService.getCollection('user')
         await collection.updateOne({ _id: userToSave._id }, { $set: userToSave })
@@ -99,6 +90,7 @@ async function add(user) {
             username: user.username,
             password: user.password,
             fullname: user.fullname,
+            // score: user.score || 0
             isAdmin: user.isAdmin
         }
         const collection = await dbService.getCollection('user')

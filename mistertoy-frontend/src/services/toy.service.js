@@ -18,7 +18,11 @@ export const toyService = {
     getDefaultSort,
     // getToysCountPerLabel,
     // getPriceAvgPerLabel,
-    getLabels
+    getLabels,
+    addToyMsg,
+    removeToyMsg,
+    addToyReview,
+    removeToyReview
 }
 
 
@@ -26,6 +30,7 @@ function query(filterBy = getDefaultFilter(), sortBy = getDefaultSort()) {
     // const queryParams = `?name=${filterBy.name}&inStock=${filterBy.inStock}&label=${filterBy.label}&sortByVal=${sortBy.value}&sortByChange=${sortBy.change}`
     // return httpService.get(BASE_URL + queryParams)
     // return httpService.get(BASE_URL +  JSON.stringify({ filterBy, sortBy }))
+    // console.log('filterBy:', filterBy)
     return httpService.get('toy', { params: { filterBy, sortBy } })
 
 }
@@ -33,7 +38,7 @@ function query(filterBy = getDefaultFilter(), sortBy = getDefaultSort()) {
 function getById(toyId) {
     return httpService.get(BASE_URL + toyId)
         .then(toy => ({ ...toy, msg: 'TRY ME' }))
-    return storageService.get(STORAGE_KEY, toyId)
+    // return storageService.get(STORAGE_KEY, toyId)
 }
 
 function remove(toyId) {
@@ -51,7 +56,7 @@ function save(toy) {
     //     return storageService.post(STORAGE_KEY, toy)
     // }
     if (toy._id) {
-        return httpService.put(BASE_URL, toy)
+        return httpService.put(BASE_URL + toy._id, toy)
     } else {
         // when switching to backend - remove the next line
         // toy.owner = userService.getLoggedinUser()
@@ -213,3 +218,25 @@ function getRandomToy() {
 
 // TEST DATA
 // storageService.post(STORAGE_KEY, {vendor: 'Subali Rahok 6', price: 980}).then(x => console.log(x))
+
+async function addToyMsg(toyId, txt) {
+
+    const savedMsg = await httpService.post(`toy/${toyId}/msg`, {txt})
+    return savedMsg
+}
+
+async function addToyReview(toyId, review) {
+    const savedReview = await httpService.post(`toy/${toyId}/review`, {review})
+    return savedReview
+}
+
+async function removeToyMsg(toyId, msgId) {
+      
+    const savedMsg = await httpService.delete(`toy/${toyId}/msg/${msgId}`)
+    return savedMsg
+}
+
+async function removeToyReview(toyId, reviewId) {
+    const savedReview = await httpService.delete(`toy/${toyId}/review/${reviewId}`)
+    return savedReview
+}

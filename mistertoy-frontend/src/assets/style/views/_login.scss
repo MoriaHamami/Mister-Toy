@@ -1,0 +1,23 @@
+.login-signup>* {
+    padding-block-start: 10px;
+
+    position: relative;
+    top: 90px;
+    // form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // }
+
+    border: 1px solid lightgray;
+    margin: auto 20px;
+    padding: 20px;
+    /* .btns-container {
+        display: flex;
+
+        // button {
+        //     flex-basis: max-content;
+        // }
+    } */
+}
