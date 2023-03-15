@@ -2870,3 +2870,5 @@
 15.3.2023, 17:51:43 - INFO - Req was made 
 15.3.2023, 17:51:43 - DEBUG - Getting Toys 
 15.3.2023, 17:51:43 - ERROR - Failed to get toys | TypeError: Cannot destructure property 'filterBy' of 'req.query.params' as it is undefined. 
+15.3.2023, 18:00:41 - INFO - Server is running on port: 3030 
+15.3.2023, 18:00:42 - INFO - New connected socket [id: QsrqjU5B4zxpYtnhAAAB] 
