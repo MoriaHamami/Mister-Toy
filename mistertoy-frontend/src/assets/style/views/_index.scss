@@ -4,13 +4,14 @@
 }
 
 .add-btn {
-    
-    // width: max-content;
     background-color: $gray1;
-    .button {
-        display: flex;
-        justify-content: center;
-    }
-    padding-block: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
     border-bottom: 1px solid lightgray;
+
+    button {
+        margin: 10px 0 0 0;
+        align-self: start;
+    }
 }

@@ -2872,3 +2872,412 @@
 15.3.2023, 17:51:43 - ERROR - Failed to get toys | TypeError: Cannot destructure property 'filterBy' of 'req.query.params' as it is undefined. 
 15.3.2023, 18:00:41 - INFO - Server is running on port: 3030 
 15.3.2023, 18:00:42 - INFO - New connected socket [id: QsrqjU5B4zxpYtnhAAAB] 
+15.3.2023, 18:04:23 - INFO - Req was made 
+15.3.2023, 18:04:25 - INFO - Req was made 
+15.3.2023, 18:04:25 - DEBUG - Getting Toys 
+15.3.2023, 18:04:25 - INFO - Req was made 
+15.3.2023, 18:04:25 - DEBUG - Getting Toys 
+15.3.2023, 18:04:26 - INFO - Req was made 
+15.3.2023, 18:04:26 - DEBUG - Getting Toys 
+15.3.2023, 18:04:38 - DEBUG - Getting Toys 
+15.3.2023, 18:04:38 - INFO - Req was made 
+15.3.2023, 18:06:49 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 18:07:04 - INFO - New connected socket [id: pmqpx3PFYro--pTiAAAD] 
+15.3.2023, 18:09:52 - INFO - Req was made 
+15.3.2023, 18:09:52 - DEBUG - Getting Toys 
+15.3.2023, 18:09:52 - INFO - Req was made 
+15.3.2023, 18:09:52 - DEBUG - Getting Toys 
+15.3.2023, 18:09:53 - INFO - Req was made 
+15.3.2023, 18:09:53 - DEBUG - Getting Toys 
+15.3.2023, 18:12:58 - INFO - Req was made 
+15.3.2023, 18:12:58 - DEBUG - Getting Toys 
+15.3.2023, 18:12:58 - INFO - Req was made 
+15.3.2023, 18:12:58 - DEBUG - Getting Toys 
+15.3.2023, 18:12:58 - INFO - Req was made 
+15.3.2023, 18:12:58 - DEBUG - Getting Toys 
+15.3.2023, 18:18:17 - INFO - Req was made 
+15.3.2023, 18:18:17 - DEBUG - Getting Toys 
+15.3.2023, 18:18:17 - INFO - Req was made 
+15.3.2023, 18:18:17 - DEBUG - Getting Toys 
+15.3.2023, 18:18:17 - INFO - Req was made 
+15.3.2023, 18:18:17 - DEBUG - Getting Toys 
+15.3.2023, 18:18:29 - DEBUG - auth.service - login with username: maor 
+15.3.2023, 18:18:29 - ERROR - Failed to Login Invalid username or password 
+15.3.2023, 18:18:29 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 18:57:43 - INFO - Server is running on port: 3030 
+15.3.2023, 19:18:39 - INFO - New connected socket [id: J1ofIDBW1ZAu4dunAAAB] 
+15.3.2023, 19:18:52 - DEBUG - auth.service - login with username: maor 
+15.3.2023, 19:18:52 - ERROR - Failed to Login Invalid username or password 
+15.3.2023, 19:18:52 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 19:18:53 - INFO - New connected socket [id: M3dKtKmriLRFtNv-AAAD] 
+15.3.2023, 19:19:11 - DEBUG - auth.service - signup with username: maor, fullname: 9 
+15.3.2023, 19:19:11 - DEBUG - auth.route - new account created: {"username":"maor","password":"$2b$10$suajVYsUSv3MgRIZv2ptOOE2iFYsH9gTvb.5P8PR1tDx7C684cEd.","fullname":"9","isAdmin":false,"_id":"6411fe0fc440f4358426f1cb"} 
+15.3.2023, 19:19:11 - DEBUG - auth.service - login with username: maor 
+15.3.2023, 19:19:11 - INFO - User login:  | {"_id":"6411fe0fc440f4358426f1cb","username":"maor","fullname":"9","isAdmin":false} 
+15.3.2023, 19:19:11 - INFO - Setting socket.userId = 6411fe0fc440f4358426f1cb for socket [id: M3dKtKmriLRFtNv-AAAD] 
+15.3.2023, 19:19:20 - INFO - Removing socket.userId for socket [id: M3dKtKmriLRFtNv-AAAD] 
+15.3.2023, 19:19:36 - DEBUG - auth.service - login with username: maor 
+15.3.2023, 19:19:36 - INFO - User login:  | {"_id":"6411fe0fc440f4358426f1cb","username":"maor","fullname":"9","isAdmin":false} 
+15.3.2023, 19:19:36 - INFO - Setting socket.userId = 6411fe0fc440f4358426f1cb for socket [id: M3dKtKmriLRFtNv-AAAD] 
+15.3.2023, 19:24:24 - INFO - Removing socket.userId for socket [id: M3dKtKmriLRFtNv-AAAD] 
+15.3.2023, 19:24:38 - INFO - Req was made 
+15.3.2023, 19:24:54 - INFO - Req was made 
+15.3.2023, 19:24:54 - DEBUG - Getting Toys 
+15.3.2023, 19:24:54 - INFO - Req was made 
+15.3.2023, 19:24:54 - DEBUG - Getting Toys 
+15.3.2023, 19:24:54 - INFO - Req was made 
+15.3.2023, 19:24:54 - DEBUG - Getting Toys 
+15.3.2023, 19:26:58 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 19:26:59 - INFO - Req was made 
+15.3.2023, 19:26:59 - DEBUG - Getting Toys 
+15.3.2023, 19:26:59 - INFO - Req was made 
+15.3.2023, 19:26:59 - DEBUG - Getting Toys 
+15.3.2023, 19:26:59 - INFO - New connected socket [id: yyc1FpbNKb4pNbxiAAAF] 
+15.3.2023, 19:26:59 - INFO - Req was made 
+15.3.2023, 19:26:59 - DEBUG - Getting Toys 
+15.3.2023, 19:30:29 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 19:30:30 - INFO - Req was made 
+15.3.2023, 19:30:30 - DEBUG - Getting Toys 
+15.3.2023, 19:30:30 - DEBUG - Getting Toys 
+15.3.2023, 19:30:30 - INFO - Req was made 
+15.3.2023, 19:30:30 - INFO - New connected socket [id: luNrVkxs-ByX4xaQAAAH] 
+15.3.2023, 19:30:30 - INFO - Req was made 
+15.3.2023, 19:30:30 - DEBUG - Getting Toys 
+15.3.2023, 19:31:12 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 19:31:13 - INFO - New connected socket [id: Inc7mcBKHUCtdwO8AAAJ] 
+15.3.2023, 19:31:13 - INFO - Req was made 
+15.3.2023, 19:31:13 - DEBUG - Getting Toys 
+15.3.2023, 19:31:13 - INFO - Req was made 
+15.3.2023, 19:31:13 - DEBUG - Getting Toys 
+15.3.2023, 19:31:13 - INFO - Req was made 
+15.3.2023, 19:31:13 - DEBUG - Getting Toys 
+15.3.2023, 19:31:23 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 19:31:24 - INFO - New connected socket [id: kJ4bbA-n85SumvSDAAAL] 
+15.3.2023, 19:31:24 - INFO - Req was made 
+15.3.2023, 19:31:24 - DEBUG - Getting Toys 
+15.3.2023, 19:31:24 - INFO - Req was made 
+15.3.2023, 19:31:24 - DEBUG - Getting Toys 
+15.3.2023, 19:31:25 - INFO - Req was made 
+15.3.2023, 19:31:25 - DEBUG - Getting Toys 
+15.3.2023, 19:32:05 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 19:32:07 - INFO - New connected socket [id: 5tKKSzPOyHO7Cjx8AAAN] 
+15.3.2023, 19:32:07 - INFO - Req was made 
+15.3.2023, 19:32:07 - DEBUG - Getting Toys 
+15.3.2023, 19:32:07 - INFO - Req was made 
+15.3.2023, 19:32:07 - DEBUG - Getting Toys 
+15.3.2023, 19:32:07 - INFO - Req was made 
+15.3.2023, 19:32:07 - DEBUG - Getting Toys 
+15.3.2023, 19:32:38 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 19:32:40 - INFO - New connected socket [id: QW9Y3RoLkoIVxv4ZAAAP] 
+15.3.2023, 19:32:40 - INFO - Req was made 
+15.3.2023, 19:32:40 - DEBUG - Getting Toys 
+15.3.2023, 19:32:40 - INFO - Req was made 
+15.3.2023, 19:32:40 - DEBUG - Getting Toys 
+15.3.2023, 19:32:40 - INFO - Req was made 
+15.3.2023, 19:32:40 - DEBUG - Getting Toys 
+15.3.2023, 19:34:23 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 19:34:24 - INFO - New connected socket [id: uH5U0m-vO_Dymj2jAAAR] 
+15.3.2023, 19:34:24 - INFO - Req was made 
+15.3.2023, 19:34:24 - DEBUG - Getting Toys 
+15.3.2023, 19:34:24 - INFO - Req was made 
+15.3.2023, 19:34:24 - DEBUG - Getting Toys 
+15.3.2023, 19:34:24 - DEBUG - Getting Toys 
+15.3.2023, 19:34:24 - INFO - Req was made 
+15.3.2023, 19:40:10 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 19:40:11 - INFO - New connected socket [id: Pv-p8QlujWvbWAJQAAAT] 
+15.3.2023, 19:40:11 - INFO - Req was made 
+15.3.2023, 19:40:11 - DEBUG - Getting Toys 
+15.3.2023, 19:40:11 - INFO - Req was made 
+15.3.2023, 19:40:11 - DEBUG - Getting Toys 
+15.3.2023, 19:40:11 - INFO - Req was made 
+15.3.2023, 19:40:11 - DEBUG - Getting Toys 
+15.3.2023, 19:40:24 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 19:40:25 - INFO - New connected socket [id: uNv9m66Q02AIrXOCAAAV] 
+15.3.2023, 19:40:25 - INFO - Req was made 
+15.3.2023, 19:40:25 - DEBUG - Getting Toys 
+15.3.2023, 19:40:25 - INFO - Req was made 
+15.3.2023, 19:40:25 - DEBUG - Getting Toys 
+15.3.2023, 19:40:26 - INFO - Req was made 
+15.3.2023, 19:40:26 - DEBUG - Getting Toys 
+15.3.2023, 19:42:30 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 19:42:32 - INFO - New connected socket [id: OP3zKhAf0RaPwgsaAAAX] 
+15.3.2023, 19:42:32 - INFO - Req was made 
+15.3.2023, 19:42:32 - DEBUG - Getting Toys 
+15.3.2023, 19:42:32 - INFO - Req was made 
+15.3.2023, 19:42:32 - DEBUG - Getting Toys 
+15.3.2023, 19:42:32 - INFO - Req was made 
+15.3.2023, 19:42:32 - DEBUG - Getting Toys 
+15.3.2023, 19:43:13 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 19:43:14 - INFO - New connected socket [id: _W-RW4U-Ia-GzspfAAAZ] 
+15.3.2023, 19:43:14 - DEBUG - Getting Toys 
+15.3.2023, 19:43:14 - INFO - Req was made 
+15.3.2023, 19:43:14 - INFO - Req was made 
+15.3.2023, 19:43:14 - DEBUG - Getting Toys 
+15.3.2023, 19:43:15 - INFO - Req was made 
+15.3.2023, 19:43:15 - DEBUG - Getting Toys 
+15.3.2023, 19:43:21 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 19:43:22 - INFO - New connected socket [id: 76b21bTV6l3BHcvYAAAb] 
+15.3.2023, 19:43:22 - INFO - Req was made 
+15.3.2023, 19:43:22 - DEBUG - Getting Toys 
+15.3.2023, 19:43:22 - INFO - Req was made 
+15.3.2023, 19:43:22 - DEBUG - Getting Toys 
+15.3.2023, 19:43:22 - INFO - Req was made 
+15.3.2023, 19:43:22 - DEBUG - Getting Toys 
+15.3.2023, 19:44:22 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 19:44:23 - INFO - New connected socket [id: RMc4BzVOipKNCP0QAAAd] 
+15.3.2023, 19:44:23 - DEBUG - Getting Toys 
+15.3.2023, 19:44:23 - INFO - Req was made 
+15.3.2023, 19:44:23 - INFO - Req was made 
+15.3.2023, 19:44:23 - DEBUG - Getting Toys 
+15.3.2023, 19:44:24 - INFO - Req was made 
+15.3.2023, 19:44:24 - DEBUG - Getting Toys 
+15.3.2023, 19:46:59 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 19:47:00 - INFO - Req was made 
+15.3.2023, 19:47:00 - DEBUG - Getting Toys 
+15.3.2023, 19:47:00 - INFO - Req was made 
+15.3.2023, 19:47:00 - DEBUG - Getting Toys 
+15.3.2023, 19:47:00 - INFO - New connected socket [id: gYg1ExVA6fD1k9OXAAAf] 
+15.3.2023, 19:47:01 - INFO - Req was made 
+15.3.2023, 19:47:01 - DEBUG - Getting Toys 
+15.3.2023, 19:50:06 - INFO - Req was made 
+15.3.2023, 19:50:06 - DEBUG - Getting Toys 
+15.3.2023, 19:50:06 - INFO - Req was made 
+15.3.2023, 19:50:06 - DEBUG - Getting Toys 
+15.3.2023, 19:50:07 - DEBUG - Getting Toys 
+15.3.2023, 19:50:07 - INFO - Req was made 
+15.3.2023, 19:50:11 - DEBUG - auth.service - login with username: maor 
+15.3.2023, 19:50:11 - ERROR - Failed to Login Invalid username or password 
+15.3.2023, 19:50:11 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 19:50:13 - INFO - New connected socket [id: sV_OTqgJRLp3SogFAAAh] 
+15.3.2023, 19:50:21 - DEBUG - auth.service - login with username: maor 
+15.3.2023, 19:50:22 - INFO - User login:  | {"_id":"6411fe0fc440f4358426f1cb","username":"maor","fullname":"9","isAdmin":false} 
+15.3.2023, 19:50:22 - INFO - Setting socket.userId = 6411fe0fc440f4358426f1cb for socket [id: sV_OTqgJRLp3SogFAAAh] 
+15.3.2023, 19:50:32 - INFO - Req was made 
+15.3.2023, 19:50:32 - DEBUG - Getting Toys 
+15.3.2023, 19:50:32 - INFO - Req was made 
+15.3.2023, 19:50:32 - DEBUG - Getting Toys 
+15.3.2023, 19:50:33 - INFO - Req was made 
+15.3.2023, 19:50:33 - DEBUG - Getting Toys 
+15.3.2023, 19:51:29 - INFO - New chat msg from socket [id: sV_OTqgJRLp3SogFAAAh], emitting to topic 63c093fdbf0c639121d3919a 
+15.3.2023, 19:51:45 - INFO - Req was made 
+15.3.2023, 19:51:45 - INFO - Broadcasting event: review-added 
+15.3.2023, 19:51:45 - ERROR - Failed to add review | TypeError: Cannot read properties of undefined (reading '_id') 
+15.3.2023, 19:51:45 - INFO - Broadcast to all excluding user: 6411fe0fc440f4358426f1cb 
+15.3.2023, 19:51:54 - INFO - Req was made 
+15.3.2023, 19:51:55 - INFO - Broadcasting event: review-added 
+15.3.2023, 19:51:55 - ERROR - Failed to add review | TypeError: Cannot read properties of undefined (reading '_id') 
+15.3.2023, 19:51:55 - INFO - Broadcast to all excluding user: 6411fe0fc440f4358426f1cb 
+15.3.2023, 19:52:16 - INFO - Req was made 
+15.3.2023, 19:52:17 - INFO - Broadcasting event: review-added 
+15.3.2023, 19:52:17 - ERROR - Failed to add review | TypeError: Cannot read properties of undefined (reading '_id') 
+15.3.2023, 19:52:17 - INFO - Broadcast to all excluding user: 6411fe0fc440f4358426f1cb 
+15.3.2023, 19:52:18 - INFO - Req was made 
+15.3.2023, 19:52:18 - INFO - Broadcasting event: review-added 
+15.3.2023, 19:52:18 - ERROR - Failed to add review | TypeError: Cannot read properties of undefined (reading '_id') 
+15.3.2023, 19:52:18 - INFO - Broadcast to all excluding user: 6411fe0fc440f4358426f1cb 
+15.3.2023, 19:52:21 - INFO - Req was made 
+15.3.2023, 19:52:21 - DEBUG - Getting Toys 
+15.3.2023, 19:52:21 - INFO - Req was made 
+15.3.2023, 19:52:21 - DEBUG - Getting Toys 
+15.3.2023, 19:52:22 - INFO - Req was made 
+15.3.2023, 19:52:22 - DEBUG - Getting Toys 
+15.3.2023, 19:55:38 - INFO - Req was made 
+15.3.2023, 19:55:38 - DEBUG - Getting Toys 
+15.3.2023, 19:55:38 - INFO - Req was made 
+15.3.2023, 19:55:38 - DEBUG - Getting Toys 
+15.3.2023, 19:55:38 - INFO - Req was made 
+15.3.2023, 19:55:38 - DEBUG - Getting Toys 
+15.3.2023, 19:57:16 - INFO - Socket is leaving topic 63c093fdbf0c639121d3919a [id: sV_OTqgJRLp3SogFAAAh] 
+15.3.2023, 19:58:16 - INFO - Req was made 
+15.3.2023, 19:58:17 - INFO - Broadcasting event: review-added 
+15.3.2023, 19:58:17 - ERROR - Failed to add review | TypeError: Cannot read properties of undefined (reading '_id') 
+15.3.2023, 19:58:17 - INFO - Broadcast to all excluding user: 6411fe0fc440f4358426f1cb 
+15.3.2023, 20:06:06 - INFO - New connected socket [id: kgSEJd-C3P9SAN9lAAAj] 
+15.3.2023, 20:06:21 - DEBUG - auth.service - signup with username: mo, fullname: mo 
+15.3.2023, 20:06:21 - DEBUG - auth.route - new account created: {"username":"mo","password":"$2b$10$W2nYt/MCSlbxoXFAnGtc.OYSYRf8FJhVZS0sWTTNGEbKxbVbAie6.","fullname":"mo","isAdmin":false,"_id":"6412091dc440f4358426f1d1"} 
+15.3.2023, 20:06:21 - DEBUG - auth.service - login with username: mo 
+15.3.2023, 20:06:21 - INFO - User login:  | {"_id":"6412091dc440f4358426f1d1","username":"mo","fullname":"mo","isAdmin":false} 
+15.3.2023, 20:06:21 - INFO - Setting socket.userId = 6412091dc440f4358426f1d1 for socket [id: kgSEJd-C3P9SAN9lAAAj] 
+15.3.2023, 20:06:24 - INFO - Req was made 
+15.3.2023, 20:06:24 - DEBUG - Getting Toys 
+15.3.2023, 20:06:25 - INFO - Req was made 
+15.3.2023, 20:06:25 - DEBUG - Getting Toys 
+15.3.2023, 20:06:25 - INFO - Req was made 
+15.3.2023, 20:06:25 - DEBUG - Getting Toys 
+15.3.2023, 20:06:30 - INFO - Req was made 
+15.3.2023, 20:06:30 - DEBUG - Getting Toys 
+15.3.2023, 20:06:31 - INFO - Req was made 
+15.3.2023, 20:06:31 - DEBUG - Getting Toys 
+15.3.2023, 20:06:45 - INFO - New chat msg from socket [id: sV_OTqgJRLp3SogFAAAh], emitting to topic 63c093fdbf0c639121d391a1 
+15.3.2023, 20:06:59 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 20:07:02 - INFO - New connected socket [id: FBgzfc0ZCCQXGqkMAAAl] 
+15.3.2023, 20:07:03 - INFO - Setting socket.userId = 6411fe0fc440f4358426f1cb for socket [id: FBgzfc0ZCCQXGqkMAAAl] 
+15.3.2023, 20:07:19 - DEBUG - auth.service - login with username: maor 
+15.3.2023, 20:07:19 - INFO - User login:  | {"_id":"6411fe0fc440f4358426f1cb","username":"maor","fullname":"9","isAdmin":false} 
+15.3.2023, 20:07:19 - INFO - Setting socket.userId = 6411fe0fc440f4358426f1cb for socket [id: FBgzfc0ZCCQXGqkMAAAl] 
+15.3.2023, 20:07:24 - INFO - Req was made 
+15.3.2023, 20:07:24 - DEBUG - Getting Toys 
+15.3.2023, 20:07:24 - INFO - Req was made 
+15.3.2023, 20:07:24 - DEBUG - Getting Toys 
+15.3.2023, 20:07:25 - INFO - Req was made 
+15.3.2023, 20:07:25 - DEBUG - Getting Toys 
+15.3.2023, 20:07:27 - INFO - Req was made 
+15.3.2023, 20:07:27 - DEBUG - Getting Toys 
+15.3.2023, 20:27:19 - INFO - New connected socket [id: 7Ccj8rn8nk3dEDaNAAAo] 
+15.3.2023, 20:27:19 - INFO - New connected socket [id: 72eueSgiKhLH_t5IAAAp] 
+15.3.2023, 20:27:20 - INFO - New connected socket [id: J_UD2Euqw3tN0PLDAABD] 
+15.3.2023, 20:27:20 - INFO - Setting socket.userId = 6412091dc440f4358426f1d1 for socket [id: 7Ccj8rn8nk3dEDaNAAAo] 
+15.3.2023, 20:27:20 - INFO - New connected socket [id: 9b-Sm55SGL8ZVBZGAABH] 
+15.3.2023, 20:27:20 - INFO - Setting socket.userId = 6411fe0fc440f4358426f1cb for socket [id: 72eueSgiKhLH_t5IAAAp] 
+15.3.2023, 20:27:20 - INFO - New connected socket [id: Kc0Cp3fnhsAdyJ2-AABI] 
+15.3.2023, 20:27:20 - INFO - New connected socket [id: 19kgvtmL_ZwywJ9vAABK] 
+15.3.2023, 20:27:20 - INFO - New connected socket [id: vqfFYxwO_j5oZzO5AABJ] 
+15.3.2023, 20:27:20 - INFO - New connected socket [id: CUImdh-ziaTn369MAABL] 
+15.3.2023, 20:27:20 - INFO - New connected socket [id: s5MTyFuMJQnSzpCNAABM] 
+15.3.2023, 20:27:20 - INFO - New connected socket [id: 7ceIVUZwEz2jMcJkAABO] 
+15.3.2023, 20:27:20 - INFO - New connected socket [id: XegX5V_q_gXeuSoAAABP] 
+15.3.2023, 20:27:20 - INFO - New connected socket [id: p9ObrZmL_btLz-yfAABQ] 
+15.3.2023, 20:27:20 - INFO - New connected socket [id: TAxLoYYfxy1gaIJUAABR] 
+15.3.2023, 20:27:20 - INFO - Setting socket.userId = 6411fe0fc440f4358426f1cb for socket [id: 9b-Sm55SGL8ZVBZGAABH] 
+15.3.2023, 20:27:20 - INFO - New connected socket [id: k3VpfRVs0BYo1HA3AABS] 
+15.3.2023, 20:27:20 - INFO - New connected socket [id: bq24jkK1lyWNpdtiAABT] 
+15.3.2023, 20:27:20 - INFO - New connected socket [id: nGSGP1DZba3aIKOQAABN] 
+15.3.2023, 20:27:21 - INFO - New connected socket [id: 2WVqVBaBY_Z5TLNqAABU] 
+15.3.2023, 20:27:21 - INFO - New connected socket [id: EwcwKfwv9NSrgAbmAABV] 
+15.3.2023, 20:27:21 - INFO - New connected socket [id: egFdHW-yNnaYJv72AABW] 
+15.3.2023, 20:27:21 - INFO - New connected socket [id: jhxrDH62ghTY-BIaAABX] 
+15.3.2023, 20:27:21 - INFO - New connected socket [id: AEXbGqC0NNiTBwiVAABY] 
+15.3.2023, 20:27:21 - INFO - New connected socket [id: -uMNC6ahq063UwLlAABZ] 
+15.3.2023, 20:27:21 - INFO - New connected socket [id: YcLQbImKk02nLp2_AABa] 
+15.3.2023, 20:27:21 - INFO - New connected socket [id: xSTd88SYypnO7SdIAABb] 
+15.3.2023, 20:27:21 - INFO - New connected socket [id: 0xYdtEDwfTWBEWvYAABc] 
+15.3.2023, 20:27:21 - INFO - New connected socket [id: wBzFjjHqU8BrWYK3AABd] 
+15.3.2023, 20:27:21 - INFO - New connected socket [id: Ify1gMhWKM-XTbwFAABe] 
+15.3.2023, 20:27:21 - INFO - New connected socket [id: 4qlmhzl4PsnSTbJpAABf] 
+15.3.2023, 20:27:21 - INFO - New connected socket [id: 44IlJqGwZggta6TpAABg] 
+15.3.2023, 20:27:21 - INFO - New connected socket [id: CT0EfqR-Tb5TbKK7AABh] 
+15.3.2023, 20:27:21 - INFO - Setting socket.userId = 6411fe0fc440f4358426f1cb for socket [id: CUImdh-ziaTn369MAABL] 
+15.3.2023, 20:27:21 - INFO - Setting socket.userId = 6411fe0fc440f4358426f1cb for socket [id: nGSGP1DZba3aIKOQAABN] 
+15.3.2023, 20:27:21 - INFO - Setting socket.userId = 6412091dc440f4358426f1d1 for socket [id: J_UD2Euqw3tN0PLDAABD] 
+15.3.2023, 20:27:21 - INFO - Setting socket.userId = 6412091dc440f4358426f1d1 for socket [id: vqfFYxwO_j5oZzO5AABJ] 
+15.3.2023, 20:27:21 - INFO - Setting socket.userId = 6412091dc440f4358426f1d1 for socket [id: 19kgvtmL_ZwywJ9vAABK] 
+15.3.2023, 20:27:21 - INFO - Setting socket.userId = 6411fe0fc440f4358426f1cb for socket [id: p9ObrZmL_btLz-yfAABQ] 
+15.3.2023, 20:27:21 - INFO - Setting socket.userId = 6411fe0fc440f4358426f1cb for socket [id: s5MTyFuMJQnSzpCNAABM] 
+15.3.2023, 20:27:21 - INFO - Setting socket.userId = 6412091dc440f4358426f1d1 for socket [id: Kc0Cp3fnhsAdyJ2-AABI] 
+15.3.2023, 20:27:21 - INFO - Setting socket.userId = 6412091dc440f4358426f1d1 for socket [id: k3VpfRVs0BYo1HA3AABS] 
+15.3.2023, 20:27:21 - INFO - Setting socket.userId = 6411fe0fc440f4358426f1cb for socket [id: TAxLoYYfxy1gaIJUAABR] 
+15.3.2023, 20:27:21 - INFO - Setting socket.userId = 6411fe0fc440f4358426f1cb for socket [id: 7ceIVUZwEz2jMcJkAABO] 
+15.3.2023, 20:27:21 - INFO - Setting socket.userId = 6412091dc440f4358426f1d1 for socket [id: XegX5V_q_gXeuSoAAABP] 
+15.3.2023, 20:27:22 - INFO - Setting socket.userId = 6412091dc440f4358426f1d1 for socket [id: 2WVqVBaBY_Z5TLNqAABU] 
+15.3.2023, 20:27:22 - INFO - Setting socket.userId = 6412091dc440f4358426f1d1 for socket [id: bq24jkK1lyWNpdtiAABT] 
+15.3.2023, 20:27:22 - INFO - Setting socket.userId = 6411fe0fc440f4358426f1cb for socket [id: egFdHW-yNnaYJv72AABW] 
+15.3.2023, 20:27:22 - INFO - Setting socket.userId = 6411fe0fc440f4358426f1cb for socket [id: EwcwKfwv9NSrgAbmAABV] 
+15.3.2023, 20:27:22 - INFO - Setting socket.userId = 6412091dc440f4358426f1d1 for socket [id: AEXbGqC0NNiTBwiVAABY] 
+15.3.2023, 20:27:22 - INFO - Setting socket.userId = 6411fe0fc440f4358426f1cb for socket [id: -uMNC6ahq063UwLlAABZ] 
+15.3.2023, 20:27:22 - INFO - Setting socket.userId = 6412091dc440f4358426f1d1 for socket [id: jhxrDH62ghTY-BIaAABX] 
+15.3.2023, 20:27:22 - INFO - Setting socket.userId = 6412091dc440f4358426f1d1 for socket [id: wBzFjjHqU8BrWYK3AABd] 
+15.3.2023, 20:27:22 - INFO - Setting socket.userId = 6411fe0fc440f4358426f1cb for socket [id: 4qlmhzl4PsnSTbJpAABf] 
+15.3.2023, 20:27:22 - INFO - Setting socket.userId = 6411fe0fc440f4358426f1cb for socket [id: xSTd88SYypnO7SdIAABb] 
+15.3.2023, 20:27:22 - INFO - Setting socket.userId = 6412091dc440f4358426f1d1 for socket [id: YcLQbImKk02nLp2_AABa] 
+15.3.2023, 20:27:22 - INFO - Setting socket.userId = 6411fe0fc440f4358426f1cb for socket [id: Ify1gMhWKM-XTbwFAABe] 
+15.3.2023, 20:27:22 - INFO - Setting socket.userId = 6412091dc440f4358426f1d1 for socket [id: 0xYdtEDwfTWBEWvYAABc] 
+15.3.2023, 20:27:22 - INFO - Setting socket.userId = 6411fe0fc440f4358426f1cb for socket [id: CT0EfqR-Tb5TbKK7AABh] 
+15.3.2023, 20:27:22 - INFO - Setting socket.userId = 6412091dc440f4358426f1d1 for socket [id: 44IlJqGwZggta6TpAABg] 
+15.3.2023, 20:27:23 - INFO - New connected socket [id: cNn8ZmFp0Vd-XIkqAABj] 
+15.3.2023, 20:27:23 - INFO - Setting socket.userId = 6411fe0fc440f4358426f1cb for socket [id: cNn8ZmFp0Vd-XIkqAABj] 
+15.3.2023, 20:27:23 - INFO - New connected socket [id: mnbYwoU-ymrHxwzUAABl] 
+15.3.2023, 20:27:23 - INFO - Setting socket.userId = 6412091dc440f4358426f1d1 for socket [id: mnbYwoU-ymrHxwzUAABl] 
+15.3.2023, 20:28:47 - DEBUG - auth.service - login with username: mo 
+15.3.2023, 20:28:48 - INFO - User login:  | {"_id":"6412091dc440f4358426f1d1","username":"mo","fullname":"mo","isAdmin":false} 
+15.3.2023, 20:28:48 - INFO - Setting socket.userId = 6412091dc440f4358426f1d1 for socket [id: mnbYwoU-ymrHxwzUAABl] 
+15.3.2023, 20:28:51 - INFO - Req was made 
+15.3.2023, 20:28:51 - DEBUG - Getting Toys 
+15.3.2023, 20:28:52 - INFO - Req was made 
+15.3.2023, 20:28:52 - DEBUG - Getting Toys 
+15.3.2023, 20:28:52 - INFO - Req was made 
+15.3.2023, 20:28:52 - DEBUG - Getting Toys 
+15.3.2023, 20:28:55 - INFO - Req was made 
+15.3.2023, 20:28:55 - DEBUG - Getting Toys 
+15.3.2023, 20:36:56 - DEBUG - auth.service - login with username: maor 
+15.3.2023, 20:36:57 - INFO - User login:  | {"_id":"6411fe0fc440f4358426f1cb","username":"maor","fullname":"9","isAdmin":false} 
+15.3.2023, 20:36:57 - INFO - Setting socket.userId = 6411fe0fc440f4358426f1cb for socket [id: cNn8ZmFp0Vd-XIkqAABj] 
+15.3.2023, 20:37:05 - INFO - Req was made 
+15.3.2023, 20:37:05 - DEBUG - Getting Toys 
+15.3.2023, 20:37:05 - INFO - Req was made 
+15.3.2023, 20:37:05 - DEBUG - Getting Toys 
+15.3.2023, 20:37:06 - INFO - Req was made 
+15.3.2023, 20:37:06 - DEBUG - Getting Toys 
+15.3.2023, 20:37:07 - INFO - Req was made 
+15.3.2023, 20:37:07 - DEBUG - Getting Toys 
+15.3.2023, 20:52:00 - INFO - Req was made 
+15.3.2023, 20:52:00 - INFO - Broadcasting event: review-added 
+15.3.2023, 20:52:00 - ERROR - Failed to add review | TypeError: Cannot read properties of undefined (reading '_id') 
+15.3.2023, 20:52:00 - INFO - Broadcast to all excluding user: 6412091dc440f4358426f1d1 
+15.3.2023, 21:02:57 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:02:57 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:02:57 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:02:58 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 21:12:30 - INFO - New connected socket [id: lLsb-1vTfeTQ_ZavAABw] 
+15.3.2023, 21:12:30 - INFO - New connected socket [id: exBuBG4xFEXCwAnlAABx] 
+15.3.2023, 21:12:30 - INFO - New connected socket [id: EB6H81uE8ByuWHb1AABy] 
+15.3.2023, 21:12:30 - INFO - New connected socket [id: GCo6nIk0vjOYwwa5AABz] 
+15.3.2023, 21:12:30 - INFO - New connected socket [id: jq2T57fO50wV8196AAB0] 
+15.3.2023, 21:12:30 - INFO - New connected socket [id: Uvlo2R8h5E7fm_4GAAB2] 
+15.3.2023, 21:12:30 - INFO - New connected socket [id: 4wHW5N40HFH3DPNCAAB3] 
+15.3.2023, 21:12:30 - INFO - New connected socket [id: S3nkTIbRlPDDaVydAAB6] 
+15.3.2023, 21:12:30 - INFO - New connected socket [id: nPKJFaxh0s4PaHmMAAB7] 
+15.3.2023, 21:12:30 - INFO - New connected socket [id: 0T5dviTIKdA3dJJ6AAB9] 
+15.3.2023, 21:12:30 - INFO - New connected socket [id: XwOy2is1tZutwsdFAAB_] 
+15.3.2023, 21:12:30 - INFO - New connected socket [id: mPlF71P81wkgGaM-AACB] 
+15.3.2023, 21:12:30 - INFO - New connected socket [id: UmLELyq5ewBTfntDAACD] 
+15.3.2023, 21:12:30 - INFO - New connected socket [id: 4MUhxH5whGCsS4DuAACF] 
+15.3.2023, 21:12:30 - INFO - New connected socket [id: 0FDmgIl60U5T8x55AACH] 
+15.3.2023, 21:12:30 - INFO - New connected socket [id: g7jlENeM0OyvoDgsAACK] 
+15.3.2023, 21:12:30 - INFO - New connected socket [id: M1KIkcqclOhR8IolAACL] 
+15.3.2023, 21:12:30 - INFO - New connected socket [id: J1Ep1rD3gr5Hy2tPAACM] 
+15.3.2023, 21:12:30 - INFO - New connected socket [id: Wl-mWTIByiyXFGdZAACP] 
+15.3.2023, 21:12:30 - INFO - New connected socket [id: qy8vfdiS_NMx5LyoAACQ] 
+15.3.2023, 21:12:30 - INFO - New connected socket [id: W6kvRT60wbM1ITVbAACS] 
+15.3.2023, 21:12:31 - INFO - New connected socket [id: R46wr-It8qITobdcAACV] 
+15.3.2023, 21:12:31 - INFO - New connected socket [id: BxFpR5_aud9gPzArAACW] 
+15.3.2023, 21:12:31 - INFO - New connected socket [id: UY-nJNnuIj53HzDwAACX] 
+15.3.2023, 21:12:31 - INFO - New connected socket [id: -bJYa0jvI9efmwp3AACY] 
+15.3.2023, 21:12:31 - INFO - New connected socket [id: Sw9WLYowL-NQY1ISAACa] 
+15.3.2023, 21:12:31 - INFO - New connected socket [id: eMLfC9HvW6rFG7xUAACb] 
+15.3.2023, 21:12:31 - INFO - New connected socket [id: GTmYxIhLXNChZBa6AACj] 
+15.3.2023, 21:12:31 - INFO - New connected socket [id: 15hTXB-LbhJXR3rbAACk] 
+15.3.2023, 21:12:31 - INFO - New connected socket [id: riKrnW8Smam1yBGNAACl] 
+15.3.2023, 21:12:31 - INFO - New connected socket [id: SJNpk0whmGyNaE2lAACm] 
+15.3.2023, 21:12:31 - INFO - New connected socket [id: nLJROuOMIeArRKgGAACn] 
+15.3.2023, 21:12:31 - INFO - New connected socket [id: BQUzmxGIzAa-6DaLAACo] 
+15.3.2023, 21:12:31 - INFO - New connected socket [id: GIGPyZhy-7Cpfy42AACp] 

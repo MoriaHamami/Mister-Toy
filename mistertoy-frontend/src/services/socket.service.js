@@ -91,13 +91,6 @@ function createDummySocketService() {
             listenersMap[eventName].forEach(listener => {
                 listener(data)
             })
-        },
-        // Functions for easy testing of pushed data
-        testChatMsg() {
-            this.emit(SOCKET_EVENT_ADD_MSG, { from: 'Someone', txt: 'Aha it worked!' })
-        },
-        testUserUpdate() {
-            this.emit(SOCKET_EVENT_USER_UPDATED, { ...userService.getLoggedinUser(), score: 555 })
         }
     }
     window.listenersMap = listenersMap;

@@ -8,12 +8,9 @@ import { toyService } from '../services/toy.service'
 export function Chat({ toy, user }) {
     const [msg, setMsg] = useState({ txt: '' })
     const [msgs, setMsgs] = useState([])
-    const [isTyping, setIsTyping] = useState(false)
-    // const [isBotMode, setIsBotMode] = useState(false)
-
+    const [typingUser, setTypingUser] = useState(false)
     const loggedInUser = useSelector(storeState => storeState.userModule.user)
 
-    // let botTimeout
 
     useEffect(() => {
         setMsgs(toy.msgs)
@@ -34,8 +31,14 @@ export function Chat({ toy, user }) {
     // useEffect(() => {
     // }, [topic])
 
-    function setTypingState(state) {
-        setIsTyping(state)
+
+
+    function setTypingState(userName) {
+        setTypingUser(userName)
+        const intervalId = setTimeout(() => {
+            setTypingUser(null)
+            clearInterval(intervalId)
+        }, 1000)
     }
 
     function addMsg(newMsg) {
@@ -71,7 +74,7 @@ export function Chat({ toy, user }) {
             addMsg(savedMsg)
             setMsg({ txt: '' })
             // setIsTyping(false)
-            socketService.emit(SOCKET_EMIT_IS_TYPING, false)
+            // socketService.emit(SOCKET_EMIT_IS_TYPING, user.fullname)
         } catch (err) {
             showErrorMsg('Cannot add toy msg')
         }
@@ -80,14 +83,8 @@ export function Chat({ toy, user }) {
 
     function handleFormChange(ev) {
         const { name, value } = ev.target
-        if(value) {
-            // setIsTyping(true)
-            socketService.emit(SOCKET_EMIT_IS_TYPING, true)
-        } else {
-            // setIsTyping(false)
-            socketService.emit(SOCKET_EMIT_IS_TYPING, false)
-        }
         setMsg(prevMsg => ({ ...prevMsg, [name]: value }))
+        socketService.emit(SOCKET_EMIT_IS_TYPING, user.fullname)
     }
 
     async function onRemoveMsg(msgId) {
@@ -126,28 +123,6 @@ export function Chat({ toy, user }) {
     return (
         <section className="chat">
             <h2>Chat Room</h2>
-            {/* 
-            <label>
-                <input type="checkbox" name="isBotMode" checked={isBotMode}
-                    onChange={({ target }) => setIsBotMode(target.checked)} />
-                Bot Mode
-            </label> */}
-
-            {/* <div>
-                <label>
-                    <input type="radio" name="topic" value="Love"
-                        checked={topic === 'Love'} onChange={({ target }) => setTopic(target.value)} />
-                    Love
-                </label>
-
-                <label>
-                    <input
-                        type="radio" name="topic" value="Politics"
-                        checked={topic === 'Politics'} onChange={({ target }) => setTopic(target.value)} />
-                    Politics
-                </label>
-
-            </div> */}
 
             <form onSubmit={sendMsg}>
                 <input
@@ -156,7 +131,7 @@ export function Chat({ toy, user }) {
                 <button>Send</button>
             </form>
 
-            {<span>{user.fullname} is typing..</span>}
+            {typingUser && <span>{typingUser} is typing..</span>}
             <ul>
                 {/* {msgs.map((msg, idx) => (<li key={idx}><span className="button" onClick={() => onRemoveMsg(msg.id)}>x</span><p>{msg.from}: {msg.txt}</p></li>))} */}
                 {msgs && msgs.map((msg, idx) => {

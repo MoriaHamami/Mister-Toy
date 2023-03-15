@@ -9,7 +9,7 @@ export const REMOVE_USER = 'REMOVE_USER'
 export const SET_USERS = 'SET_USERS'
 
 const initialState = {
-    user: userService.getLoggedinUser(),
+    user: null,
     // count: 10,
     // user: userService.getLoggedinUser(),
     users: [],

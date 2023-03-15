@@ -1,10 +1,10 @@
 
-import { storageService } from './async-storage.service.js'
+// import { storageService } from './async-storage.service.js'
 import { utilService } from './util.service.js'
 // import { userService } from './user.service.js'
 import { httpService } from './http.service.js'
 
-const STORAGE_KEY = 'toyDB'
+// const STORAGE_KEY = 'toyDB'
 const BASE_URL = 'toy/'
 
 export const toyService = {
@@ -211,8 +211,6 @@ function getRandomToy() {
         'labels': ['doll', 'battery-powered', 'baby'],
         'createdAt': Date.now(),
         'inStock': true
-        // vendor: 'Susita-' + (Date.now() % 1000),
-        // price: utilService.getRandomIntInclusive(1000, 9000),
     }
 }
 

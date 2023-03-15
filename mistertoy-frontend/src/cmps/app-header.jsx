@@ -11,11 +11,13 @@
 
 // import { userService } from '../services/user.service.js'
 // import { SET_USER } from '../store/user.reducer.js'
+// import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { NavLink } from 'react-router-dom'
-// import { logout } from '../store/user.action.js'
+import { logout } from '../store/user.action.js'
 // const { useState } = React
 // import { TOGGLE_CART_SHOWN } from '../store/car.reducer.js'
+import { showSuccessMsg, showErrorMsg } from '../services/event-bus.service'
 
 // import { LoginSignup } from './login-signup.jsx'
 import logoImg from "../assets/img/logo.png"
@@ -23,21 +25,28 @@ export function AppHeader() {
 
     // TODO: get from storeState
     // const [user, setUser] = useState(userService.getLoggedinUser())
-    // const user = useSelector((storeState => storeState.userModule.user))
+    const user = useSelector((storeState => storeState.userModule.user))
     // const [user, setUser] = useState(userService.getLoggedinUser())
 
     const dispatch = useDispatch()
+
 
     // function setUser(user) {
     //     dispatch({ type: SET_USER, user })
     // }
 
-    // function onLogout() {
-    //     logout()
-    //         .then(() => {
-    //             setUser(null)
-    //         })
-    // }
+    async function onLogout() {
+        try{
+            toggleMenu()
+            await logout()
+            showSuccessMsg('Successfully logged out')
+        } catch {
+            showErrorMsg('Failed to logout')
+        }
+            // .then(() => {
+            //     setUser(null)
+            // })
+    }
 
     // function onToggleCart(ev) {
     //     ev.preventDefault()
@@ -47,47 +56,23 @@ export function AppHeader() {
     function toggleMenu() {
         document.body.classList.toggle('menu-open')
     }
-    // function setUser(user) {
-    //     dispatch({ type: SET_USER, user })
-    // }
-
-    // function onLogout() {
-    //     logout()
-    //         .then(() => {
-    //             setUser(null)
-    //         })
-    // }
 
     return (
         <header className="app-header full main-layout">
 
-            {/* <h1>MISTER TOY</h1> */}
             <NavLink to="/toy">
                 <img src={logoImg} />
             </NavLink>
 
-
             <nav>
                 <NavLink to="/" className="button" onClick={toggleMenu}>Home</NavLink>
-                <span className="dash">|</span>
-                <NavLink to="/user" className="button" onClick={toggleMenu}>Login / Signup</NavLink>
-                <span className="dash">|</span>
-                <NavLink to="/review" className="button" onClick={toggleMenu}>Review</NavLink>
-                <span className="dash">|</span>
                 <NavLink to="/toy" className="button" onClick={toggleMenu}>Toys</NavLink>
-                <span className="dash">|</span>
+                <NavLink to="/review" className="button" onClick={toggleMenu}>Reviews</NavLink>
                 <NavLink to="/dashboard" className="button" onClick={toggleMenu}>Dashboard</NavLink>
-                <span className="dash">|</span>
                 <NavLink to="/about" className="button" onClick={toggleMenu}>About</NavLink>
-                {/* |
-                <a href="#" onClick={onToggleCart}>
-                    🛒 Cart
-                </a> */}
+                {user ? <span className="button" onClick={onLogout}>Logout</span> : <NavLink to="/user" className="button" onClick={toggleMenu}>Login</NavLink>}
             </nav>
-            {<button className="menu-toggle-btn" onClick={toggleMenu}>☰</button>}
-
-
-   
+            <button className="menu-toggle-btn" onClick={toggleMenu}>☰</button>
 
         </header>
     )

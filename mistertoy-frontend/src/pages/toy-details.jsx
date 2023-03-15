@@ -18,7 +18,6 @@ export function ToyDetails() {
     const { toyId } = useParams()
     const navigate = useNavigate()
     // const [updateMsgList, setUpdateMsgList] = useState(null)
-    const [isMsgInputShown, setisMsgInputShown] = useState(null)
     // const [inputTxt, setinputTxt] = useState(null)
     const [reviewToEdit, setReviewToEdit] = useState({ content: '', aboutToyId: ''})
 
@@ -46,36 +45,20 @@ export function ToyDetails() {
         //     })
     }
 
-    function onAddMsg() {
-        setisMsgInputShown(true)
-    }
+    // async function onSubmitMsg(ev) {
+    //     ev.preventDefault()
+    //     const msgToSave = ev.target.msg.value
 
-    async function onSubmitMsg(ev) {
-        ev.preventDefault()
-        setisMsgInputShown(false)
-        // if (!toy.msgs) toy.msgs = []
-        const msgToSave = ev.target.msg.value
-        // {
-        //     id: utilService.makeId(),
-        // txt: ev.target.msg.value
-        //     by: {
-        //         _id: user._id,
-        //         fullname: user.fullname,
-        //     }
-        // }
-        // toy.msgs.push(msgToSave)
-        try {
-            const savedToy = await toyService.addToyMsg(toy._id, msgToSave)
-            showSuccessMsg(`Toy message added`)
-            // setUpdateMsgList(msgToSave)
-            loadToy()
+    //     try {
+    //         const savedToy = await toyService.addToyMsg(toy._id, msgToSave)
+    //         showSuccessMsg(`Toy message added`)
+    //         loadToy()
 
-        } catch (err) {
-            showErrorMsg('Cannot add toy msg')
-        }
+    //     } catch (err) {
+    //         showErrorMsg('Cannot add toy msg')
+    //     }
 
-        // console.log('ev.target:', ev.target.msg.value)
-    }
+    // }
 
     async function onRemoveMsg(msgId) {
         // console.log('msgId:', msgId)
@@ -94,10 +77,9 @@ export function ToyDetails() {
     const onAddReview = async ev => {
         ev.preventDefault()
         if (!reviewToEdit.content) return 
-        console.log('here:', reviewToEdit)
         try {
             await addReview(reviewToEdit)
-            await toyService.addToyReview(toyId, reviewToEdit)
+            // await toyService.addToyReview(toyId, reviewToEdit)
             showSuccessMsg('Review added')
             // setReviewToEdit({ content: reviewToEdit.content, aboutToyId: toyId })
             setReviewToEdit('')
@@ -131,7 +113,7 @@ export function ToyDetails() {
         <p>⛐</p>
         <p>Created: {utilService.getFormattedDate(toy.createdAt)}</p>
         <p>Price: ${toy.price.toLocaleString()}</p>
-        <p>Messages: </p>
+        {/* <p>Messages: </p>
         {toy.msgs && <ul>
             {toy.msgs.map(msg => {
                 return <li key={msg.id}>
@@ -139,7 +121,7 @@ export function ToyDetails() {
                     {user.isAdmin && <button onClick={() => onRemoveMsg(msg.id)} >Remove</button>}
                 </li>
             })}
-        </ul>}
+        </ul>} */}
             <p>Reviews: </p>
         {toy?.reviews?.length ? <ul>
             {toy.reviews.map(review => {
@@ -179,7 +161,6 @@ export function ToyDetails() {
         <Link to={`/toy/edit/${toy._id}`} className="button">Edit</Link>
         <Link to="/toy" className="button">Back</Link>
         {/* </div> */}
-        {user && !isMsgInputShown && <button onClick={onAddMsg}>Add msg</button>}
 
     </section>
 }
