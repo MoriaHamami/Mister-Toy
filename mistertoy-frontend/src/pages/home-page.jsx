@@ -1,6 +1,6 @@
 // const { useState, useEffect } = React
 // const { useSelector, useDispatch } = ReactRedux
-import logoImg from "../assets/img/logo.png"
+import logoImg from "./assets/img/logo.png"
 
 export function HomePage() {
 

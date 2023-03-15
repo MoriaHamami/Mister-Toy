@@ -67,13 +67,10 @@ export function Chat({ toy, user }) {
         try {
             const savedMsg = await toyService.addToyMsg(toy._id, newMsg.txt)
             socketService.emit(SOCKET_EMIT_SEND_MSG, savedMsg)
-            // socketService.emit(SOCKET_EVENT_ADD_MSG, newMsg)
             showSuccessMsg(`Toy message added`)
-            // setUpdateMsgList(msgToSave)
-            // loadToy()
             addMsg(savedMsg)
             setMsg({ txt: '' })
-            setIsTyping(false)
+            // setIsTyping(false)
             socketService.emit(SOCKET_EMIT_IS_TYPING, false)
         } catch (err) {
             showErrorMsg('Cannot add toy msg')
@@ -84,10 +81,10 @@ export function Chat({ toy, user }) {
     function handleFormChange(ev) {
         const { name, value } = ev.target
         if(value) {
-            setIsTyping(true)
+            // setIsTyping(true)
             socketService.emit(SOCKET_EMIT_IS_TYPING, true)
         } else {
-            setIsTyping(false)
+            // setIsTyping(false)
             socketService.emit(SOCKET_EMIT_IS_TYPING, false)
         }
         setMsg(prevMsg => ({ ...prevMsg, [name]: value }))
