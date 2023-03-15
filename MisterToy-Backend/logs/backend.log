@@ -2695,3 +2695,151 @@
 16.1.2023, 20:48:51 - INFO - Socket disconnected [id: undefined] 
 16.1.2023, 20:48:52 - INFO - New connected socket [id: 2NKpBKTvJ0x3SheyAAAH] 
 16.1.2023, 20:48:52 - INFO - Setting socket.userId = 63c07ef34feef45aac3d6ba8 for socket [id: 2NKpBKTvJ0x3SheyAAAH] 
+15.3.2023, 16:40:22 - INFO - Server is running on port: 3030 
+15.3.2023, 16:40:22 - INFO - New connected socket [id: fAzUv028FIiSi6cNAAAB] 
+15.3.2023, 16:40:32 - INFO - Req was made 
+15.3.2023, 16:40:32 - DEBUG - Getting Toys 
+15.3.2023, 16:40:35 - INFO - Req was made 
+15.3.2023, 16:40:35 - DEBUG - Getting Toys 
+15.3.2023, 16:40:35 - INFO - Req was made 
+15.3.2023, 16:40:35 - DEBUG - Getting Toys 
+15.3.2023, 16:40:35 - INFO - Req was made 
+15.3.2023, 16:40:35 - DEBUG - Getting Toys 
+15.3.2023, 16:40:43 - INFO - Req was made 
+15.3.2023, 16:40:48 - INFO - Req was made 
+15.3.2023, 16:40:48 - DEBUG - Getting Toys 
+15.3.2023, 16:41:04 - INFO - Req was made 
+15.3.2023, 16:41:14 - INFO - Req was made 
+15.3.2023, 16:41:25 - INFO - Req was made 
+15.3.2023, 16:41:41 - INFO - Req was made 
+15.3.2023, 16:41:41 - DEBUG - Getting Toys 
+15.3.2023, 16:41:41 - INFO - Req was made 
+15.3.2023, 16:41:41 - DEBUG - Getting Toys 
+15.3.2023, 16:41:41 - INFO - Req was made 
+15.3.2023, 16:41:41 - DEBUG - Getting Toys 
+15.3.2023, 16:41:53 - INFO - Req was made 
+15.3.2023, 16:41:53 - DEBUG - Getting Toys 
+15.3.2023, 16:41:55 - INFO - Req was made 
+15.3.2023, 16:41:55 - DEBUG - Getting Toys 
+15.3.2023, 16:41:57 - INFO - Req was made 
+15.3.2023, 16:41:57 - DEBUG - Getting Toys 
+15.3.2023, 16:42:01 - INFO - Req was made 
+15.3.2023, 16:42:01 - DEBUG - Getting Toys 
+15.3.2023, 16:42:02 - INFO - Req was made 
+15.3.2023, 16:42:02 - DEBUG - Getting Toys 
+15.3.2023, 16:42:04 - INFO - Req was made 
+15.3.2023, 16:42:04 - DEBUG - Getting Toys 
+15.3.2023, 16:42:08 - INFO - Req was made 
+15.3.2023, 16:42:08 - DEBUG - Getting Toys 
+15.3.2023, 16:42:12 - INFO - Req was made 
+15.3.2023, 16:42:12 - DEBUG - Getting Toys 
+15.3.2023, 16:42:13 - INFO - Req was made 
+15.3.2023, 16:42:13 - DEBUG - Getting Toys 
+15.3.2023, 16:42:15 - INFO - Req was made 
+15.3.2023, 16:42:15 - DEBUG - Getting Toys 
+15.3.2023, 16:42:19 - INFO - Req was made 
+15.3.2023, 16:42:24 - INFO - Req was made 
+15.3.2023, 16:42:34 - INFO - Req was made 
+15.3.2023, 16:42:36 - INFO - Req was made 
+15.3.2023, 16:42:36 - DEBUG - Getting Toys 
+15.3.2023, 16:42:36 - INFO - Req was made 
+15.3.2023, 16:42:36 - DEBUG - Getting Toys 
+15.3.2023, 16:42:36 - INFO - Req was made 
+15.3.2023, 16:42:36 - DEBUG - Getting Toys 
+15.3.2023, 16:42:42 - DEBUG - Getting Toys 
+15.3.2023, 16:42:42 - INFO - Req was made 
+15.3.2023, 16:42:53 - INFO - Req was made 
+15.3.2023, 16:43:00 - INFO - Req was made 
+15.3.2023, 16:43:01 - INFO - Req was made 
+15.3.2023, 16:43:01 - DEBUG - Getting Toys 
+15.3.2023, 16:43:01 - INFO - Req was made 
+15.3.2023, 16:43:01 - DEBUG - Getting Toys 
+15.3.2023, 16:43:01 - INFO - Req was made 
+15.3.2023, 16:43:01 - DEBUG - Getting Toys 
+15.3.2023, 16:44:53 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 16:44:56 - INFO - New connected socket [id: yToERJSmQcQYUhP4AAAD] 
+15.3.2023, 16:44:56 - INFO - Req was made 
+15.3.2023, 16:44:56 - DEBUG - Getting Toys 
+15.3.2023, 16:44:56 - INFO - Req was made 
+15.3.2023, 16:44:56 - DEBUG - Getting Toys 
+15.3.2023, 16:44:56 - INFO - Req was made 
+15.3.2023, 16:44:56 - DEBUG - Getting Toys 
+15.3.2023, 16:45:33 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 16:45:35 - INFO - New connected socket [id: 1kYBKeOx7v81zexxAAAF] 
+15.3.2023, 16:45:35 - INFO - Req was made 
+15.3.2023, 16:45:35 - DEBUG - Getting Toys 
+15.3.2023, 16:45:35 - INFO - Req was made 
+15.3.2023, 16:45:35 - DEBUG - Getting Toys 
+15.3.2023, 16:45:35 - DEBUG - Getting Toys 
+15.3.2023, 16:45:35 - INFO - Req was made 
+15.3.2023, 16:45:40 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 16:45:42 - INFO - New connected socket [id: 6Psxt5sExM7Eu3dHAAAH] 
+15.3.2023, 16:45:42 - INFO - Req was made 
+15.3.2023, 16:45:42 - DEBUG - Getting Toys 
+15.3.2023, 16:45:42 - INFO - Req was made 
+15.3.2023, 16:45:42 - DEBUG - Getting Toys 
+15.3.2023, 16:45:42 - INFO - Req was made 
+15.3.2023, 16:45:42 - DEBUG - Getting Toys 
+15.3.2023, 16:45:42 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 16:45:44 - INFO - New connected socket [id: sO7G9YDgZ1cSkjyaAAAJ] 
+15.3.2023, 16:45:44 - INFO - Req was made 
+15.3.2023, 16:45:44 - DEBUG - Getting Toys 
+15.3.2023, 16:45:44 - INFO - Req was made 
+15.3.2023, 16:45:44 - DEBUG - Getting Toys 
+15.3.2023, 16:45:45 - INFO - Req was made 
+15.3.2023, 16:45:45 - DEBUG - Getting Toys 
+15.3.2023, 16:45:48 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 16:45:50 - INFO - New connected socket [id: KQUsr2BNj-Z9DelgAAAL] 
+15.3.2023, 16:45:50 - INFO - Req was made 
+15.3.2023, 16:45:50 - DEBUG - Getting Toys 
+15.3.2023, 16:45:50 - INFO - Req was made 
+15.3.2023, 16:45:50 - DEBUG - Getting Toys 
+15.3.2023, 16:45:50 - INFO - Req was made 
+15.3.2023, 16:45:50 - DEBUG - Getting Toys 
+15.3.2023, 16:45:51 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 16:45:52 - INFO - New connected socket [id: DyYF3lgk1wTQ-GkzAAAN] 
+15.3.2023, 16:45:52 - INFO - Req was made 
+15.3.2023, 16:45:52 - DEBUG - Getting Toys 
+15.3.2023, 16:45:52 - INFO - Req was made 
+15.3.2023, 16:45:52 - DEBUG - Getting Toys 
+15.3.2023, 16:45:52 - INFO - Req was made 
+15.3.2023, 16:45:52 - DEBUG - Getting Toys 
+15.3.2023, 16:46:02 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 16:46:02 - INFO - New connected socket [id: 5LTAm5fLUCZQQM06AAAP] 
+15.3.2023, 16:46:02 - INFO - Req was made 
+15.3.2023, 16:46:02 - DEBUG - Getting Toys 
+15.3.2023, 16:46:02 - INFO - Req was made 
+15.3.2023, 16:46:02 - DEBUG - Getting Toys 
+15.3.2023, 16:46:03 - INFO - Req was made 
+15.3.2023, 16:46:03 - DEBUG - Getting Toys 
+15.3.2023, 16:46:17 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 16:46:19 - INFO - New connected socket [id: _ZDyX-cgHD4ev01AAAAR] 
+15.3.2023, 16:46:23 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 16:46:25 - INFO - New connected socket [id: vDko6jEBDAgE5IbpAAAT] 
+15.3.2023, 16:46:28 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 16:46:29 - INFO - New connected socket [id: FIG7O78SuLWxNea6AAAV] 
+15.3.2023, 16:46:30 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 16:46:32 - INFO - New connected socket [id: 7QWkPQUHxxrMY3fKAAAX] 
+15.3.2023, 16:46:33 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 16:46:35 - INFO - New connected socket [id: u8lEkzp-3nlogd0GAAAZ] 
+15.3.2023, 16:46:37 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 16:46:38 - INFO - New connected socket [id: KxHXtgTLhVRwNPD_AAAb] 
+15.3.2023, 16:46:43 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 16:46:45 - INFO - New connected socket [id: NoagEndv3eItMtt0AAAd] 
+15.3.2023, 16:46:46 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 16:46:48 - INFO - New connected socket [id: O38qYAYoly2X9WVAAAAf] 
+15.3.2023, 16:47:29 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 16:47:31 - INFO - New connected socket [id: F0D1w0Hpe19L-ApDAAAh] 
+15.3.2023, 16:47:34 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 16:47:35 - INFO - New connected socket [id: rPX_rkiu5VzgfhW7AAAj] 
+15.3.2023, 16:47:37 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 16:47:39 - INFO - New connected socket [id: _xKTNDup0yWRoBJ7AAAl] 
+15.3.2023, 16:47:43 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 16:47:45 - INFO - New connected socket [id: oBFumz5H31zlgz-7AAAn] 
+15.3.2023, 16:51:17 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 16:51:18 - INFO - New connected socket [id: DI-0yxSVmPPQunIvAAAp] 
+15.3.2023, 16:53:14 - INFO - Server is running on port: 3030 
+15.3.2023, 16:53:14 - INFO - New connected socket [id: 1lM4CeL2e6X3Jta4AAAB] 
+15.3.2023, 16:58:57 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 16:59:20 - INFO - New connected socket [id: sI2JDYk9mObSNAsPAAAD] 
+15.3.2023, 17:04:11 - INFO - Socket disconnected [id: undefined] 
