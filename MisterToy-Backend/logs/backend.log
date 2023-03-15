@@ -2843,3 +2843,30 @@
 15.3.2023, 16:58:57 - INFO - Socket disconnected [id: undefined] 
 15.3.2023, 16:59:20 - INFO - New connected socket [id: sI2JDYk9mObSNAsPAAAD] 
 15.3.2023, 17:04:11 - INFO - Socket disconnected [id: undefined] 
+15.3.2023, 17:44:42 - INFO - Server is running on port: 3030 
+15.3.2023, 17:44:50 - INFO - Req was made 
+15.3.2023, 17:44:50 - DEBUG - Getting Toys 
+15.3.2023, 17:44:50 - ERROR - Failed to get toys | TypeError: Cannot destructure property 'filterBy' of 'req.query.params' as it is undefined. 
+15.3.2023, 17:44:55 - INFO - New connected socket [id: aVBSTLo4Y3saTPxeAAAB] 
+15.3.2023, 17:45:01 - INFO - Req was made 
+15.3.2023, 17:45:01 - DEBUG - Getting Toys 
+15.3.2023, 17:45:01 - ERROR - Failed to get toys | TypeError: Cannot destructure property 'filterBy' of 'req.query.params' as it is undefined. 
+15.3.2023, 17:45:10 - INFO - Req was made 
+15.3.2023, 17:45:10 - DEBUG - Getting Toys 
+15.3.2023, 17:45:10 - INFO - Req was made 
+15.3.2023, 17:45:10 - DEBUG - Getting Toys 
+15.3.2023, 17:45:10 - INFO - Req was made 
+15.3.2023, 17:45:10 - DEBUG - Getting Toys 
+15.3.2023, 17:45:17 - INFO - Req was made 
+15.3.2023, 17:45:17 - DEBUG - Getting Toys 
+15.3.2023, 17:45:17 - ERROR - Failed to get toys | TypeError: Cannot destructure property 'filterBy' of 'req.query.params' as it is undefined. 
+15.3.2023, 17:45:37 - INFO - Req was made 
+15.3.2023, 17:49:19 - INFO - Req was made 
+15.3.2023, 17:49:19 - DEBUG - Getting Toys 
+15.3.2023, 17:49:19 - ERROR - Failed to get toys | TypeError: Cannot destructure property 'filterBy' of 'req.query.params' as it is undefined. 
+15.3.2023, 17:51:35 - DEBUG - Getting Toys 
+15.3.2023, 17:51:35 - INFO - Req was made 
+15.3.2023, 17:51:35 - ERROR - Failed to get toys | TypeError: Cannot destructure property 'filterBy' of 'req.query.params' as it is undefined. 
+15.3.2023, 17:51:43 - INFO - Req was made 
+15.3.2023, 17:51:43 - DEBUG - Getting Toys 
+15.3.2023, 17:51:43 - ERROR - Failed to get toys | TypeError: Cannot destructure property 'filterBy' of 'req.query.params' as it is undefined. 
