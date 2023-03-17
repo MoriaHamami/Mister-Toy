@@ -4,7 +4,7 @@
 
 A single page responsive application built with various technologies, such as sockets, React Google Map library, deployment through render, database on mongoDB on Atlas (CRUD, filter, sort, aggregation, etc.), query params, chartjs library, and much more! [Check it out here](https://mister-toy-72o1.onrender.com/ "Website link")!
 
-![Details image](assets/img/readme/details.png "Details-page")
+![Details image](mistertoy-frontend/src/assets/img/readme/details.png "Details-page")
 
 ___
 
@@ -16,7 +16,6 @@ ___
 - [Showcase](#showcase)
 
 ## Authentication
-different permissions for admin and user
 The user collection includes one admin user, which has more permissions than the rest of the users.
 
 ## Security
@@ -39,11 +38,11 @@ This page has the following charts:
 - Inventory by type – Chart showing the percentage of toys that are in stock by type.
 These charts were created using the chartjs library.
 
-![Dashboard image](assets/img/readme/dashboard.png "Dashboard-page")
+![Dashboard image](mistertoy-frontend/src/assets/img/readme/dashboard.png "Dashboard-page")
 
 ### About page
 This page shows a map with markers for each shop branch. When the user selects a branch button, the map is centered on that location. This feature was created with a React Google Map library.
 
-![About image](assets/img/readme/about.png "About-page")
+![About image](mistertoy-frontend/src/assets/img/readme/about.png "About-page")
 
 
