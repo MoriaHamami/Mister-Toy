@@ -70,7 +70,7 @@ export function ToySort({ onSetSort }) {
         setCurrSort(sortBy)
     }
 
-    return <section className="toy-sort full main-layout">
+    return <section className="toy-sort full">
         <h2>Toys Sort</h2>
         <div className="btns-container">
             <button

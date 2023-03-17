@@ -44,7 +44,7 @@ export function ToyFilter({ onSetFilter }) {
     // }
 
 
-    return <section className="toy-filter full main-layout">
+    return <section className="toy-filter full ">
         <h2>Toys Filter</h2>
         <form>
             <label>Name

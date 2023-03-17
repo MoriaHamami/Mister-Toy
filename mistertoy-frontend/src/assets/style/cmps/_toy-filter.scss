@@ -1,7 +1,7 @@
 .toy-filter {
     background-color: $gray1;
     // padding: 1em;
-    padding-block: 10px;
+    padding: 10px $layoutPadding;
     border-bottom: 1px solid lightgray;
     form {
         display: flex;

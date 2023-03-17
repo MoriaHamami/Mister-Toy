@@ -1,6 +1,6 @@
 .toy-sort {
     background-color: $gray1;
-    padding-block: 10px;
+    padding: 10px $layoutPadding;
     border-bottom: 1px solid lightgray;
 
     .btns-container {
