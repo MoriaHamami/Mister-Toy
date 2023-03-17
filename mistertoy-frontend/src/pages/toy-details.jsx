@@ -19,7 +19,7 @@ export function ToyDetails() {
     const navigate = useNavigate()
     // const [updateMsgList, setUpdateMsgList] = useState(null)
     // const [inputTxt, setinputTxt] = useState(null)
-    const [reviewToEdit, setReviewToEdit] = useState({ content: '', aboutToyId: ''})
+    const [reviewToEdit, setReviewToEdit] = useState({ content: '', aboutToyId: '' })
 
     useEffect(() => {
         loadToy()
@@ -76,7 +76,7 @@ export function ToyDetails() {
 
     const onAddReview = async ev => {
         ev.preventDefault()
-        if (!reviewToEdit.content) return 
+        if (!reviewToEdit.content) return
         try {
             await addReview(reviewToEdit)
             // await toyService.addToyReview(toyId, reviewToEdit)
@@ -122,16 +122,30 @@ export function ToyDetails() {
                 </li>
             })}
         </ul>} */}
-            <p>Reviews: </p>
-        {toy?.reviews?.length ? <ul>
-            {toy.reviews.map(review => {
-                return <li key={review._id}>
-                    <span>{review.content}</span>
-                    {user.isAdmin && <button onClick={() => onRemoveReview(review._id)} >Remove</button>}
-                </li>
-            })}
-        </ul> : <h2>No Reviews</h2>}
-        {toy.instock ? <p style={{ color: 'green' }}>In stock</p> : <p style={{ color: 'red' }}>Not in stock</p>}
+        <article className="reviews">
+            <h2>Reviews: </h2>
+            {user &&
+                <form onSubmit={onAddReview}>
+                    <textarea type="textarea"
+                        id="review"
+                        name="review"
+                        placeholder="Add toy review"
+                        value={reviewToEdit.content}
+                        onChange={handleChange}
+                    // ref={elInputRef}
+                    />
+                    <button>Add Review</button>
+                </form>
+            }
+            {toy?.reviews?.length ? <ul>
+                {toy.reviews.map(review => {
+                    return <li key={review._id}>
+                        <span>{review.content}</span>
+                        {user?.isAdmin && <button onClick={() => onRemoveReview(review._id)} >Remove</button>}
+                    </li>
+                })}
+            </ul> : <p>No Reviews</p>}
+        </article>
         {/* <div className="detail-btns"> */}
         {/* {isMsgInputShown && <form onSubmit={onSubmitMsg}>
             <textarea type="textarea"
@@ -144,20 +158,9 @@ export function ToyDetails() {
             />
             <button >Add msg</button>
         </form>} */}
-       {user && toy &&  <Chat toy={toy} user={user}/>}
-        {user &&
-            <form onSubmit={onAddReview}>
-                <textarea type="textarea"
-                    id="review"
-                    name="review"
-                    placeholder="Add toy review"
-                    value={reviewToEdit.content}
-                    onChange={handleChange}
-                // ref={elInputRef}
-                />
-                <button>Add Review</button>
-            </form>
-        }
+        {user && toy && <Chat toy={toy} user={user} />}
+        {toy.instock ? <p style={{ color: 'green' }}>In stock</p> : <p style={{ color: 'red' }}>Not in stock</p>}
+
         <Link to={`/toy/edit/${toy._id}`} className="button">Edit</Link>
         <Link to="/toy" className="button">Back</Link>
         {/* </div> */}

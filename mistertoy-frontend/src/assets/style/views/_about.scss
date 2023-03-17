@@ -3,12 +3,20 @@
 
     position: relative;
     top: 70px;
+
+}
+
+.about{
+    h2{
+        text-align: center;
+    }
     
     .btns-container {
         display: flex;
-
-        // button {
-        //     flex-basis: max-content;
-        // }
+    
+        button {
+            margin: 5px 5px 5px 0;
+            // flex-basis: max-content;
+        }
     }
 }

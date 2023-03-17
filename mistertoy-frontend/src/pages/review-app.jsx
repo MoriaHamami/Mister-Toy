@@ -51,11 +51,11 @@ export function ReviewApp() {
               <button onClick={() => onRemove(review._id)}>X</button>}
             <p>
               About:
-              <Link to={`/toy/${review.aboutToy._id}`}>
-                {review.aboutToy.name}
+              <Link to={`/toy/${review.aboutToy?._id}`}>
+                {review.aboutToy?.name}
               </Link>
             </p>
-                <p>Toy Price: {review.aboutToy.price}</p>
+                <p>Toy Price: {review.aboutToy?.price}</p>
             <h3>{review.content}</h3>
             <p>
               By:

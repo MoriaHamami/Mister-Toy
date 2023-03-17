@@ -4,23 +4,55 @@
     
     background-color: $gray1;
     height: calc(100vh - 70px);
-    padding-inline: $layoutPadding;
-
-    > * {
+    
+    > *:not(.chat,.reviews) {
         padding-block: 5px;
+        padding-inline: $layoutPadding;
+    }
+    
+    .button,button {
+        margin-inline-start: 10px;
     }
 
-    // ul {
-    //     margin-inline-start: $layoutPadding;
-    // }
-
-    :nth-last-child(4) {
-        padding-block-end: 10px;
+    textarea {
+        background: none;
+        border: 1px solid lightgray
     }
 
-    .button {
-        margin-inline-start: 0;
-        margin-inline-end: 10px;
-    }
+}
 
+.reviews{
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin-inline: calc($layoutPadding - 10px);
+    border-radius: 10px;
+    max-width: 400px;
+    margin-block: 5px;
+
+    li{
+        list-style-type: none;
+        text-decoration: none;
+    }
+    textarea{
+        font-family: Bahnschrift, sans-serif;
+        padding: 5px;
+    }
+    form{
+        display: flex;
+        align-items: end;
+    }
+}
+
+.chat{
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin-inline: calc($layoutPadding - 10px);
+    border-radius: 10px;
+    max-width: 400px;
+    margin-block: 1ppx;
+
+    li{
+        list-style-type: none;
+        text-decoration: none;
+    }
 }

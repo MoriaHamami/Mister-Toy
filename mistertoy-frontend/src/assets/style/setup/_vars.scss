@@ -15,9 +15,9 @@ $gray3: rgb(130, 127, 127);
 $layoutPadding: 20px;
 
 // LAYOUT BREAKPOINTS
-$break-narrow: 600px;
-$break-normal: 900px;
-$break-wide: 1500px;
+$break-narrow: 800px;
+$break-normal: 1400px;
+$break-wide: 2000px;
 
 $padded-break-narrow: $break-narrow + $layoutPadding * 2;
 $padded-break-normal: $break-normal + $layoutPadding * 2;

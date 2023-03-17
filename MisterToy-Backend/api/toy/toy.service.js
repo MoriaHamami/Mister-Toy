@@ -138,6 +138,7 @@ async function removeToyMsg(toyId, msgId) {
 
 async function addToyReview(toyId, review) {
     try {
+        // console.log('review:', review)
         // review.id = utilService.makeId()
         const collection = await dbService.getCollection('toy')
         await collection.updateOne({ _id: ObjectId(toyId) }, { $push: { reviews: review } })

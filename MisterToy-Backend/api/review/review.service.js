@@ -8,6 +8,8 @@ async function query(filterBy = {}) {
     try {
         const criteria = _buildCriteria(filterBy)
         const collection = await dbService.getCollection('review')
+        // console.log('reviews:', collection)
+
         // const reviews = await collection.find(criteria).toArray()
         var reviews = await collection.aggregate([
             {
@@ -38,6 +40,7 @@ async function query(filterBy = {}) {
                 $unwind: '$aboutToy'
             }
         ]).toArray()
+        console.log('reviews.length:', reviews.length)
         reviews = reviews.map(review => {
             review.byUser = { _id: review.byUser._id, fullname: review.byUser.fullname }
             review.aboutToy = { _id: review.aboutToy._id, name: review.aboutToy.name, price:review.aboutToy.price }
@@ -45,7 +48,6 @@ async function query(filterBy = {}) {
             delete review.aboutToyId
             return review
         })
-
         return reviews
     } catch (err) {
         logger.error('cannot find reviews', err)
@@ -75,12 +77,15 @@ async function remove(reviewId) {
 
 async function add(review) {
     try {
+        console.log('reviewToAdd:', review.review.content)
         const reviewToAdd = {
             // id: utilService.makeId(),
             byUserId: ObjectId(review.byUserId),
-            aboutToyId: ObjectId(review.aboutToyId),
-            content: review.content
+            aboutToyId: ObjectId(review.review.aboutToyId),
+            content: review.review.content
         }
+        // console.log('reviewgogo:', reviewToAdd)
+
         const collection = await dbService.getCollection('review')
         await collection.insertOne(reviewToAdd)
         return reviewToAdd

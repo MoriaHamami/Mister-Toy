@@ -1,4 +1,5 @@
 import { reviewService } from '../services/review.service'
+import { toyService } from '../services/toy.service'
 import { store } from '../store/store.js'
 
 // Action Creators
@@ -16,7 +17,6 @@ export async function loadReviews() {
   try {
     const reviews = await reviewService.query()
     store.dispatch({ type: 'SET_REVIEWS', reviews })
-
   } catch (err) {
     console.log('ReviewActions: err in loadReviews', err)
     throw err
@@ -24,13 +24,12 @@ export async function loadReviews() {
 }
 
 export async function addReview(review) {
-  // console.log('review:', review)
   try {
     // console.log('review:', review)
     const addedReview = await reviewService.add(review)
+    // console.log('addedReview:', addedReview)
+    await toyService.addToyReview(review.aboutToyId, addedReview)
     store.dispatch(getActionAddReview(addedReview))
-    // const { score } = addedReview.byUser
-    // store.dispatch({ type: 'SET_SCORE', score })
   } catch (err) {
     console.log('ReviewActions: err in addReview', err)
     throw err

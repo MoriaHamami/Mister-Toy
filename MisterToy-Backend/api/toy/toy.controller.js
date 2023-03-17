@@ -88,12 +88,12 @@ async function addToyMsg(req, res) {
 
 async function addToyReview(req, res) {
   const { loggedinUser } = req
-  console.log('req.body:', req.body)
+  // console.log('req.body:', req.body)
   try {
     const toyId = req.params.id
     const review = {
       content: req.body.review.content,
-      _id: req.body._id,
+      _id: req.body.review._id,
       by: loggedinUser
     }
     // console.log('review:', review)

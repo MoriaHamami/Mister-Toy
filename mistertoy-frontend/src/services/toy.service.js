@@ -224,7 +224,9 @@ async function addToyMsg(toyId, txt) {
 }
 
 async function addToyReview(toyId, review) {
+    // console.log('toyId:', toyId)
     const savedReview = await httpService.post(`toy/${toyId}/review`, {review})
+    // console.log('savedReview:', savedReview)
     return savedReview
 }
 

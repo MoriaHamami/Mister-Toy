@@ -1,7 +1,6 @@
 button,.button {
     cursor: pointer;
     background-color: $clr2bg;
-    margin: 0.5em;
     border: 0;
     padding: 0.5em 0.8em;
     border-radius: 4px;   
@@ -38,7 +37,6 @@ input,select{
     text-align: center;
     border: 1px solid lightgray;
     padding: 2px;
-    margin: 10px auto 10px 10px;
     // margin-inline-start: 20px;
 }
 
@@ -46,6 +44,9 @@ select,.checkbox,label  {
     cursor: pointer;
 }
 
+// ul{
+//     text-decoration: none;
+// }
 // select {
 //     margin: 10px auto 10px 0;
 

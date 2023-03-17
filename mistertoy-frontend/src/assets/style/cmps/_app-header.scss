@@ -17,7 +17,12 @@
   img {
     position: absolute;
     top: 0;
+    left: $layoutPadding;
     height: 70px;
+  }
+
+  .button{
+    margin-left: 5px;
   }
 }
 
@@ -78,7 +83,8 @@ body.menu-open .main-screen {
     display: block;
     text-align: center;
     padding: 10px;
-
+    margin-left: 0px;
+    border-radius: 0;
     transition: background-color .6s;
   }
 
@@ -91,7 +97,7 @@ body.menu-open .main-screen {
     padding: 4px;
     display: block;
     position: absolute;
-    right: $layoutPadding;
+    right: calc($layoutPadding + 20px);
   }
 
 }

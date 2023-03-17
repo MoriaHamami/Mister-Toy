@@ -1,14 +1,25 @@
-.review > * {
+.review {
     padding-block-start: 10px;
-
+    padding-inline-start: 10px;
     position: relative;
     top: 70px;
-    
-    // .btns-container {
-    //     display: flex;
 
-    //     // button {
-    //     //     flex-basis: max-content;
-    //     // }
-    // }
+    h1{
+        text-align: center;
+    }
+
+    ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    li {
+        margin: 10px;
+        padding: 10px;
+        background-color: $clr1bg;
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+    }
 }
